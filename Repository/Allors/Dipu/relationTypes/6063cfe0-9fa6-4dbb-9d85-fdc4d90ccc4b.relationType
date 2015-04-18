@@ -1,0 +1,12 @@
+<relationType allors="1.0" id="6063cfe0-9fa6-4dbb-9d85-fdc4d90ccc4b">
+  <associationType id="389d8bf4-89a1-46d3-9dfd-20d481b802d0">
+    <isMany>true</isMany>
+    <objectType idref="c27e19a3-8fa6-4424-96d8-8af7f77dbfd3" />
+  </associationType>
+  <isIndexed>true</isIndexed>
+  <roleType id="fa6491f3-47ad-4780-b6fe-0f49328b78b6">
+    <objectType idref="a0309c3b-6f80-4777-983e-6e69800df5be" />
+    <pluralName>LastModifiedBy</pluralName>
+    <singularName>LastModifiedBy</singularName>
+  </roleType>
+</relationType>

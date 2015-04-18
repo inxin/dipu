@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9D6461D-94E4-432C-B4E8-55CF21002F72}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Website</RootNamespace>
+    <AssemblyName>Website</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\packages\EPPlus.4.0.3\lib\net20\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Humanizer">
+      <HintPath>..\packages\Humanizer.1.34.0\lib\portable-win+net40+sl50+wp8+wpa81\Humanizer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.Futures.5.0.0\lib\net40\Microsoft.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=__MvcPagesVersion__, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.2\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.1.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Account\AccountViewModels.cs">
+      <Link>Allors\Base\Account\AccountViewModels.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Account\BaseAccountController.cs">
+      <Link>Allors\Base\Account\BaseAccountController.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Data\BaseDataController.cs">
+      <Link>Allors\Base\Data\BaseDataController.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\EmailService.cs">
+      <Link>Allors\Base\Identity\EmailService.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\IdentitySignInManager.cs">
+      <Link>Allors\Base\Identity\IdentitySignInManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\IdentityUser.cs">
+      <Link>Allors\Base\Identity\IdentityUser.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\IdentityUser.v.cs">
+      <Link>Allors\Base\Identity\IdentityUser.v.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\IdentityUserManager.cs">
+      <Link>Allors\Base\Identity\IdentityUserManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\SmsService.cs">
+      <Link>Allors\Base\Identity\SmsService.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\UserStore.cs">
+      <Link>Allors\Base\Identity\UserStore.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Identity\UserStore.v.cs">
+      <Link>Allors\Base\Identity\UserStore.v.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Manage\BaseManageController.cs">
+      <Link>Allors\Base\Manage\BaseManageController.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Manage\ManageViewModels.cs">
+      <Link>Allors\Base\Manage\ManageViewModels.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\AllorsContext.cs">
+      <Link>Allors\Base\Mvc\AllorsContext.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Components\Menu.cs">
+      <Link>Allors\Base\Mvc\Components\Menu.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Components\MenuForUser.cs">
+      <Link>Allors\Base\Mvc\Components\MenuForUser.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Components\MenuItem.cs">
+      <Link>Allors\Base\Mvc\Components\MenuItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Components\MenuItemForUser.cs">
+      <Link>Allors\Base\Mvc\Components\MenuItemForUser.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Components\Menus.cs">
+      <Link>Allors\Base\Mvc\Components\Menus.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Controllers\Controller.cs">
+      <Link>Allors\Base\Mvc\Controllers\Controller.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\DependencyResolver.cs">
+      <Link>Allors\Base\Mvc\DependencyResolver.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\AllorsModelMetadataProvider.cs">
+      <Link>Allors\Base\Mvc\Models\AllorsModelMetadataProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Composite\CompositeModel%271.cs">
+      <Link>Allors\Base\Mvc\Models\Composite\CompositeModel%271.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Composite\CompositeModel.cs">
+      <Link>Allors\Base\Mvc\Models\Composite\CompositeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Composite\ICompositeModel.cs">
+      <Link>Allors\Base\Mvc\Models\Composite\ICompositeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\ButtonFilter.cs">
+      <Link>Allors\Base\Mvc\Models\Filters\ButtonFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\IdFilter.cs">
+      <Link>Allors\Base\Mvc\Models\Filters\IdFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\LabelFilter.cs">
+      <Link>Allors\Base\Mvc\Models\Filters\LabelFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\WatermarkFilter.cs">
+      <Link>Allors\Base\Mvc\Models\Filters\WatermarkFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\IModelMetadataFilter.cs">
+      <Link>Allors\Base\Mvc\Models\IModelMetadataFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Select.cs">
+      <Link>Allors\Base\Mvc\Models\Select.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\BooleanModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\BooleanModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\DateTimeModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\DateTimeModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\DecimalModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\DecimalModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\FloatModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\FloatModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\IntegerModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\IntegerModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\StringModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\StringModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\UniqueModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\UniqueModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\UnitModel.cs">
+      <Link>Allors\Base\Mvc\Models\Units\UnitModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Mvc\Views\ViewContextExtensions.cs">
+      <Link>Allors\Base\Mvc\Views\ViewContextExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Security\AllorsMembershipProvider.cs">
+      <Link>Allors\Base\Security\AllorsMembershipProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Allors\Base\Website\Allors\Base\Security\AllorsRoleProvider.cs">
+      <Link>Allors\Base\Security\AllorsRoleProvider.cs</Link>
+    </Compile>
+    <Compile Include="App_Start\MetaConfig.cs" />
+    <Compile Include="App_Start\ViewEngineConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\ModelMetadataConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\MenuConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SetupController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Allors\Web.config" />
+    <Content Include="Allors\_ViewStart.cshtml" />
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\ConfirmEmail.cshtml">
+      <Link>Allors\Base\Account\ConfirmEmail.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\ExternalLoginConfirmation.cshtml">
+      <Link>Allors\Base\Account\ExternalLoginConfirmation.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\ExternalLoginFailure.cshtml">
+      <Link>Allors\Base\Account\ExternalLoginFailure.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\ForgotPassword.cshtml">
+      <Link>Allors\Base\Account\ForgotPassword.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\ForgotPasswordConfirmation.cshtml">
+      <Link>Allors\Base\Account\ForgotPasswordConfirmation.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\Login.cshtml">
+      <Link>Allors\Base\Account\Login.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\Register.cshtml">
+      <Link>Allors\Base\Account\Register.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\ResetPassword.cshtml">
+      <Link>Allors\Base\Account\ResetPassword.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\ResetPasswordConfirmation.cshtml">
+      <Link>Allors\Base\Account\ResetPasswordConfirmation.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\SendCode.cshtml">
+      <Link>Allors\Base\Account\SendCode.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\VerifyCode.cshtml">
+      <Link>Allors\Base\Account\VerifyCode.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Account\_ExternalLoginsListPartial.cshtml">
+      <Link>Allors\Base\Account\_ExternalLoginsListPartial.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Data\Index.cshtml">
+      <Link>Allors\Base\Data\Index.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Manage\AddPhoneNumber.cshtml">
+      <Link>Allors\Base\Manage\AddPhoneNumber.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Manage\ChangePassword.cshtml">
+      <Link>Allors\Base\Manage\ChangePassword.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Manage\Index.cshtml">
+      <Link>Allors\Base\Manage\Index.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Manage\ManageLogins.cshtml">
+      <Link>Allors\Base\Manage\ManageLogins.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Manage\SetPassword.cshtml">
+      <Link>Allors\Base\Manage\SetPassword.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Manage\VerifyPhoneNumber.cshtml">
+      <Link>Allors\Base\Manage\VerifyPhoneNumber.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\BooleanModel.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\BooleanModel.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\CompositeModel.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\CompositeModel.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\DecimalModel.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\DecimalModel.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\FloatModel.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\FloatModel.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\IntegerModel.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\IntegerModel.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\Select.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\Select.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\StringModel.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\StringModel.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\UniqueModel.cshtml">
+      <Link>Allors\Base\Shared\EditorTemplates\UniqueModel.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\_NavbarItemPartial.cshtml">
+      <Link>Allors\Base\Shared\_NavbarItemPartial.cshtml</Link>
+    </Content>
+    <Content Include="..\Allors\Base\Website\Allors\Base\Shared\_NavbarPartial.cshtml">
+      <Link>Allors\Base\Shared\_NavbarPartial.cshtml</Link>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <None Include="Scripts\jquery-2.1.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.3.js" />
+    <Content Include="Scripts\jquery-2.1.3.min.js" />
+    <Content Include="Scripts\jquery-2.1.3.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Settings.StyleCop" />
+    <Content Include="Views\Setup\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Allors\Dipu\" />
+    <Folder Include="App_Data\Templates\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Allors\Adapters\Allors.Databases.Memory\Allors.Databases.Memory.csproj">
+      <Project>{cb9b7108-c8f3-459c-b2da-88187c84cfc1}</Project>
+      <Name>Allors.Databases.Memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Allors\Adapters\Allors.Databases.Object.SqlClient\Allors.Databases.Object.SqlClient.csproj">
+      <Project>{06bc1665-8fe8-4f04-9e80-ec2d54404ba7}</Project>
+      <Name>Allors.Databases.Object.SqlClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Allors\Adapters\Allors.Workspaces.Memory\Allors.Workspaces.Memory.csproj">
+      <Project>{db96de40-9b4c-4112-bb6f-c6c4c6a9b5a9}</Project>
+      <Name>Allors.Workspaces.Memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Allors\Framework\Allors\Allors.csproj">
+      <Project>{5b4e2d7c-8ef8-45f5-bfb2-e595c401a95f}</Project>
+      <Name>Allors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{b6c2e17b-53e1-44a4-9299-5350cc854e65}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Integration\Integration.csproj">
+      <Project>{ac2b4d1c-7ce4-4c40-b0a6-fc474c51ab04}</Project>
+      <Name>Integration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Meta\Meta.csproj">
+      <Project>{ba6efcfe-cb7f-4994-a5a4-c11ddaac32dd}</Project>
+      <Name>Meta</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\Resources.csproj">
+      <Project>{a10683f7-b261-4770-81c6-bb589e768acb}</Project>
+      <Name>Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50558</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50550/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+
+    <!-- See http://mattperdeck.com/post/Copying-linked-content-files-at-each-build-using-MSBuild.aspx -->
+  <Target Name="CopyLinkedContentFiles" BeforeTargets="Build">
+    <Copy SourceFiles="%(Content.Identity)"
+          DestinationFiles="%(Content.Link)"
+          SkipUnchangedFiles='true'
+          OverwriteReadOnlyFiles='true'
+          Condition="'%(Content.Link)' != ''" />
+ </Target>
+
+
+</Project>

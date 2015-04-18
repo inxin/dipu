@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="Allors.Domain.Organisation" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAAgAEAAAAAAAAQAAAgAAAAAAAAAAACAAQA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OrganisationClassifications" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.Party" Collapsed="true">
+    <Position X="9" Y="3" Width="1.5" />
+    <AssociationLine Name="PartyContactMechanisms" Type="Allors.Domain.PartyContactMechanism" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="3.812" />
+        <Point X="11.75" Y="3.812" />
+        <Point X="11.75" Y="8.375" />
+        <Point X="12" Y="8.375" />
+        <Point X="12" Y="8.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAICAABUAAAAIAQIRgGAASgoAAUAAEAAAKFBANAgEI=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PartyContactMechanisms" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.PartyContactMechanism" Collapsed="true">
+    <Position X="11" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAgAAABAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContactPurpose" />
+      <Property Name="ContactMechanism" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.CustomerRelationship" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.75" />
+    <AssociationLine Name="InternalOrganisation" Type="Allors.Domain.InternalOrganisation" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.281" Y="7.75" />
+        <Point X="3.281" Y="7.329" />
+        <Point X="4.854" Y="7.329" Type="JumpStart" />
+        <Point X="5.021" Y="7.329" Type="JumpEnd" />
+        <Point X="5.375" Y="7.329" />
+        <Point X="5.375" Y="6.062" />
+        <Point X="5.75" Y="6.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAAAABAAAEAAAAAQAAAAAAAGAASAACAAAAIA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InternalOrganisation" />
+      <Property Name="Customer" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.InternalOrganisation" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GAUQ8AWECBYAAICAUAgQBhYIDkmMgoIACAAAQAAwSQE=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.Person" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAggEGAJgAAAEiKABAQAAQEACAAAACAAAAgAACIAAg=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.ContactMechanism" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.ElectronicAddress" Collapsed="true">
+    <Position X="6" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.PostalAddress" Collapsed="true">
+    <Position X="10.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAJIAAEAAAABBIAAAAARAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Country" />
+      <Property Name="City" />
+      <Property Name="PostalCode" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.TelecommunicationsNumber" Collapsed="true">
+    <Position X="8" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.OrganisationContactRelationship" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Contact" />
+      <Property Name="Organisation" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.OrganisationContactKind" Collapsed="true">
+    <Position X="4.5" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.ProspectRelationship" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.75" />
+    <AssociationLine Name="InternalOrganisation" Type="Allors.Domain.InternalOrganisation" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.844" Y="7.75" />
+        <Point X="1.844" Y="5.812" />
+        <Point X="3.573" Y="5.812" Type="JumpStart" />
+        <Point X="3.74" Y="5.812" Type="JumpEnd" />
+        <Point X="4.417" Y="5.812" Type="JumpStart" />
+        <Point X="4.583" Y="5.812" Type="JumpEnd" />
+        <Point X="5.75" Y="5.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InternalOrganisation" />
+      <Property Name="Prospect" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.PartyRelationship" Collapsed="true">
+    <Position X="2.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAEAAAABACAAAAAAIAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CommunicationEvents" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.CommunicationEvent" Collapsed="true">
+    <Position X="5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAKAAACgAEEEAIBIAAACAACAQAICAAGAgCEAAAQ=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CommunicationEventStatuses" />
+      <Property Name="CurrentObjectState" />
+      <Property Name="EventPurposes" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Allors.Domain.PhoneCommunication" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAIAAAAAAAAAAAAAAEAAACAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.FaceToFaceCommunication" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.EmailAddress" Collapsed="true">
+    <Position X="5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.WebAddress" Collapsed="true">
+    <Position X="7" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.CommunicationEventPurpose" Collapsed="true">
+    <Position X="9" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.IndustryClassification" Collapsed="true">
+    <Position X="12" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.OrganisationClassification" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.ContactMechanismPurpose" Collapsed="true">
+    <Position X="14.25" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.CommunicationEventObjectState" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.CommunicationEventStatus" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.City" Collapsed="true">
+    <Position X="13.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.PostalCode" Collapsed="true">
+    <Position X="13.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Allors.Domain.Country" Collapsed="true">
+    <Position X="13.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQACACCAAAAAIIgAAFABAA=</HashCode>
+      <FileName>domain.g.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,11 @@
+<relationType allors="1.0" id="213532be-1fbe-4dcb-bf41-293a22073629">
+  <associationType id="1c7b1b2d-4f78-400c-b095-478e50ddf887">
+    <objectType idref="c799ca62-a554-467d-9aa2-1663293bb37f" />
+  </associationType>
+  <roleType id="e756f648-b03f-4c6a-8b58-47135729733c">
+    <objectType idref="ad7f5ddc-bedb-4aaa-97ac-d6693a009ba9" />
+    <pluralName>JobTitles</pluralName>
+    <singularName>JobTitle</singularName>
+    <size>256</size>
+  </roleType>
+</relationType>

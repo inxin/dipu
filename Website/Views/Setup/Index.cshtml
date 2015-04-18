@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Setup";
+}
+
+<div class="container">
+    <div class="row">
+        @using (@Html.BeginForm("Setup", "Setup"))
+        {
+            <input type="submit" value="Setup" class="btn btn-default" />
+        }
+    </div>
+    <div class="row">
+        @using (@Html.BeginForm("Import", "Setup"))
+        {
+            <input type="submit" value="Import" class="btn btn-default" />
+        }
+    </div>
+</div>
