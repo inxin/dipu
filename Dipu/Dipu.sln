@@ -28,13 +28,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration", "Integration\Integration.csproj", "{AC2B4D1C-7CE4-4C40-B0A6-FC474C51AB04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors", "Allors\Framework\Allors\Allors.csproj", "{5B4E2D7C-8EF8-45F5-BFB2-E595C401A95F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors", "..\Allors\Framework\Allors\Allors.csproj", "{5B4E2D7C-8EF8-45F5-BFB2-E595C401A95F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Databases.Memory", "Allors\Adapters\Allors.Databases.Memory\Allors.Databases.Memory.csproj", "{CB9B7108-C8F3-459C-B2DA-88187C84CFC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Databases.Memory", "..\Allors\Adapters\Allors.Databases.Memory\Allors.Databases.Memory.csproj", "{CB9B7108-C8F3-459C-B2DA-88187C84CFC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Databases.Object.SqlClient", "Allors\Adapters\Allors.Databases.Object.SqlClient\Allors.Databases.Object.SqlClient.csproj", "{06BC1665-8FE8-4F04-9E80-EC2D54404BA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Databases.Object.SqlClient", "..\Allors\Adapters\Allors.Databases.Object.SqlClient\Allors.Databases.Object.SqlClient.csproj", "{06BC1665-8FE8-4F04-9E80-EC2D54404BA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Workspaces.Memory", "Allors\Adapters\Allors.Workspaces.Memory\Allors.Workspaces.Memory.csproj", "{DB96DE40-9B4C-4112-BB6F-C6C4C6A9B5A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Workspaces.Memory", "..\Allors\Adapters\Allors.Workspaces.Memory\Allors.Workspaces.Memory.csproj", "{DB96DE40-9B4C-4112-BB6F-C6C4C6A9B5A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

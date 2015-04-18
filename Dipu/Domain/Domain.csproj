@@ -42,2467 +42,2467 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\AccountingPeriod.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\AccountingPeriod.cs">
       <Link>Apps\Accounting\AccountingPeriod.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\AccountingPeriod.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\AccountingPeriod.v.cs">
       <Link>Apps\Accounting\AccountingPeriod.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\AccountingPeriods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\AccountingPeriods.cs">
       <Link>Apps\Accounting\AccountingPeriods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionDetail.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionDetail.cs">
       <Link>Apps\Accounting\AccountingTransactionDetail.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionDetail.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionDetail.v.cs">
       <Link>Apps\Accounting\AccountingTransactionDetail.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionDetails.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionDetails.cs">
       <Link>Apps\Accounting\AccountingTransactionDetails.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\AccountingTransactionTypes.cs">
       <Link>Apps\Accounting\AccountingTransactionTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Amortizations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Amortizations.cs">
       <Link>Apps\Accounting\Amortizations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Bank.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Bank.cs">
       <Link>Apps\Accounting\Bank.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BankAccount.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BankAccount.cs">
       <Link>Apps\Accounting\BankAccount.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BankAccount.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BankAccount.v.cs">
       <Link>Apps\Accounting\BankAccount.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BankAccounts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BankAccounts.cs">
       <Link>Apps\Accounting\BankAccounts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Banks.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Banks.cs">
       <Link>Apps\Accounting\Banks.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Budget.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Budget.cs">
       <Link>Apps\Accounting\Budget.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Budget.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Budget.v.cs">
       <Link>Apps\Accounting\Budget.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BudgetItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BudgetItems.cs">
       <Link>Apps\Accounting\BudgetItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BudgetObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BudgetObjectStates.cs">
       <Link>Apps\Accounting\BudgetObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BudgetReviews.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BudgetReviews.cs">
       <Link>Apps\Accounting\BudgetReviews.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BudgetRevisionImpacts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BudgetRevisionImpacts.cs">
       <Link>Apps\Accounting\BudgetRevisionImpacts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BudgetRevisions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BudgetRevisions.cs">
       <Link>Apps\Accounting\BudgetRevisions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Budgets.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Budgets.cs">
       <Link>Apps\Accounting\Budgets.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BudgetStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BudgetStatus.cs">
       <Link>Apps\Accounting\BudgetStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\BudgetStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\BudgetStatuses.cs">
       <Link>Apps\Accounting\BudgetStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CapitalBudget.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CapitalBudget.cs">
       <Link>Apps\Accounting\CapitalBudget.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CapitalBudgets.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CapitalBudgets.cs">
       <Link>Apps\Accounting\CapitalBudgets.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Capitalizations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Capitalizations.cs">
       <Link>Apps\Accounting\Capitalizations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Cash.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Cash.cs">
       <Link>Apps\Accounting\Cash.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ChartOfAccounts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ChartOfAccounts.cs">
       <Link>Apps\Accounting\ChartOfAccounts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CostCenterCategory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CostCenterCategory.cs">
       <Link>Apps\Accounting\CostCenterCategory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CostCenterSplitMethods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CostCenterSplitMethods.cs">
       <Link>Apps\Accounting\CostCenterSplitMethods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CostOfGoodsSoldMethods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CostOfGoodsSoldMethods.cs">
       <Link>Apps\Accounting\CostOfGoodsSoldMethods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CreditCard.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CreditCard.cs">
       <Link>Apps\Accounting\CreditCard.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CreditCardCompanies.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CreditCardCompanies.cs">
       <Link>Apps\Accounting\CreditCardCompanies.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CreditCards.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CreditCards.cs">
       <Link>Apps\Accounting\CreditCards.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\CreditLines.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\CreditLines.cs">
       <Link>Apps\Accounting\CreditLines.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\DebitCreditConstants.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\DebitCreditConstants.cs">
       <Link>Apps\Accounting\DebitCreditConstants.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\DepreciationMethods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\DepreciationMethods.cs">
       <Link>Apps\Accounting\DepreciationMethods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Depreciations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Depreciations.cs">
       <Link>Apps\Accounting\Depreciations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\DisbursementAccountingTransactions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\DisbursementAccountingTransactions.cs">
       <Link>Apps\Accounting\DisbursementAccountingTransactions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Equipments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Equipments.cs">
       <Link>Apps\Accounting\Equipments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\EUSalesListTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\EUSalesListTypes.cs">
       <Link>Apps\Accounting\EUSalesListTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\GeneralLedgerAccount.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\GeneralLedgerAccount.cs">
       <Link>Apps\Accounting\GeneralLedgerAccount.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\GeneralLedgerAccounts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\GeneralLedgerAccounts.cs">
       <Link>Apps\Accounting\GeneralLedgerAccounts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\GeneralLedgerAccountTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\GeneralLedgerAccountTypes.cs">
       <Link>Apps\Accounting\GeneralLedgerAccountTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\GlBudgetAllocations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\GlBudgetAllocations.cs">
       <Link>Apps\Accounting\GlBudgetAllocations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenue.cs">
       <Link>Apps\Accounting\InternalOrganisationRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenueHistories.cs">
       <Link>Apps\Accounting\InternalOrganisationRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenueHistory.cs">
       <Link>Apps\Accounting\InternalOrganisationRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\InternalOrganisationRevenues.cs">
       <Link>Apps\Accounting\InternalOrganisationRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ItemVarianceAccountingTransactions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ItemVarianceAccountingTransactions.cs">
       <Link>Apps\Accounting\ItemVarianceAccountingTransactions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Journal.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Journal.cs">
       <Link>Apps\Accounting\Journal.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Journal.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Journal.v.cs">
       <Link>Apps\Accounting\Journal.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\JournalEntry.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\JournalEntry.cs">
       <Link>Apps\Accounting\JournalEntry.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\JournalTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\JournalTypes.cs">
       <Link>Apps\Accounting\JournalTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Notes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Notes.cs">
       <Link>Apps\Accounting\Notes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Obligations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Obligations.cs">
       <Link>Apps\Accounting\Obligations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\OperatingBudget.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\OperatingBudget.cs">
       <Link>Apps\Accounting\OperatingBudget.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\OperatingBudgets.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\OperatingBudgets.cs">
       <Link>Apps\Accounting\OperatingBudgets.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\OrganisationGlAccount.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\OrganisationGlAccount.cs">
       <Link>Apps\Accounting\OrganisationGlAccount.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\OrganisationGlAccountBalance.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\OrganisationGlAccountBalance.cs">
       <Link>Apps\Accounting\OrganisationGlAccountBalance.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\OrganisationGlAccounts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\OrganisationGlAccounts.cs">
       <Link>Apps\Accounting\OrganisationGlAccounts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\OwnBankAccount.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\OwnBankAccount.cs">
       <Link>Apps\Accounting\OwnBankAccount.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\OwnCreditCard.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\OwnCreditCard.cs">
       <Link>Apps\Accounting\OwnCreditCard.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PackageQuantityBreak.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PackageQuantityBreak.cs">
       <Link>Apps\Accounting\PackageQuantityBreak.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PackageQuantityBreaks.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PackageQuantityBreaks.cs">
       <Link>Apps\Accounting\PackageQuantityBreaks.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PackageRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PackageRevenue.cs">
       <Link>Apps\Accounting\PackageRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PackageRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PackageRevenueHistories.cs">
       <Link>Apps\Accounting\PackageRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PackageRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PackageRevenueHistory.cs">
       <Link>Apps\Accounting\PackageRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PackageRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PackageRevenues.cs">
       <Link>Apps\Accounting\PackageRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenue.cs">
       <Link>Apps\Accounting\PartyPackageRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenueHistories.cs">
       <Link>Apps\Accounting\PartyPackageRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenueHistory.cs">
       <Link>Apps\Accounting\PartyPackageRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyPackageRevenues.cs">
       <Link>Apps\Accounting\PartyPackageRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenue.cs">
       <Link>Apps\Accounting\PartyProductCategoryRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenueHistories.cs">
       <Link>Apps\Accounting\PartyProductCategoryRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenueHistory.cs">
       <Link>Apps\Accounting\PartyProductCategoryRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenues.cs">
       <Link>Apps\Accounting\PartyProductCategoryRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenue.cs">
       <Link>Apps\Accounting\PartyProductRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenueHistories.cs">
       <Link>Apps\Accounting\PartyProductRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenueHistory.cs">
       <Link>Apps\Accounting\PartyProductRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyProductRevenues.cs">
       <Link>Apps\Accounting\PartyProductRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyRevenue.cs">
       <Link>Apps\Accounting\PartyRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyRevenueHistories.cs">
       <Link>Apps\Accounting\PartyRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyRevenueHistory.cs">
       <Link>Apps\Accounting\PartyRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PartyRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PartyRevenues.cs">
       <Link>Apps\Accounting\PartyRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\PaymentBudgetAllocations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\PaymentBudgetAllocations.cs">
       <Link>Apps\Accounting\PaymentBudgetAllocations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenue.cs">
       <Link>Apps\Accounting\ProductCategoryRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenueHistories.cs">
       <Link>Apps\Accounting\ProductCategoryRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenueHistory.cs">
       <Link>Apps\Accounting\ProductCategoryRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductCategoryRevenues.cs">
       <Link>Apps\Accounting\ProductCategoryRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductRevenue.cs">
       <Link>Apps\Accounting\ProductRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductRevenueHistories.cs">
       <Link>Apps\Accounting\ProductRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductRevenueHistory.cs">
       <Link>Apps\Accounting\ProductRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ProductRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ProductRevenues.cs">
       <Link>Apps\Accounting\ProductRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\Properties.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\Properties.cs">
       <Link>Apps\Accounting\Properties.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\ReceiptAccountingTransactions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\ReceiptAccountingTransactions.cs">
       <Link>Apps\Accounting\ReceiptAccountingTransactions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\RequirementBudgetAllocations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\RequirementBudgetAllocations.cs">
       <Link>Apps\Accounting\RequirementBudgetAllocations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\RevenueQuantityBreak.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\RevenueQuantityBreak.cs">
       <Link>Apps\Accounting\RevenueQuantityBreak.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\RevenueQuantityBreaks.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\RevenueQuantityBreaks.cs">
       <Link>Apps\Accounting\RevenueQuantityBreaks.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\RevenueValueBreak.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\RevenueValueBreak.cs">
       <Link>Apps\Accounting\RevenueValueBreak.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\RevenueValueBreaks.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\RevenueValueBreaks.cs">
       <Link>Apps\Accounting\RevenueValueBreaks.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesAccountingTransactions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesAccountingTransactions.cs">
       <Link>Apps\Accounting\SalesAccountingTransactions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenue.cs">
       <Link>Apps\Accounting\SalesChannelRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenueHistories.cs">
       <Link>Apps\Accounting\SalesChannelRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenueHistory.cs">
       <Link>Apps\Accounting\SalesChannelRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesChannelRevenues.cs">
       <Link>Apps\Accounting\SalesChannelRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepCommission.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepCommission.cs">
       <Link>Apps\Accounting\SalesRepCommission.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepCommissions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepCommissions.cs">
       <Link>Apps\Accounting\SalesRepCommissions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyProductCategoryRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyProductCategoryRevenue.cs">
       <Link>Apps\Accounting\SalesRepPartyProductCategoryRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyProductCategoryRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyProductCategoryRevenues.cs">
       <Link>Apps\Accounting\SalesRepPartyProductCategoryRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyRevenue.cs">
       <Link>Apps\Accounting\SalesRepPartyRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepPartyRevenues.cs">
       <Link>Apps\Accounting\SalesRepPartyRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepProductCategoryRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepProductCategoryRevenue.cs">
       <Link>Apps\Accounting\SalesRepProductCategoryRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepProductCategoryRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepProductCategoryRevenues.cs">
       <Link>Apps\Accounting\SalesRepProductCategoryRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenue.cs">
       <Link>Apps\Accounting\SalesRepRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenueHistories.cs">
       <Link>Apps\Accounting\SalesRepRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenueHistory.cs">
       <Link>Apps\Accounting\SalesRepRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\SalesRepRevenues.cs">
       <Link>Apps\Accounting\SalesRepRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\StoreRevenue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\StoreRevenue.cs">
       <Link>Apps\Accounting\StoreRevenue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\StoreRevenueHistories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\StoreRevenueHistories.cs">
       <Link>Apps\Accounting\StoreRevenueHistories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\StoreRevenueHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\StoreRevenueHistory.cs">
       <Link>Apps\Accounting\StoreRevenueHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\StoreRevenues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\StoreRevenues.cs">
       <Link>Apps\Accounting\StoreRevenues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\StoreRevenues.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\StoreRevenues.v.cs">
       <Link>Apps\Accounting\StoreRevenues.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\TaxDues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\TaxDues.cs">
       <Link>Apps\Accounting\TaxDues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\TimeFrequencies.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\TimeFrequencies.cs">
       <Link>Apps\Accounting\TimeFrequencies.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\TimeFrequency.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\TimeFrequency.cs">
       <Link>Apps\Accounting\TimeFrequency.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\VatCalculationMethods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\VatCalculationMethods.cs">
       <Link>Apps\Accounting\VatCalculationMethods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\VatRatePurchaseKinds.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\VatRatePurchaseKinds.cs">
       <Link>Apps\Accounting\VatRatePurchaseKinds.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\VatRates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\VatRates.cs">
       <Link>Apps\Accounting\VatRates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\VatRateUsages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\VatRateUsages.cs">
       <Link>Apps\Accounting\VatRateUsages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\VatRegimes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\VatRegimes.cs">
       <Link>Apps\Accounting\VatRegimes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Accounting\VatTariffs.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Accounting\VatTariffs.cs">
       <Link>Apps\Accounting\VatTariffs.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Common\Singleton.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Common\Singleton.cs">
       <Link>Apps\Common\Singleton.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Common\Singleton.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Common\Singleton.v.cs">
       <Link>Apps\Common\Singleton.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Constants.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Constants.cs">
       <Link>Apps\Constants.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Content\TemplatePurposes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Content\TemplatePurposes.cs">
       <Link>Apps\Content\TemplatePurposes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\DateTimeExtensions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\DateTimeExtensions.cs">
       <Link>Apps\DateTimeExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\DecimalExtensions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\DecimalExtensions.cs">
       <Link>Apps\DecimalExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Benefits.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Benefits.cs">
       <Link>Apps\HumanResource\Benefits.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Deductions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Deductions.cs">
       <Link>Apps\HumanResource\Deductions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\DeductionTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\DeductionTypes.cs">
       <Link>Apps\HumanResource\DeductionTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\EmploymentApplications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\EmploymentApplications.cs">
       <Link>Apps\HumanResource\EmploymentApplications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\EmploymentApplicationSources.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\EmploymentApplicationSources.cs">
       <Link>Apps\HumanResource\EmploymentApplicationSources.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\EmploymentApplicationStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\EmploymentApplicationStatuses.cs">
       <Link>Apps\HumanResource\EmploymentApplicationStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\EmploymentTerminationReasons.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\EmploymentTerminationReasons.cs">
       <Link>Apps\HumanResource\EmploymentTerminationReasons.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\EmploymentTerminations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\EmploymentTerminations.cs">
       <Link>Apps\HumanResource\EmploymentTerminations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PartyBenefits.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PartyBenefits.cs">
       <Link>Apps\HumanResource\PartyBenefits.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PartySkills.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PartySkills.cs">
       <Link>Apps\HumanResource\PartySkills.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PayChecks.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PayChecks.cs">
       <Link>Apps\HumanResource\PayChecks.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PayGrades.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PayGrades.cs">
       <Link>Apps\HumanResource\PayGrades.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PayHistory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PayHistory.cs">
       <Link>Apps\HumanResource\PayHistory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PayrollPreference.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PayrollPreference.cs">
       <Link>Apps\HumanResource\PayrollPreference.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PayrollPreferences.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PayrollPreferences.cs">
       <Link>Apps\HumanResource\PayrollPreferences.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PerformanceNotes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PerformanceNotes.cs">
       <Link>Apps\HumanResource\PerformanceNotes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PerformanceReviewItemTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PerformanceReviewItemTypes.cs">
       <Link>Apps\HumanResource\PerformanceReviewItemTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PerformanceReviews.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PerformanceReviews.cs">
       <Link>Apps\HumanResource\PerformanceReviews.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PersonTrainings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PersonTrainings.cs">
       <Link>Apps\HumanResource\PersonTrainings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PositionFulfillments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PositionFulfillments.cs">
       <Link>Apps\HumanResource\PositionFulfillments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PositionReportingStructures.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PositionReportingStructures.cs">
       <Link>Apps\HumanResource\PositionReportingStructures.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PositionResponsibilities.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PositionResponsibilities.cs">
       <Link>Apps\HumanResource\PositionResponsibilities.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Positions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Positions.cs">
       <Link>Apps\HumanResource\Positions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PositionStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PositionStatuses.cs">
       <Link>Apps\HumanResource\PositionStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PositionTypeRates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PositionTypeRates.cs">
       <Link>Apps\HumanResource\PositionTypeRates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\PositionTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\PositionTypes.cs">
       <Link>Apps\HumanResource\PositionTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Qualifications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Qualifications.cs">
       <Link>Apps\HumanResource\Qualifications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\RateTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\RateTypes.cs">
       <Link>Apps\HumanResource\RateTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Responsibilities.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Responsibilities.cs">
       <Link>Apps\HumanResource\Responsibilities.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Resumes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Resumes.cs">
       <Link>Apps\HumanResource\Resumes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\SalarySteps.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\SalarySteps.cs">
       <Link>Apps\HumanResource\SalarySteps.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\SkillLevels.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\SkillLevels.cs">
       <Link>Apps\HumanResource\SkillLevels.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\SkillRatings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\SkillRatings.cs">
       <Link>Apps\HumanResource\SkillRatings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Skills.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Skills.cs">
       <Link>Apps\HumanResource\Skills.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\HumanResource\Trainings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\HumanResource\Trainings.cs">
       <Link>Apps\HumanResource\Trainings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\AccountAdjustments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\AccountAdjustments.cs">
       <Link>Apps\Invoice\AccountAdjustments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\BillingAccounts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\BillingAccounts.cs">
       <Link>Apps\Invoice\BillingAccounts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\Deposits.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\Deposits.cs">
       <Link>Apps\Invoice\Deposits.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\Disbursements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\Disbursements.cs">
       <Link>Apps\Invoice\Disbursements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\FinancialAccountAdjustments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\FinancialAccountAdjustments.cs">
       <Link>Apps\Invoice\FinancialAccountAdjustments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\FiscalYearInvoiceNumber.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\FiscalYearInvoiceNumber.cs">
       <Link>Apps\Invoice\FiscalYearInvoiceNumber.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\FiscalYearInvoiceNumbers.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\FiscalYearInvoiceNumbers.cs">
       <Link>Apps\Invoice\FiscalYearInvoiceNumbers.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\InvestmentAccounts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\InvestmentAccounts.cs">
       <Link>Apps\Invoice\InvestmentAccounts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\Invoice.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\Invoice.cs">
       <Link>Apps\Invoice\Invoice.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\InvoiceSequences.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\InvoiceSequences.cs">
       <Link>Apps\Invoice\InvoiceSequences.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\InvoiceTerms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\InvoiceTerms.cs">
       <Link>Apps\Invoice\InvoiceTerms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PaymentApplication.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PaymentApplication.cs">
       <Link>Apps\Invoice\PaymentApplication.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PaymentApplications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PaymentApplications.cs">
       <Link>Apps\Invoice\PaymentApplications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoice.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoice.cs">
       <Link>Apps\Invoice\PurchaseInvoice.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoice.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoice.v.cs">
       <Link>Apps\Invoice\PurchaseInvoice.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItem.cs">
       <Link>Apps\Invoice\PurchaseInvoiceItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItem.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItem.v.cs">
       <Link>Apps\Invoice\PurchaseInvoiceItem.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemObjectStates.cs">
       <Link>Apps\Invoice\PurchaseInvoiceItemObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItems.cs">
       <Link>Apps\Invoice\PurchaseInvoiceItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemStatus.cs">
       <Link>Apps\Invoice\PurchaseInvoiceItemStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemStatuses.cs">
       <Link>Apps\Invoice\PurchaseInvoiceItemStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemTypes.cs">
       <Link>Apps\Invoice\PurchaseInvoiceItemTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceObjectStates.cs">
       <Link>Apps\Invoice\PurchaseInvoiceObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoices.cs">
       <Link>Apps\Invoice\PurchaseInvoices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceStatus.cs">
       <Link>Apps\Invoice\PurchaseInvoiceStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceStatuses.cs">
       <Link>Apps\Invoice\PurchaseInvoiceStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\PurchaseInvoiceTypes.cs">
       <Link>Apps\Invoice\PurchaseInvoiceTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\Receipt.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\Receipt.cs">
       <Link>Apps\Invoice\Receipt.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\Receipts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\Receipts.cs">
       <Link>Apps\Invoice\Receipts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoice.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoice.cs">
       <Link>Apps\Invoice\SalesInvoice.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoice.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoice.v.cs">
       <Link>Apps\Invoice\SalesInvoice.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItem.cs">
       <Link>Apps\Invoice\SalesInvoiceItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItem.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItem.v.cs">
       <Link>Apps\Invoice\SalesInvoiceItem.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemObjectStates.cs">
       <Link>Apps\Invoice\SalesInvoiceItemObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItems.cs">
       <Link>Apps\Invoice\SalesInvoiceItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemStatus.cs">
       <Link>Apps\Invoice\SalesInvoiceItemStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemStatuses.cs">
       <Link>Apps\Invoice\SalesInvoiceItemStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceItemTypes.cs">
       <Link>Apps\Invoice\SalesInvoiceItemTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceObjectStates.cs">
       <Link>Apps\Invoice\SalesInvoiceObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoices.cs">
       <Link>Apps\Invoice\SalesInvoices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoices.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoices.v.cs">
       <Link>Apps\Invoice\SalesInvoices.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceStatus.cs">
       <Link>Apps\Invoice\SalesInvoiceStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceStatuses.cs">
       <Link>Apps\Invoice\SalesInvoiceStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\SalesInvoiceTypes.cs">
       <Link>Apps\Invoice\SalesInvoiceTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\ServiceEntryBillings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\ServiceEntryBillings.cs">
       <Link>Apps\Invoice\ServiceEntryBillings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\Withdrawals.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\Withdrawals.cs">
       <Link>Apps\Invoice\Withdrawals.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Invoice\WorkEffortBillings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Invoice\WorkEffortBillings.cs">
       <Link>Apps\Invoice\WorkEffortBillings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Buildings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Buildings.cs">
       <Link>Apps\Localization\Buildings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Cities.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Cities.cs">
       <Link>Apps\Localization\Cities.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Counties.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Counties.cs">
       <Link>Apps\Localization\Counties.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Countries.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Countries.cs">
       <Link>Apps\Localization\Countries.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Country.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Country.cs">
       <Link>Apps\Localization\Country.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Currencies.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Currencies.cs">
       <Link>Apps\Localization\Currencies.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Floors.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Floors.cs">
       <Link>Apps\Localization\Floors.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\GeographicBoundary.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\GeographicBoundary.cs">
       <Link>Apps\Localization\GeographicBoundary.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\GeoLocatable.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\GeoLocatable.cs">
       <Link>Apps\Localization\GeoLocatable.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Locale.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Locale.cs">
       <Link>Apps\Localization\Locale.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Offices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Offices.cs">
       <Link>Apps\Localization\Offices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Plants.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Plants.cs">
       <Link>Apps\Localization\Plants.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\PostalAddress.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\PostalAddress.cs">
       <Link>Apps\Localization\PostalAddress.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\PostalAddresses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\PostalAddresses.cs">
       <Link>Apps\Localization\PostalAddresses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\PostalBoundary.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\PostalBoundary.cs">
       <Link>Apps\Localization\PostalBoundary.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\PostalCodes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\PostalCodes.cs">
       <Link>Apps\Localization\PostalCodes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Provinces.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Provinces.cs">
       <Link>Apps\Localization\Provinces.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Regions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Regions.cs">
       <Link>Apps\Localization\Regions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Rooms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Rooms.cs">
       <Link>Apps\Localization\Rooms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\SalesTerritories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\SalesTerritories.cs">
       <Link>Apps\Localization\SalesTerritories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\ServiceTerritories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\ServiceTerritories.cs">
       <Link>Apps\Localization\ServiceTerritories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\States.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\States.cs">
       <Link>Apps\Localization\States.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Store.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Store.cs">
       <Link>Apps\Localization\Store.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Stores.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Stores.cs">
       <Link>Apps\Localization\Stores.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Territories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Territories.cs">
       <Link>Apps\Localization\Territories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Localization\Warehouses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Localization\Warehouses.cs">
       <Link>Apps\Localization\Warehouses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\ObjectsBase.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\ObjectsBase.cs">
       <Link>Apps\ObjectsBase.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\CustomEngagementItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\CustomEngagementItems.cs">
       <Link>Apps\Order\CustomEngagementItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\CustomerRequirement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\CustomerRequirement.cs">
       <Link>Apps\Order\CustomerRequirement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\CustomerRequirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\CustomerRequirement.v.cs">
       <Link>Apps\Order\CustomerRequirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\CustomerRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\CustomerRequirements.cs">
       <Link>Apps\Order\CustomerRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\DesiredProductFeatures.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\DesiredProductFeatures.cs">
       <Link>Apps\Order\DesiredProductFeatures.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\DiscountAdjustment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\DiscountAdjustment.cs">
       <Link>Apps\Order\DiscountAdjustment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\DiscountAdjustments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\DiscountAdjustments.cs">
       <Link>Apps\Order\DiscountAdjustments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Engagement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Engagement.cs">
       <Link>Apps\Order\Engagement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\EngagementRates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\EngagementRates.cs">
       <Link>Apps\Order\EngagementRates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Engagements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Engagements.cs">
       <Link>Apps\Order\Engagements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Fee.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Fee.cs">
       <Link>Apps\Order\Fee.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Fees.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Fees.cs">
       <Link>Apps\Order\Fees.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\InternalRequirement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\InternalRequirement.cs">
       <Link>Apps\Order\InternalRequirement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\InternalRequirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\InternalRequirement.v.cs">
       <Link>Apps\Order\InternalRequirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\InternalRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\InternalRequirements.cs">
       <Link>Apps\Order\InternalRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\NeededSkills.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\NeededSkills.cs">
       <Link>Apps\Order\NeededSkills.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Order.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Order.cs">
       <Link>Apps\Order\Order.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\OrderKind.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\OrderKind.cs">
       <Link>Apps\Order\OrderKind.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\OrderKinds.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\OrderKinds.cs">
       <Link>Apps\Order\OrderKinds.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\OrderRequirementCommitments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\OrderRequirementCommitments.cs">
       <Link>Apps\Order\OrderRequirementCommitments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\OrderTerms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\OrderTerms.cs">
       <Link>Apps\Order\OrderTerms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProductQuotes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProductQuotes.cs">
       <Link>Apps\Order\ProductQuotes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProductRequirement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProductRequirement.cs">
       <Link>Apps\Order\ProductRequirement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProductRequirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProductRequirement.v.cs">
       <Link>Apps\Order\ProductRequirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProductRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProductRequirements.cs">
       <Link>Apps\Order\ProductRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProfessionalAssignments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProfessionalAssignments.cs">
       <Link>Apps\Order\ProfessionalAssignments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProfessionalPlacements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProfessionalPlacements.cs">
       <Link>Apps\Order\ProfessionalPlacements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProjectRequirement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProjectRequirement.cs">
       <Link>Apps\Order\ProjectRequirement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProjectRequirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProjectRequirement.v.cs">
       <Link>Apps\Order\ProjectRequirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ProjectRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ProjectRequirements.cs">
       <Link>Apps\Order\ProjectRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Proposals.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Proposals.cs">
       <Link>Apps\Order\Proposals.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrder.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrder.cs">
       <Link>Apps\Order\PurchaseOrder.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrder.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrder.v.cs">
       <Link>Apps\Order\PurchaseOrder.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItem.cs">
       <Link>Apps\Order\PurchaseOrderItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItem.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItem.v.cs">
       <Link>Apps\Order\PurchaseOrderItem.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItemObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItemObjectStates.cs">
       <Link>Apps\Order\PurchaseOrderItemObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItems.cs">
       <Link>Apps\Order\PurchaseOrderItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItemStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItemStatus.cs">
       <Link>Apps\Order\PurchaseOrderItemStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItemStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderItemStatuses.cs">
       <Link>Apps\Order\PurchaseOrderItemStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderObjectStates.cs">
       <Link>Apps\Order\PurchaseOrderObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrders.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrders.cs">
       <Link>Apps\Order\PurchaseOrders.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrders.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrders.v.cs">
       <Link>Apps\Order\PurchaseOrders.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderStatus.cs">
       <Link>Apps\Order\PurchaseOrderStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\PurchaseOrderStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\PurchaseOrderStatuses.cs">
       <Link>Apps\Order\PurchaseOrderStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\QuoteItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\QuoteItem.cs">
       <Link>Apps\Order\QuoteItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\QuoteTerms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\QuoteTerms.cs">
       <Link>Apps\Order\QuoteTerms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequestItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequestItem.cs">
       <Link>Apps\Order\RequestItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequestsForInformation.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequestsForInformation.cs">
       <Link>Apps\Order\RequestsForInformation.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequestsForProposal.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequestsForProposal.cs">
       <Link>Apps\Order\RequestsForProposal.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequestsForQuote.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequestsForQuote.cs">
       <Link>Apps\Order\RequestsForQuote.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Requirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Requirement.v.cs">
       <Link>Apps\Order\Requirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequirementCommunications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequirementCommunications.cs">
       <Link>Apps\Order\RequirementCommunications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequirementExtensions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequirementExtensions.cs">
       <Link>Apps\Order\RequirementExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequirementObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequirementObjectStates.cs">
       <Link>Apps\Order\RequirementObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\Requirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\Requirements.cs">
       <Link>Apps\Order\Requirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequirementStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequirementStatus.cs">
       <Link>Apps\Order\RequirementStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RequirementStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RequirementStatuses.cs">
       <Link>Apps\Order\RequirementStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ResourceRequirement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ResourceRequirement.cs">
       <Link>Apps\Order\ResourceRequirement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ResourceRequirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ResourceRequirement.v.cs">
       <Link>Apps\Order\ResourceRequirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ResourceRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ResourceRequirements.cs">
       <Link>Apps\Order\ResourceRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\RespondingParties.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\RespondingParties.cs">
       <Link>Apps\Order\RespondingParties.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrder.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrder.cs">
       <Link>Apps\Order\SalesOrder.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrder.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrder.v.cs">
       <Link>Apps\Order\SalesOrder.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderItem.cs">
       <Link>Apps\Order\SalesOrderItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderItem.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderItem.v.cs">
       <Link>Apps\Order\SalesOrderItem.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderItemObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderItemObjectStates.cs">
       <Link>Apps\Order\SalesOrderItemObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderItems.cs">
       <Link>Apps\Order\SalesOrderItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderItemStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderItemStatus.cs">
       <Link>Apps\Order\SalesOrderItemStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderItemStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderItemStatuses.cs">
       <Link>Apps\Order\SalesOrderItemStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderObjectStates.cs">
       <Link>Apps\Order\SalesOrderObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrders.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrders.cs">
       <Link>Apps\Order\SalesOrders.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrders.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrders.v.cs">
       <Link>Apps\Order\SalesOrders.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderStatus.cs">
       <Link>Apps\Order\SalesOrderStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SalesOrderStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SalesOrderStatuses.cs">
       <Link>Apps\Order\SalesOrderStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ShippingAndHandlingCharge.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ShippingAndHandlingCharge.cs">
       <Link>Apps\Order\ShippingAndHandlingCharge.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\ShippingAndHandlingCharges.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\ShippingAndHandlingCharges.cs">
       <Link>Apps\Order\ShippingAndHandlingCharges.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\StatementsOfWork.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\StatementsOfWork.cs">
       <Link>Apps\Order\StatementsOfWork.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SurchargeAdjustment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SurchargeAdjustment.cs">
       <Link>Apps\Order\SurchargeAdjustment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Order\SurchargeAdjustments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Order\SurchargeAdjustments.cs">
       <Link>Apps\Order\SurchargeAdjustments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ActivityUsages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ActivityUsages.cs">
       <Link>Apps\Product\ActivityUsages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Barrels.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Barrels.cs">
       <Link>Apps\Product\Barrels.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\BasePrice.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\BasePrice.cs">
       <Link>Apps\Product\BasePrice.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\BasePrice.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\BasePrice.v.cs">
       <Link>Apps\Product\BasePrice.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\BasePrices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\BasePrices.cs">
       <Link>Apps\Product\BasePrices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Bins.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Bins.cs">
       <Link>Apps\Product\Bins.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Brands.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Brands.cs">
       <Link>Apps\Product\Brands.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Colour.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Colour.cs">
       <Link>Apps\Product\Colour.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Colours.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Colours.cs">
       <Link>Apps\Product\Colours.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ConstraintSpecification.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ConstraintSpecification.cs">
       <Link>Apps\Product\ConstraintSpecification.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ConstraintSpecification.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ConstraintSpecification.v.cs">
       <Link>Apps\Product\ConstraintSpecification.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ConstraintSpecifications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ConstraintSpecifications.cs">
       <Link>Apps\Product\ConstraintSpecifications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\DeliverableBasedService.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\DeliverableBasedService.cs">
       <Link>Apps\Product\DeliverableBasedService.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\DeliverableBasedService.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\DeliverableBasedService.v.cs">
       <Link>Apps\Product\DeliverableBasedService.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\DeliverableBasedServices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\DeliverableBasedServices.cs">
       <Link>Apps\Product\DeliverableBasedServices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Deployments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Deployments.cs">
       <Link>Apps\Product\Deployments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Dimension.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Dimension.cs">
       <Link>Apps\Product\Dimension.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Dimensions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Dimensions.cs">
       <Link>Apps\Product\Dimensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\DiscountComponent.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\DiscountComponent.cs">
       <Link>Apps\Product\DiscountComponent.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\DiscountComponent.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\DiscountComponent.v.cs">
       <Link>Apps\Product\DiscountComponent.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\DiscountComponents.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\DiscountComponents.cs">
       <Link>Apps\Product\DiscountComponents.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EngineeringBoms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EngineeringBoms.cs">
       <Link>Apps\Product\EngineeringBoms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EngineeringChange.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EngineeringChange.cs">
       <Link>Apps\Product\EngineeringChange.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EngineeringChangeObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EngineeringChangeObjectStates.cs">
       <Link>Apps\Product\EngineeringChangeObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EngineeringChanges.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EngineeringChanges.cs">
       <Link>Apps\Product\EngineeringChanges.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EngineeringChangeStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EngineeringChangeStatus.cs">
       <Link>Apps\Product\EngineeringChangeStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EngineeringChangeStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EngineeringChangeStatuses.cs">
       <Link>Apps\Product\EngineeringChangeStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EngineeringDocuments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EngineeringDocuments.cs">
       <Link>Apps\Product\EngineeringDocuments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EstimatedLaborCosts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EstimatedLaborCosts.cs">
       <Link>Apps\Product\EstimatedLaborCosts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EstimatedMaterialCosts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EstimatedMaterialCosts.cs">
       <Link>Apps\Product\EstimatedMaterialCosts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\EstimatedOtherCosts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\EstimatedOtherCosts.cs">
       <Link>Apps\Product\EstimatedOtherCosts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\FinishedGood.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\FinishedGood.cs">
       <Link>Apps\Product\FinishedGood.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\FinishedGood.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\FinishedGood.v.cs">
       <Link>Apps\Product\FinishedGood.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\FinishedGoods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\FinishedGoods.cs">
       <Link>Apps\Product\FinishedGoods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Good.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Good.cs">
       <Link>Apps\Product\Good.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Good.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Good.v.cs">
       <Link>Apps\Product\Good.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Goods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Goods.cs">
       <Link>Apps\Product\Goods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\InventoryItemKinds.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\InventoryItemKinds.cs">
       <Link>Apps\Product\InventoryItemKinds.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\InventoryItemVariances.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\InventoryItemVariances.cs">
       <Link>Apps\Product\InventoryItemVariances.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\IUnitOfMeasure.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\IUnitOfMeasure.v.cs">
       <Link>Apps\Product\IUnitOfMeasure.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Lots.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Lots.cs">
       <Link>Apps\Product\Lots.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ManufacturerSuggestedRetailPrice.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ManufacturerSuggestedRetailPrice.cs">
       <Link>Apps\Product\ManufacturerSuggestedRetailPrice.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ManufacturerSuggestedRetailPrices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ManufacturerSuggestedRetailPrices.cs">
       <Link>Apps\Product\ManufacturerSuggestedRetailPrices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ManufacturingBoms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ManufacturingBoms.cs">
       <Link>Apps\Product\ManufacturingBoms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ManufacturingConfigurations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ManufacturingConfigurations.cs">
       <Link>Apps\Product\ManufacturingConfigurations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\MarketingMaterials.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\MarketingMaterials.cs">
       <Link>Apps\Product\MarketingMaterials.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\MarketingPackages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\MarketingPackages.cs">
       <Link>Apps\Product\MarketingPackages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Model.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Model.cs">
       <Link>Apps\Product\Model.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Models.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Models.cs">
       <Link>Apps\Product\Models.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItem.cs">
       <Link>Apps\Product\NonSerializedInventoryItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItem.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItem.v.cs">
       <Link>Apps\Product\NonSerializedInventoryItem.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItemObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItemObjectStates.cs">
       <Link>Apps\Product\NonSerializedInventoryItemObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItems.cs">
       <Link>Apps\Product\NonSerializedInventoryItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItemStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItemStatus.cs">
       <Link>Apps\Product\NonSerializedInventoryItemStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItemStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\NonSerializedInventoryItemStatuses.cs">
       <Link>Apps\Product\NonSerializedInventoryItemStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OneTimeCharge.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OneTimeCharge.cs">
       <Link>Apps\Product\OneTimeCharge.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OneTimeCharges.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OneTimeCharges.cs">
       <Link>Apps\Product\OneTimeCharges.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OperatingCondition.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OperatingCondition.cs">
       <Link>Apps\Product\OperatingCondition.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OperatingCondition.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OperatingCondition.v.cs">
       <Link>Apps\Product\OperatingCondition.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OperatingConditions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OperatingConditions.cs">
       <Link>Apps\Product\OperatingConditions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OrderQuantityBreak.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OrderQuantityBreak.cs">
       <Link>Apps\Product\OrderQuantityBreak.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OrderQuantityBreaks.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OrderQuantityBreaks.cs">
       <Link>Apps\Product\OrderQuantityBreaks.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OrderValue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OrderValue.cs">
       <Link>Apps\Product\OrderValue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\OrderValues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\OrderValues.cs">
       <Link>Apps\Product\OrderValues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Ordinals.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Ordinals.cs">
       <Link>Apps\Product\Ordinals.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Packages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Packages.cs">
       <Link>Apps\Product\Packages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartBillOfMaterialSubstitutes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartBillOfMaterialSubstitutes.cs">
       <Link>Apps\Product\PartBillOfMaterialSubstitutes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartRevisions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartRevisions.cs">
       <Link>Apps\Product\PartRevisions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartSpecification.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartSpecification.cs">
       <Link>Apps\Product\PartSpecification.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartSpecification.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartSpecification.v.cs">
       <Link>Apps\Product\PartSpecification.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartSpecificationObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartSpecificationObjectStates.cs">
       <Link>Apps\Product\PartSpecificationObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartSpecifications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartSpecifications.cs">
       <Link>Apps\Product\PartSpecifications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartSpecificationStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartSpecificationStatus.cs">
       <Link>Apps\Product\PartSpecificationStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartSpecificationStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartSpecificationStatuses.cs">
       <Link>Apps\Product\PartSpecificationStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PartSubstitutes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PartSubstitutes.cs">
       <Link>Apps\Product\PartSubstitutes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PerformanceSpecification.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PerformanceSpecification.cs">
       <Link>Apps\Product\PerformanceSpecification.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PerformanceSpecification.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PerformanceSpecification.v.cs">
       <Link>Apps\Product\PerformanceSpecification.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PerformanceSpecifications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PerformanceSpecifications.cs">
       <Link>Apps\Product\PerformanceSpecifications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PriceComponents.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PriceComponents.cs">
       <Link>Apps\Product\PriceComponents.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\PriceComponents.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\PriceComponents.v.cs">
       <Link>Apps\Product\PriceComponents.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Product.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Product.v.cs">
       <Link>Apps\Product\Product.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductCategories.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductCategories.cs">
       <Link>Apps\Product\ProductCategories.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductCategory.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductCategory.cs">
       <Link>Apps\Product\ProductCategory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductConfigurations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductConfigurations.cs">
       <Link>Apps\Product\ProductConfigurations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductDeliverySkillRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductDeliverySkillRequirements.cs">
       <Link>Apps\Product\ProductDeliverySkillRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductDrawings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductDrawings.cs">
       <Link>Apps\Product\ProductDrawings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductFeature.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductFeature.v.cs">
       <Link>Apps\Product\ProductFeature.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductModels.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductModels.cs">
       <Link>Apps\Product\ProductModels.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductPurchasePrice.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductPurchasePrice.cs">
       <Link>Apps\Product\ProductPurchasePrice.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductPurchasePrices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductPurchasePrices.cs">
       <Link>Apps\Product\ProductPurchasePrices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductQualities.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductQualities.cs">
       <Link>Apps\Product\ProductQualities.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ProductQuality.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ProductQuality.cs">
       <Link>Apps\Product\ProductQuality.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Products.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Products.cs">
       <Link>Apps\Product\Products.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Products.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Products.v.cs">
       <Link>Apps\Product\Products.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\RatingTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\RatingTypes.cs">
       <Link>Apps\Product\RatingTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\RawMaterial.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\RawMaterial.cs">
       <Link>Apps\Product\RawMaterial.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\RawMaterial.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\RawMaterial.v.cs">
       <Link>Apps\Product\RawMaterial.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\RawMaterials.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\RawMaterials.cs">
       <Link>Apps\Product\RawMaterials.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\RecurringCharge.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\RecurringCharge.cs">
       <Link>Apps\Product\RecurringCharge.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\RecurringCharges.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\RecurringCharges.cs">
       <Link>Apps\Product\RecurringCharges.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SalesChannels.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SalesChannels.cs">
       <Link>Apps\Product\SalesChannels.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItem.cs">
       <Link>Apps\Product\SerializedInventoryItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItem.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItem.v.cs">
       <Link>Apps\Product\SerializedInventoryItem.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItemObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItemObjectStates.cs">
       <Link>Apps\Product\SerializedInventoryItemObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItems.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItems.cs">
       <Link>Apps\Product\SerializedInventoryItems.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItemStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItemStatus.cs">
       <Link>Apps\Product\SerializedInventoryItemStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItemStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SerializedInventoryItemStatuses.cs">
       <Link>Apps\Product\SerializedInventoryItemStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ServiceConfigurations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ServiceConfigurations.cs">
       <Link>Apps\Product\ServiceConfigurations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ServiceFeature.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ServiceFeature.cs">
       <Link>Apps\Product\ServiceFeature.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\ServiceFeatures.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\ServiceFeatures.cs">
       <Link>Apps\Product\ServiceFeatures.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Shelfs.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Shelfs.cs">
       <Link>Apps\Product\Shelfs.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Size.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Size.cs">
       <Link>Apps\Product\Size.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Sizes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Sizes.cs">
       <Link>Apps\Product\Sizes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SoftwareFeature.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SoftwareFeature.cs">
       <Link>Apps\Product\SoftwareFeature.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SoftwareFeatures.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SoftwareFeatures.cs">
       <Link>Apps\Product\SoftwareFeatures.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SubAssemblies.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SubAssemblies.cs">
       <Link>Apps\Product\SubAssemblies.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SubAssembly.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SubAssembly.cs">
       <Link>Apps\Product\SubAssembly.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SubAssembly.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SubAssembly.v.cs">
       <Link>Apps\Product\SubAssembly.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SupplierOffering.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SupplierOffering.cs">
       <Link>Apps\Product\SupplierOffering.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SupplierOffering.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SupplierOffering.v.cs">
       <Link>Apps\Product\SupplierOffering.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SupplierOfferings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SupplierOfferings.cs">
       <Link>Apps\Product\SupplierOfferings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SurchargeComponent.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SurchargeComponent.cs">
       <Link>Apps\Product\SurchargeComponent.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SurchargeComponent.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SurchargeComponent.v.cs">
       <Link>Apps\Product\SurchargeComponent.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\SurchargeComponents.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\SurchargeComponents.cs">
       <Link>Apps\Product\SurchargeComponents.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\TestingRequirement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\TestingRequirement.cs">
       <Link>Apps\Product\TestingRequirement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\TestingRequirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\TestingRequirement.v.cs">
       <Link>Apps\Product\TestingRequirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\TestingRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\TestingRequirements.cs">
       <Link>Apps\Product\TestingRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\TimeAndMaterialsService.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\TimeAndMaterialsService.cs">
       <Link>Apps\Product\TimeAndMaterialsService.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\TimeAndMaterialsService.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\TimeAndMaterialsService.v.cs">
       <Link>Apps\Product\TimeAndMaterialsService.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\TimeAndMaterialsServices.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\TimeAndMaterialsServices.cs">
       <Link>Apps\Product\TimeAndMaterialsServices.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\TimePeriodUsages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\TimePeriodUsages.cs">
       <Link>Apps\Product\TimePeriodUsages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Tolerance.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Tolerance.cs">
       <Link>Apps\Product\Tolerance.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Tolerance.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Tolerance.v.cs">
       <Link>Apps\Product\Tolerance.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\Tolerances.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\Tolerances.cs">
       <Link>Apps\Product\Tolerances.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\UnitOfMeasure.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\UnitOfMeasure.cs">
       <Link>Apps\Product\UnitOfMeasure.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\UnitsOfMeasure.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\UnitsOfMeasure.cs">
       <Link>Apps\Product\UnitsOfMeasure.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\UtilizationCharge.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\UtilizationCharge.cs">
       <Link>Apps\Product\UtilizationCharge.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\UtilizationCharges.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\UtilizationCharges.cs">
       <Link>Apps\Product\UtilizationCharges.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\VarianceReasons.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\VarianceReasons.cs">
       <Link>Apps\Product\VarianceReasons.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Product\VolumeUsages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Product\VolumeUsages.cs">
       <Link>Apps\Product\VolumeUsages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Addenda.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Addenda.cs">
       <Link>Apps\Relation\Addenda.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Addendum.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Addendum.cs">
       <Link>Apps\Relation\Addendum.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\AgreementExhibits.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\AgreementExhibits.cs">
       <Link>Apps\Relation\AgreementExhibits.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\AgreementPricingPrograms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\AgreementPricingPrograms.cs">
       <Link>Apps\Relation\AgreementPricingPrograms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\AgreementSections.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\AgreementSections.cs">
       <Link>Apps\Relation\AgreementSections.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\AutomatedAgent.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\AutomatedAgent.cs">
       <Link>Apps\Relation\AutomatedAgent.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\AutomatedAgent.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\AutomatedAgent.v.cs">
       <Link>Apps\Relation\AutomatedAgent.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\AutomatedAgents.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\AutomatedAgents.cs">
       <Link>Apps\Relation\AutomatedAgents.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Carriers.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Carriers.cs">
       <Link>Apps\Relation\Carriers.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Case.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Case.cs">
       <Link>Apps\Relation\Case.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Case.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Case.v.cs">
       <Link>Apps\Relation\Case.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CaseObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CaseObjectStates.cs">
       <Link>Apps\Relation\CaseObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Cases.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Cases.cs">
       <Link>Apps\Relation\Cases.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CaseStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CaseStatus.cs">
       <Link>Apps\Relation\CaseStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CaseStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CaseStatuses.cs">
       <Link>Apps\Relation\CaseStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Citizenships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Citizenships.cs">
       <Link>Apps\Relation\Citizenships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ClientAgreements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ClientAgreements.cs">
       <Link>Apps\Relation\ClientAgreements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ClientRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ClientRelationships.cs">
       <Link>Apps\Relation\ClientRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CommunicationEvent.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CommunicationEvent.v.cs">
       <Link>Apps\Relation\CommunicationEvent.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CommunicationEventExtensions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CommunicationEventExtensions.cs">
       <Link>Apps\Relation\CommunicationEventExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CommunicationEventObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CommunicationEventObjectStates.cs">
       <Link>Apps\Relation\CommunicationEventObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CommunicationEventPurposes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CommunicationEventPurposes.cs">
       <Link>Apps\Relation\CommunicationEventPurposes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CommunicationEvents.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CommunicationEvents.cs">
       <Link>Apps\Relation\CommunicationEvents.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CommunicationEventStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CommunicationEventStatus.cs">
       <Link>Apps\Relation\CommunicationEventStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CommunicationEventStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CommunicationEventStatuses.cs">
       <Link>Apps\Relation\CommunicationEventStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ContactMechanism.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ContactMechanism.cs">
       <Link>Apps\Relation\ContactMechanism.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ContactMechanismPurpose.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ContactMechanismPurpose.cs">
       <Link>Apps\Relation\ContactMechanismPurpose.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ContactMechanismPurposes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ContactMechanismPurposes.cs">
       <Link>Apps\Relation\ContactMechanismPurposes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CustomerRelationship.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CustomerRelationship.cs">
       <Link>Apps\Relation\CustomerRelationship.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CustomerRelationship.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CustomerRelationship.v.cs">
       <Link>Apps\Relation\CustomerRelationship.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\CustomerRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\CustomerRelationships.cs">
       <Link>Apps\Relation\CustomerRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\DistributionChannelRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\DistributionChannelRelationships.cs">
       <Link>Apps\Relation\DistributionChannelRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\EmailAddress.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\EmailAddress.cs">
       <Link>Apps\Relation\EmailAddress.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\EmailAddresses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\EmailAddresses.cs">
       <Link>Apps\Relation\EmailAddresses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\EmailCommunication.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\EmailCommunication.cs">
       <Link>Apps\Relation\EmailCommunication.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\EmailCommunication.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\EmailCommunication.v.cs">
       <Link>Apps\Relation\EmailCommunication.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\EmailCommunications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\EmailCommunications.cs">
       <Link>Apps\Relation\EmailCommunications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\EmailTemplates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\EmailTemplates.cs">
       <Link>Apps\Relation\EmailTemplates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Employment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Employment.cs">
       <Link>Apps\Relation\Employment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\EmploymentAgreements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\EmploymentAgreements.cs">
       <Link>Apps\Relation\EmploymentAgreements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Employments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Employments.cs">
       <Link>Apps\Relation\Employments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FaceToFaceCommunication.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FaceToFaceCommunication.cs">
       <Link>Apps\Relation\FaceToFaceCommunication.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FaceToFaceCommunication.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FaceToFaceCommunication.v.cs">
       <Link>Apps\Relation\FaceToFaceCommunication.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FaceToFaceCommunications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FaceToFaceCommunications.cs">
       <Link>Apps\Relation\FaceToFaceCommunications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FaxCommunication.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FaxCommunication.cs">
       <Link>Apps\Relation\FaxCommunication.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FaxCommunication.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FaxCommunication.v.cs">
       <Link>Apps\Relation\FaxCommunication.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FaxCommunications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FaxCommunications.cs">
       <Link>Apps\Relation\FaxCommunications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FinancialTerm.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FinancialTerm.cs">
       <Link>Apps\Relation\FinancialTerm.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\FinancialTerms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\FinancialTerms.cs">
       <Link>Apps\Relation\FinancialTerms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\GenderTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\GenderTypes.cs">
       <Link>Apps\Relation\GenderTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Hobbies.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Hobbies.cs">
       <Link>Apps\Relation\Hobbies.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Incentive.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Incentive.cs">
       <Link>Apps\Relation\Incentive.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Incentives.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Incentives.cs">
       <Link>Apps\Relation\Incentives.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\InternalOrganisation.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\InternalOrganisation.cs">
       <Link>Apps\Relation\InternalOrganisation.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\InternalOrganisation.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\InternalOrganisation.v.cs">
       <Link>Apps\Relation\InternalOrganisation.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\InternalOrganisations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\InternalOrganisations.cs">
       <Link>Apps\Relation\InternalOrganisations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\LegalForms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\LegalForms.cs">
       <Link>Apps\Relation\LegalForms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\LegalTerm.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\LegalTerm.cs">
       <Link>Apps\Relation\LegalTerm.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\LegalTerms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\LegalTerms.cs">
       <Link>Apps\Relation\LegalTerms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\LetterCorrespondence.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\LetterCorrespondence.cs">
       <Link>Apps\Relation\LetterCorrespondence.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\LetterCorrespondence.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\LetterCorrespondence.v.cs">
       <Link>Apps\Relation\LetterCorrespondence.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\LetterCorrespondences.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\LetterCorrespondences.cs">
       <Link>Apps\Relation\LetterCorrespondences.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\MaritalStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\MaritalStatuses.cs">
       <Link>Apps\Relation\MaritalStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Organisation.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Organisation.cs">
       <Link>Apps\Relation\Organisation.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Organisation.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Organisation.v.cs">
       <Link>Apps\Relation\Organisation.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\OrganisationContactKinds.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\OrganisationContactKinds.cs">
       <Link>Apps\Relation\OrganisationContactKinds.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\OrganisationContactRelationship.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\OrganisationContactRelationship.cs">
       <Link>Apps\Relation\OrganisationContactRelationship.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\OrganisationContactRelationship.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\OrganisationContactRelationship.v.cs">
       <Link>Apps\Relation\OrganisationContactRelationship.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\OrganisationContactRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\OrganisationContactRelationships.cs">
       <Link>Apps\Relation\OrganisationContactRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\OrganisationRollUps.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\OrganisationRollUps.cs">
       <Link>Apps\Relation\OrganisationRollUps.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Organisations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Organisations.cs">
       <Link>Apps\Relation\Organisations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\OrganisationUnits.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\OrganisationUnits.cs">
       <Link>Apps\Relation\OrganisationUnits.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Parties.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Parties.cs">
       <Link>Apps\Relation\Parties.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Parties.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Parties.v.cs">
       <Link>Apps\Relation\Parties.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Partnership.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Partnership.cs">
       <Link>Apps\Relation\Partnership.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Partnerships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Partnerships.cs">
       <Link>Apps\Relation\Partnerships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Party.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Party.cs">
       <Link>Apps\Relation\Party.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Party.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Party.v.cs">
       <Link>Apps\Relation\Party.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PartyClassifications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PartyClassifications.cs">
       <Link>Apps\Relation\PartyClassifications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PartyContactMechanism.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PartyContactMechanism.cs">
       <Link>Apps\Relation\PartyContactMechanism.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PartyContactMechanisms.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PartyContactMechanisms.cs">
       <Link>Apps\Relation\PartyContactMechanisms.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PartyRelationshipStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PartyRelationshipStatuses.cs">
       <Link>Apps\Relation\PartyRelationshipStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Passport.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Passport.cs">
       <Link>Apps\Relation\Passport.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Passports.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Passports.cs">
       <Link>Apps\Relation\Passports.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Person.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Person.cs">
       <Link>Apps\Relation\Person.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Person.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Person.v.cs">
       <Link>Apps\Relation\Person.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PersonalTitles.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PersonalTitles.cs">
       <Link>Apps\Relation\PersonalTitles.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Persons.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Persons.cs">
       <Link>Apps\Relation\Persons.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PhoneCommunication.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PhoneCommunication.cs">
       <Link>Apps\Relation\PhoneCommunication.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PhoneCommunication.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PhoneCommunication.v.cs">
       <Link>Apps\Relation\PhoneCommunication.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PhoneCommunications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PhoneCommunications.cs">
       <Link>Apps\Relation\PhoneCommunications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Priorities.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Priorities.cs">
       <Link>Apps\Relation\Priorities.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ProductFeatureApplicabilityRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ProductFeatureApplicabilityRelationships.cs">
       <Link>Apps\Relation\ProductFeatureApplicabilityRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ProfessionalServicesRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ProfessionalServicesRelationships.cs">
       <Link>Apps\Relation\ProfessionalServicesRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\ProspectRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\ProspectRelationships.cs">
       <Link>Apps\Relation\ProspectRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\PurchaseAgreements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\PurchaseAgreements.cs">
       <Link>Apps\Relation\PurchaseAgreements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SalesAgreements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SalesAgreements.cs">
       <Link>Apps\Relation\SalesAgreements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SalesRepRelationship.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SalesRepRelationship.cs">
       <Link>Apps\Relation\SalesRepRelationship.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SalesRepRelationship.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SalesRepRelationship.v.cs">
       <Link>Apps\Relation\SalesRepRelationship.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SalesRepRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SalesRepRelationships.cs">
       <Link>Apps\Relation\SalesRepRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Salutations.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Salutations.cs">
       <Link>Apps\Relation\Salutations.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SubAgreements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SubAgreements.cs">
       <Link>Apps\Relation\SubAgreements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SubContractorAgreements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SubContractorAgreements.cs">
       <Link>Apps\Relation\SubContractorAgreements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SubContractorRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SubContractorRelationships.cs">
       <Link>Apps\Relation\SubContractorRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SupplierRelationship.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SupplierRelationship.cs">
       <Link>Apps\Relation\SupplierRelationship.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SupplierRelationship.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SupplierRelationship.v.cs">
       <Link>Apps\Relation\SupplierRelationship.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\SupplierRelationships.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\SupplierRelationships.cs">
       <Link>Apps\Relation\SupplierRelationships.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\TelecommunicationsNumber.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\TelecommunicationsNumber.cs">
       <Link>Apps\Relation\TelecommunicationsNumber.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\TelecommunicationsNumbers.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\TelecommunicationsNumbers.cs">
       <Link>Apps\Relation\TelecommunicationsNumbers.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\TermTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\TermTypes.cs">
       <Link>Apps\Relation\TermTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Threshold.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Threshold.cs">
       <Link>Apps\Relation\Threshold.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\Thresholds.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\Thresholds.cs">
       <Link>Apps\Relation\Thresholds.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\WebAddress.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\WebAddress.cs">
       <Link>Apps\Relation\WebAddress.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\WebAddresses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\WebAddresses.cs">
       <Link>Apps\Relation\WebAddresses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\WebSiteCommunication.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\WebSiteCommunication.cs">
       <Link>Apps\Relation\WebSiteCommunication.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\WebSiteCommunication.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\WebSiteCommunication.v.cs">
       <Link>Apps\Relation\WebSiteCommunication.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Relation\WebSiteCommunications.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Relation\WebSiteCommunications.cs">
       <Link>Apps\Relation\WebSiteCommunications.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Security\AccessControls.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Security\AccessControls.cs">
       <Link>Apps\Security\AccessControls.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Security\Roles.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Security\Roles.cs">
       <Link>Apps\Security\Roles.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Security\SecurityConfiguration.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Security\SecurityConfiguration.cs">
       <Link>Apps\Security\SecurityConfiguration.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Security\UserGroups.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Security\UserGroups.cs">
       <Link>Apps\Security\UserGroups.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Setup.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Setup.cs">
       <Link>Apps\Setup.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\BillOfLadings.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\BillOfLadings.cs">
       <Link>Apps\Shipment\BillOfLadings.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerReturn.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerReturn.cs">
       <Link>Apps\Shipment\CustomerReturn.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerReturn.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerReturn.v.cs">
       <Link>Apps\Shipment\CustomerReturn.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerReturnObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerReturnObjectStates.cs">
       <Link>Apps\Shipment\CustomerReturnObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerReturns.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerReturns.cs">
       <Link>Apps\Shipment\CustomerReturns.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerReturnStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerReturnStatus.cs">
       <Link>Apps\Shipment\CustomerReturnStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerReturnStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerReturnStatuses.cs">
       <Link>Apps\Shipment\CustomerReturnStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerShipment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerShipment.cs">
       <Link>Apps\Shipment\CustomerShipment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerShipment.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerShipment.v.cs">
       <Link>Apps\Shipment\CustomerShipment.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerShipmentObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerShipmentObjectStates.cs">
       <Link>Apps\Shipment\CustomerShipmentObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerShipments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerShipments.cs">
       <Link>Apps\Shipment\CustomerShipments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerShipments.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerShipments.v.cs">
       <Link>Apps\Shipment\CustomerShipments.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerShipmentStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerShipmentStatus.cs">
       <Link>Apps\Shipment\CustomerShipmentStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\CustomerShipmentStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\CustomerShipmentStatuses.cs">
       <Link>Apps\Shipment\CustomerShipmentStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\DropShipment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\DropShipment.cs">
       <Link>Apps\Shipment\DropShipment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\DropShipment.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\DropShipment.v.cs">
       <Link>Apps\Shipment\DropShipment.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\DropShipmentObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\DropShipmentObjectStates.cs">
       <Link>Apps\Shipment\DropShipmentObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\DropShipments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\DropShipments.cs">
       <Link>Apps\Shipment\DropShipments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\DropShipmentStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\DropShipmentStatus.cs">
       <Link>Apps\Shipment\DropShipmentStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\DropShipmentStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\DropShipmentStatuses.cs">
       <Link>Apps\Shipment\DropShipmentStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ExportDocuments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ExportDocuments.cs">
       <Link>Apps\Shipment\ExportDocuments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\HazardousMaterialsDocuments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\HazardousMaterialsDocuments.cs">
       <Link>Apps\Shipment\HazardousMaterialsDocuments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ItemIssuances.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ItemIssuances.cs">
       <Link>Apps\Shipment\ItemIssuances.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\Manifests.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\Manifests.cs">
       <Link>Apps\Shipment\Manifests.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\OrderShipment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\OrderShipment.cs">
       <Link>Apps\Shipment\OrderShipment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\OrderShipments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\OrderShipments.cs">
       <Link>Apps\Shipment\OrderShipments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PackagingContent.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PackagingContent.cs">
       <Link>Apps\Shipment\PackagingContent.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PackagingContent.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PackagingContent.v.cs">
       <Link>Apps\Shipment\PackagingContent.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PackagingContents.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PackagingContents.cs">
       <Link>Apps\Shipment\PackagingContents.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PackagingSlip.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PackagingSlip.cs">
       <Link>Apps\Shipment\PackagingSlip.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PackagingSlips.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PackagingSlips.cs">
       <Link>Apps\Shipment\PackagingSlips.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PackagingSlips.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PackagingSlips.v.cs">
       <Link>Apps\Shipment\PackagingSlips.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PickList.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PickList.cs">
       <Link>Apps\Shipment\PickList.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PickListItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PickListItem.cs">
       <Link>Apps\Shipment\PickListItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PickListObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PickListObjectStates.cs">
       <Link>Apps\Shipment\PickListObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PickLists.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PickLists.cs">
       <Link>Apps\Shipment\PickLists.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PickLists.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PickLists.v.cs">
       <Link>Apps\Shipment\PickLists.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PickListStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PickListStatus.cs">
       <Link>Apps\Shipment\PickListStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PickListStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PickListStatuses.cs">
       <Link>Apps\Shipment\PickListStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturn.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturn.cs">
       <Link>Apps\Shipment\PurchaseReturn.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturn.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturn.v.cs">
       <Link>Apps\Shipment\PurchaseReturn.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturnObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturnObjectStates.cs">
       <Link>Apps\Shipment\PurchaseReturnObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturns.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturns.cs">
       <Link>Apps\Shipment\PurchaseReturns.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturnStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturnStatus.cs">
       <Link>Apps\Shipment\PurchaseReturnStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturnStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseReturnStatuses.cs">
       <Link>Apps\Shipment\PurchaseReturnStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipment.cs">
       <Link>Apps\Shipment\PurchaseShipment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipment.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipment.v.cs">
       <Link>Apps\Shipment\PurchaseShipment.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipmentObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipmentObjectStates.cs">
       <Link>Apps\Shipment\PurchaseShipmentObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipments.cs">
       <Link>Apps\Shipment\PurchaseShipments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipments.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipments.v.cs">
       <Link>Apps\Shipment\PurchaseShipments.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipmentStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipmentStatus.cs">
       <Link>Apps\Shipment\PurchaseShipmentStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipmentStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\PurchaseShipmentStatuses.cs">
       <Link>Apps\Shipment\PurchaseShipmentStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\Shipment.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\Shipment.cs">
       <Link>Apps\Shipment\Shipment.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentItem.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentItem.cs">
       <Link>Apps\Shipment\ShipmentItem.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentItem.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentItem.v.cs">
       <Link>Apps\Shipment\ShipmentItem.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentMethods.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentMethods.cs">
       <Link>Apps\Shipment\ShipmentMethods.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentPackage.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentPackage.cs">
       <Link>Apps\Shipment\ShipmentPackage.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentPackages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentPackages.cs">
       <Link>Apps\Shipment\ShipmentPackages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentReceipt.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentReceipt.cs">
       <Link>Apps\Shipment\ShipmentReceipt.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentReceipts.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentReceipts.cs">
       <Link>Apps\Shipment\ShipmentReceipts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentRouteSegments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentRouteSegments.cs">
       <Link>Apps\Shipment\ShipmentRouteSegments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentValue.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentValue.cs">
       <Link>Apps\Shipment\ShipmentValue.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShipmentValues.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShipmentValues.cs">
       <Link>Apps\Shipment\ShipmentValues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponent.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponent.cs">
       <Link>Apps\Shipment\ShippingAndHandlingComponent.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponents.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponents.cs">
       <Link>Apps\Shipment\ShippingAndHandlingComponents.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponents.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponents.v.cs">
       <Link>Apps\Shipment\ShippingAndHandlingComponents.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\TaxDocuments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\TaxDocuments.cs">
       <Link>Apps\Shipment\TaxDocuments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\Transfer.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\Transfer.cs">
       <Link>Apps\Shipment\Transfer.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\Transfer.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\Transfer.v.cs">
       <Link>Apps\Shipment\Transfer.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\TransferObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\TransferObjectStates.cs">
       <Link>Apps\Shipment\TransferObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\Transfers.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\Transfers.cs">
       <Link>Apps\Shipment\Transfers.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\TransferStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\TransferStatus.cs">
       <Link>Apps\Shipment\TransferStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\TransferStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\TransferStatuses.cs">
       <Link>Apps\Shipment\TransferStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\Shipment\Vehicles.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\Shipment\Vehicles.cs">
       <Link>Apps\Shipment\Vehicles.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Activities.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Activities.cs">
       <Link>Apps\WorkEffort\Activities.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Activity.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Activity.cs">
       <Link>Apps\WorkEffort\Activity.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\AssetAssignmentStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\AssetAssignmentStatuses.cs">
       <Link>Apps\WorkEffort\AssetAssignmentStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Deliverables.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Deliverables.cs">
       <Link>Apps\WorkEffort\Deliverables.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\DeliverableTurnover.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\DeliverableTurnover.cs">
       <Link>Apps\WorkEffort\DeliverableTurnover.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\DeliverableTurnovers.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\DeliverableTurnovers.cs">
       <Link>Apps\WorkEffort\DeliverableTurnovers.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\DeliverableTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\DeliverableTypes.cs">
       <Link>Apps\WorkEffort\DeliverableTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\ExpenseEntries.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\ExpenseEntries.cs">
       <Link>Apps\WorkEffort\ExpenseEntries.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\ExpenseEntry.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\ExpenseEntry.cs">
       <Link>Apps\WorkEffort\ExpenseEntry.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Maintenance.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Maintenance.cs">
       <Link>Apps\WorkEffort\Maintenance.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Maintenances.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Maintenances.cs">
       <Link>Apps\WorkEffort\Maintenances.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\MaterialsUsage.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\MaterialsUsage.cs">
       <Link>Apps\WorkEffort\MaterialsUsage.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\MaterialsUsages.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\MaterialsUsages.cs">
       <Link>Apps\WorkEffort\MaterialsUsages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\PartyFixedAssetAssignments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\PartyFixedAssetAssignments.cs">
       <Link>Apps\WorkEffort\PartyFixedAssetAssignments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Phase.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Phase.cs">
       <Link>Apps\WorkEffort\Phase.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Phases.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Phases.cs">
       <Link>Apps\WorkEffort\Phases.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\ProductionRun.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\ProductionRun.cs">
       <Link>Apps\WorkEffort\ProductionRun.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\ProductionRuns.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\ProductionRuns.cs">
       <Link>Apps\WorkEffort\ProductionRuns.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Program.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Program.cs">
       <Link>Apps\WorkEffort\Program.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Programs.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Programs.cs">
       <Link>Apps\WorkEffort\Programs.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Project.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Project.cs">
       <Link>Apps\WorkEffort\Project.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Projects.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Projects.cs">
       <Link>Apps\WorkEffort\Projects.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Research.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Research.cs">
       <Link>Apps\WorkEffort\Research.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Researches.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Researches.cs">
       <Link>Apps\WorkEffort\Researches.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Task.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Task.cs">
       <Link>Apps\WorkEffort\Task.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\Tasks.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\Tasks.cs">
       <Link>Apps\WorkEffort\Tasks.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\TimeEntries.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\TimeEntries.cs">
       <Link>Apps\WorkEffort\TimeEntries.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\TimeEntry.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\TimeEntry.cs">
       <Link>Apps\WorkEffort\TimeEntry.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortAssignmentRates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortAssignmentRates.cs">
       <Link>Apps\WorkEffort\WorkEffortAssignmentRates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortAssignments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortAssignments.cs">
       <Link>Apps\WorkEffort\WorkEffortAssignments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortExtensions.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortExtensions.cs">
       <Link>Apps\WorkEffort\WorkEffortExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortFixedAssetAssignments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortFixedAssetAssignments.cs">
       <Link>Apps\WorkEffort\WorkEffortFixedAssetAssignments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortFixedAssetStandards.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortFixedAssetStandards.cs">
       <Link>Apps\WorkEffort\WorkEffortFixedAssetStandards.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortGoodStandards.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortGoodStandards.cs">
       <Link>Apps\WorkEffort\WorkEffortGoodStandards.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortInventoryAssignments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortInventoryAssignments.cs">
       <Link>Apps\WorkEffort\WorkEffortInventoryAssignments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortObjectStates.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortObjectStates.cs">
       <Link>Apps\WorkEffort\WorkEffortObjectStates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortPartStandards.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortPartStandards.cs">
       <Link>Apps\WorkEffort\WorkEffortPartStandards.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortPartyAssignments.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortPartyAssignments.cs">
       <Link>Apps\WorkEffort\WorkEffortPartyAssignments.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortPurposes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortPurposes.cs">
       <Link>Apps\WorkEffort\WorkEffortPurposes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortSkillStandards.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortSkillStandards.cs">
       <Link>Apps\WorkEffort\WorkEffortSkillStandards.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortStatus.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortStatus.cs">
       <Link>Apps\WorkEffort\WorkEffortStatus.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortStatuses.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortStatuses.cs">
       <Link>Apps\WorkEffort\WorkEffortStatuses.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortType.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortType.cs">
       <Link>Apps\WorkEffort\WorkEffortType.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortTypeKinds.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortTypeKinds.cs">
       <Link>Apps\WorkEffort\WorkEffortTypeKinds.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortTypes.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkEffortTypes.cs">
       <Link>Apps\WorkEffort\WorkEffortTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkFlow.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkFlow.cs">
       <Link>Apps\WorkEffort\WorkFlow.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkFlows.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkFlows.cs">
       <Link>Apps\WorkEffort\WorkFlows.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkRequirement.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkRequirement.cs">
       <Link>Apps\WorkEffort\WorkRequirement.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkRequirement.v.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkRequirement.v.cs">
       <Link>Apps\WorkEffort\WorkRequirement.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Apps\Domain\Apps\WorkEffort\WorkRequirements.cs">
+    <Compile Include="..\..\Allors\Apps\Domain\Apps\WorkEffort\WorkRequirements.cs">
       <Link>Apps\WorkEffort\WorkRequirements.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Cache.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Cache.cs">
       <Link>Base\Common\Cache.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Counter.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Counter.cs">
       <Link>Base\Common\Counter.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Counters.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Counters.cs">
       <Link>Base\Common\Counters.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DeletableDelete.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DeletableDelete.cs">
       <Link>Base\Common\DeletableDelete.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Derivation.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Derivation.cs">
       <Link>Base\Common\Derivation.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationError.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationError.cs">
       <Link>Base\Common\DerivationError.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorAtLeastOne.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorAtLeastOne.cs">
       <Link>Base\Common\DerivationErrorAtLeastOne.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorAtMostOne.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorAtMostOne.cs">
       <Link>Base\Common\DerivationErrorAtMostOne.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorConflict.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorConflict.cs">
       <Link>Base\Common\DerivationErrorConflict.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorEquals.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorEquals.cs">
       <Link>Base\Common\DerivationErrorEquals.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorGeneric.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorGeneric.cs">
       <Link>Base\Common\DerivationErrorGeneric.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorNotAllowed.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorNotAllowed.cs">
       <Link>Base\Common\DerivationErrorNotAllowed.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorRequired.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorRequired.cs">
       <Link>Base\Common\DerivationErrorRequired.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationErrorUnique.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationErrorUnique.cs">
       <Link>Base\Common\DerivationErrorUnique.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationException.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationException.cs">
       <Link>Base\Common\DerivationException.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationGraph.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationGraph.cs">
       <Link>Base\Common\DerivationGraph.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationLog.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationLog.cs">
       <Link>Base\Common\DerivationLog.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationNode.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationNode.cs">
       <Link>Base\Common\DerivationNode.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\DerivationRelation.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\DerivationRelation.cs">
       <Link>Base\Common\DerivationRelation.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Enumeration.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Enumeration.cs">
       <Link>Base\Common\Enumeration.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\IDerivation.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\IDerivation.cs">
       <Link>Base\Common\IDerivation.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\IDerivationError.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\IDerivationError.cs">
       <Link>Base\Common\IDerivationError.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Object.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Object.cs">
       <Link>Base\Common\Object.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\ObjectState.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\ObjectState.cs">
       <Link>Base\Common\ObjectState.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Retry.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Retry.cs">
       <Link>Base\Common\Retry.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Singleton.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Singleton.cs">
       <Link>Base\Common\Singleton.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Singleton.v.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Singleton.v.cs">
       <Link>Base\Common\Singleton.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Singletons.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Singletons.cs">
       <Link>Base\Common\Singletons.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\Transitional.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\Transitional.cs">
       <Link>Base\Common\Transitional.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\UniquelyIdentifiableCache.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\UniquelyIdentifiableCache.cs">
       <Link>Base\Common\UniquelyIdentifiableCache.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Common\UniquelyIdentifiableExtension.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Common\UniquelyIdentifiableExtension.cs">
       <Link>Base\Common\UniquelyIdentifiableExtension.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Config.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Config.cs">
       <Link>Base\Config.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\HtmlCharacters.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\HtmlCharacters.cs">
       <Link>Base\Content\HtmlCharacters.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\HtmlDocument.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\HtmlDocument.cs">
       <Link>Base\Content\HtmlDocument.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\HtmlProfile.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\HtmlProfile.cs">
       <Link>Base\Content\HtmlProfile.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\HtmlReader.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\HtmlReader.cs">
       <Link>Base\Content\HtmlReader.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\HtmlRules.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\HtmlRules.cs">
       <Link>Base\Content\HtmlRules.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\HtmlSanitize.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\HtmlSanitize.cs">
       <Link>Base\Content\HtmlSanitize.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\Image.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\Image.cs">
       <Link>Base\Content\Image.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\Image.v..cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\Image.v..cs">
       <Link>Base\Content\Image.v..cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\Media.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\Media.cs">
       <Link>Base\Content\Media.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\MediaBuilder.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\MediaBuilder.cs">
       <Link>Base\Content\MediaBuilder.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\MediaContent.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\MediaContent.cs">
       <Link>Base\Content\MediaContent.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\Medias.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\Medias.cs">
       <Link>Base\Content\Medias.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\MediaType.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\MediaType.cs">
       <Link>Base\Content\MediaType.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\MediaTypes.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\MediaTypes.cs">
       <Link>Base\Content\MediaTypes.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\MediaTypes.v.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\MediaTypes.v.cs">
       <Link>Base\Content\MediaTypes.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\PrintQueues.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\PrintQueues.cs">
       <Link>Base\Content\PrintQueues.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\PrintQueues.v.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\PrintQueues.v.cs">
       <Link>Base\Content\PrintQueues.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\StringTemplate.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\StringTemplate.cs">
       <Link>Base\Content\StringTemplate.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Content\StringTemplates.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Content\StringTemplates.cs">
       <Link>Base\Content\StringTemplates.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Data\CsvExport.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Data\CsvExport.cs">
       <Link>Base\Data\CsvExport.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Data\CsvExportColumn.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Data\CsvExportColumn.cs">
       <Link>Base\Data\CsvExportColumn.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Data\CsvExportFunction.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Data\CsvExportFunction.cs">
       <Link>Base\Data\CsvExportFunction.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Data\CsvExportPath.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Data\CsvExportPath.cs">
       <Link>Base\Data\CsvExportPath.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Drawing\BitmapExtensions.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Drawing\BitmapExtensions.cs">
       <Link>Base\Drawing\BitmapExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\IObjectBase.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\IObjectBase.cs">
       <Link>Base\IObjectBase.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\IObjectBuilder.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\IObjectBuilder.cs">
       <Link>Base\IObjectBuilder.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\IObjects.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\IObjects.cs">
       <Link>Base\IObjects.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ISecure.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ISecure.cs">
       <Link>Base\ISecure.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ISessionExtensions.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ISessionExtensions.cs">
       <Link>Base\ISessionExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ISetup.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ISetup.cs">
       <Link>Base\ISetup.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Countries.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Countries.cs">
       <Link>Base\Localisation\Countries.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Country.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Country.cs">
       <Link>Base\Localisation\Country.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Currencies.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Currencies.cs">
       <Link>Base\Localisation\Currencies.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Currency.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Currency.cs">
       <Link>Base\Localisation\Currency.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Language.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Language.cs">
       <Link>Base\Localisation\Language.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Languages.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Languages.cs">
       <Link>Base\Localisation\Languages.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Locale.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Locale.cs">
       <Link>Base\Localisation\Locale.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Locales.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Locales.cs">
       <Link>Base\Localisation\Locales.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\Locales.v.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\Locales.v.cs">
       <Link>Base\Localisation\Locales.v.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Localisation\LocalisedTexts.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Localisation\LocalisedTexts.cs">
       <Link>Base\Localisation\LocalisedTexts.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Meta\IObjectTypeExtensions.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Meta\IObjectTypeExtensions.cs">
       <Link>Base\Meta\IObjectTypeExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Meta\Path.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Meta\Path.cs">
       <Link>Base\Meta\Path.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Object.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Object.cs">
       <Link>Base\Object.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectBuilder.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectBuilder.cs">
       <Link>Base\ObjectBuilder.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectBuilder`1.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectBuilder`1.cs">
       <Link>Base\ObjectBuilder`1.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectExtensions.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectExtensions.cs">
       <Link>Base\ObjectExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectOnBuild.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectOnBuild.cs">
       <Link>Base\ObjectOnBuild.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectOnPostBuild.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectOnPostBuild.cs">
       <Link>Base\ObjectOnPostBuild.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectsBase.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectsBase.cs">
       <Link>Base\ObjectsBase.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectsGraph.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectsGraph.cs">
       <Link>Base\ObjectsGraph.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\ObjectsNode.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\ObjectsNode.cs">
       <Link>Base\ObjectsNode.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Relation\Person.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Relation\Person.cs">
       <Link>Base\Relation\Person.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Relation\Persons.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Relation\Persons.cs">
       <Link>Base\Relation\Persons.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\AccessControl.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\AccessControl.cs">
       <Link>Base\Security\AccessControl.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\AccessControlList.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\AccessControlList.cs">
       <Link>Base\Security\AccessControlList.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\AccessControlListCache.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\AccessControlListCache.cs">
       <Link>Base\Security\AccessControlListCache.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\AccessControls.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\AccessControls.cs">
       <Link>Base\Security\AccessControls.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Cache\SecurityCache.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Cache\SecurityCache.cs">
       <Link>Base\Security\Cache\SecurityCache.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\IAccessControlList.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\IAccessControlList.cs">
       <Link>Base\Security\IAccessControlList.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\IAccessControlListFactory.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\IAccessControlListFactory.cs">
       <Link>Base\Security\IAccessControlListFactory.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Login.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Login.cs">
       <Link>Base\Security\Login.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Operation.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Operation.cs">
       <Link>Base\Security\Operation.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Permission.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Permission.cs">
       <Link>Base\Security\Permission.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\PermissionBuilder.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\PermissionBuilder.cs">
       <Link>Base\Security\PermissionBuilder.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\PermissionComparer.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\PermissionComparer.cs">
       <Link>Base\Security\PermissionComparer.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Permissions.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Permissions.cs">
       <Link>Base\Security\Permissions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Role.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Role.cs">
       <Link>Base\Security\Role.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Roles.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Roles.cs">
       <Link>Base\Security\Roles.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Security.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Security.cs">
       <Link>Base\Security\Security.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\SecurityToken.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\SecurityToken.cs">
       <Link>Base\Security\SecurityToken.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\SecurityTokens.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\SecurityTokens.cs">
       <Link>Base\Security\SecurityTokens.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\UserExtensions.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\UserExtensions.cs">
       <Link>Base\Security\UserExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\UserGroup.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\UserGroup.cs">
       <Link>Base\Security\UserGroup.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\UserGroups.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\UserGroups.cs">
       <Link>Base\Security\UserGroups.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Security\Users.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Security\Users.cs">
       <Link>Base\Security\Users.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Setup.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Setup.cs">
       <Link>Base\Setup.cs</Link>
     </Compile>
-    <Compile Include="..\Allors\Base\Domain\Base\Unit\DateTimeFactory.cs">
+    <Compile Include="..\..\Allors\Base\Domain\Base\Unit\DateTimeFactory.cs">
       <Link>Base\Unit\DateTimeFactory.cs</Link>
     </Compile>
     <Compile Include="Dipu\Allors\ObjectsBase.cs" />
@@ -3095,7 +3095,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Allors\Framework\Allors\Allors.csproj">
+    <ProjectReference Include="..\..\Allors\Framework\Allors\Allors.csproj">
       <Project>{5b4e2d7c-8ef8-45f5-bfb2-e595c401a95f}</Project>
       <Name>Allors</Name>
     </ProjectReference>
@@ -3109,7 +3109,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Allors\Apps\Domain\Apps\Order\Overview.cd">
+    <None Include="..\..\Allors\Apps\Domain\Apps\Order\Overview.cd">
       <Link>Apps\Order\Overview.cd</Link>
     </None>
     <None Include="packages.config" />

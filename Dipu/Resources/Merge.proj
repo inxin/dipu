@@ -4,8 +4,8 @@
 
   <Target Name="Merge">
     <ItemGroup>
-      <InputDirectories Include="..\Allors\Base\Resources"/>
-      <InputDirectories Include="..\Allors\Apps\Resources"/>
+      <InputDirectories Include="..\..\Allors\Base\Resources"/>
+      <InputDirectories Include="..\..\Allors\Apps\Resources"/>
       <InputDirectories Include="Dipu"/>
     </ItemGroup>
 
