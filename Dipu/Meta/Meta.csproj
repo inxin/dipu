@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Meta</RootNamespace>
     <AssemblyName>Meta</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -38,1770 +38,169 @@
     </Reference>
     <Reference Include="Microsoft.Build.Framework" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Domain\Composite.cs">
-      <Link>Apps\Domain\Composite.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\AccessControl.cs">
+      <Link>Base\Domain\AccessControl.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccessControl.cs">
-      <Link>Apps\Population\AccessControl.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\AccessControlledObject.cs">
+      <Link>Base\Domain\AccessControlledObject.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccessControlledObject.cs">
-      <Link>Apps\Population\AccessControlledObject.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Base.cs">
+      <Link>Base\Domain\Base.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccountAdjustment.cs">
-      <Link>Apps\Population\AccountAdjustment.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Commentable.cs">
+      <Link>Base\Domain\Commentable.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccountingPeriod.cs">
-      <Link>Apps\Population\AccountingPeriod.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Counter.cs">
+      <Link>Base\Domain\Counter.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccountingTransaction.cs">
-      <Link>Apps\Population\AccountingTransaction.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Country.cs">
+      <Link>Base\Domain\Country.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccountingTransactionDetail.cs">
-      <Link>Apps\Population\AccountingTransactionDetail.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Currency.cs">
+      <Link>Base\Domain\Currency.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccountingTransactionNumber.cs">
-      <Link>Apps\Population\AccountingTransactionNumber.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Deletable.cs">
+      <Link>Base\Domain\Deletable.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AccountingTransactionType.cs">
-      <Link>Apps\Population\AccountingTransactionType.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Enumeration.cs">
+      <Link>Base\Domain\Enumeration.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Activity.cs">
-      <Link>Apps\Population\Activity.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Image.cs">
+      <Link>Base\Domain\Image.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ActivityUsage.cs">
-      <Link>Apps\Population\ActivityUsage.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Language.cs">
+      <Link>Base\Domain\Language.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Addendum.cs">
-      <Link>Apps\Population\Addendum.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Locale.cs">
+      <Link>Base\Domain\Locale.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Agreement.cs">
-      <Link>Apps\Population\Agreement.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Localised.cs">
+      <Link>Base\Domain\Localised.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AgreementExhibit.cs">
-      <Link>Apps\Population\AgreementExhibit.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\LocalisedText.cs">
+      <Link>Base\Domain\LocalisedText.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AgreementItem.cs">
-      <Link>Apps\Population\AgreementItem.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Login.cs">
+      <Link>Base\Domain\Login.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AgreementPricingProgram.cs">
-      <Link>Apps\Population\AgreementPricingProgram.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Media.cs">
+      <Link>Base\Domain\Media.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AgreementSection.cs">
-      <Link>Apps\Population\AgreementSection.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\MediaContent.cs">
+      <Link>Base\Domain\MediaContent.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AgreementTerm.cs">
-      <Link>Apps\Population\AgreementTerm.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\MediaType.cs">
+      <Link>Base\Domain\MediaType.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Amortization.cs">
-      <Link>Apps\Population\Amortization.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\ObjectInterface.cs">
+      <Link>Base\Domain\ObjectInterface.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AmountDue.cs">
-      <Link>Apps\Population\AmountDue.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\ObjectState.cs">
+      <Link>Base\Domain\ObjectState.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AssetAssignmentStatus.cs">
-      <Link>Apps\Population\AssetAssignmentStatus.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Period.cs">
+      <Link>Base\Domain\Period.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\AutomatedAgent.cs">
-      <Link>Apps\Population\AutomatedAgent.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Permission.cs">
+      <Link>Base\Domain\Permission.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Bank.cs">
-      <Link>Apps\Population\Bank.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Person.cs">
+      <Link>Base\Domain\Person.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BankAccount.cs">
-      <Link>Apps\Population\BankAccount.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Printable.cs">
+      <Link>Base\Domain\Printable.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Barrel.cs">
-      <Link>Apps\Population\Barrel.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\PrintQueue.cs">
+      <Link>Base\Domain\PrintQueue.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BasePrice.cs">
-      <Link>Apps\Population\BasePrice.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Role.cs">
+      <Link>Base\Domain\Role.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Benefit.cs">
-      <Link>Apps\Population\Benefit.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\SecurityToken.cs">
+      <Link>Base\Domain\SecurityToken.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BillingAccount.cs">
-      <Link>Apps\Population\BillingAccount.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\SecurityTokenOwner.cs">
+      <Link>Base\Domain\SecurityTokenOwner.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BillOfLading.cs">
-      <Link>Apps\Population\BillOfLading.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Singleton.cs">
+      <Link>Base\Domain\Singleton.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Bin.cs">
-      <Link>Apps\Population\Bin.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\StringTemplate.cs">
+      <Link>Base\Domain\StringTemplate.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Brand.cs">
-      <Link>Apps\Population\Brand.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Transition.cs">
+      <Link>Base\Domain\Transition.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Budget.cs">
-      <Link>Apps\Population\Budget.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Transitional.cs">
+      <Link>Base\Domain\Transitional.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BudgetItem.cs">
-      <Link>Apps\Population\BudgetItem.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\UniquelyIdentifiable.cs">
+      <Link>Base\Domain\UniquelyIdentifiable.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BudgetObjectState.cs">
-      <Link>Apps\Population\BudgetObjectState.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\User.cs">
+      <Link>Base\Domain\User.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BudgetReview.cs">
-      <Link>Apps\Population\BudgetReview.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\UserGroup.cs">
+      <Link>Base\Domain\UserGroup.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BudgetRevision.cs">
-      <Link>Apps\Population\BudgetRevision.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\Class.cs">
+      <Link>Base\Meta\Class.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BudgetRevisionImpact.cs">
-      <Link>Apps\Population\BudgetRevisionImpact.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\Composite.cs">
+      <Link>Base\Meta\Composite.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\BudgetStatus.cs">
-      <Link>Apps\Population\BudgetStatus.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\ConcreteRoleType.cs">
+      <Link>Base\Meta\ConcreteRoleType.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Building.cs">
-      <Link>Apps\Population\Building.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\Groups.cs">
+      <Link>Base\Meta\Groups.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CapitalBudget.cs">
-      <Link>Apps\Population\CapitalBudget.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\Path.cs">
+      <Link>Base\Meta\Path.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Capitalization.cs">
-      <Link>Apps\Population\Capitalization.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\RoleType.cs">
+      <Link>Base\Meta\RoleType.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Carrier.cs">
-      <Link>Apps\Population\Carrier.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\Tree.cs">
+      <Link>Base\Meta\Tree.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Case.cs">
-      <Link>Apps\Population\Case.cs</Link>
+    <Compile Include="..\..\Allors\Base\Meta\Base\Meta\TreeNode.cs">
+      <Link>Base\Meta\TreeNode.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CaseObjectState.cs">
-      <Link>Apps\Population\CaseObjectState.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsBinaryUnit.cs">
+      <Link>Core\Domain\AllorsBinaryUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CaseStatus.cs">
-      <Link>Apps\Population\CaseStatus.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsBooleanUnit.cs">
+      <Link>Core\Domain\AllorsBooleanUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Cash.cs">
-      <Link>Apps\Population\Cash.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsDateTimeUnit.cs">
+      <Link>Core\Domain\AllorsDateTimeUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ChartOfAccounts.cs">
-      <Link>Apps\Population\ChartOfAccounts.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsDecimalUnit.cs">
+      <Link>Core\Domain\AllorsDecimalUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Citizenship.cs">
-      <Link>Apps\Population\Citizenship.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsFloatUnit.cs">
+      <Link>Core\Domain\AllorsFloatUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\City.cs">
-      <Link>Apps\Population\City.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsIntegerUnit.cs">
+      <Link>Core\Domain\AllorsIntegerUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CityBound.cs">
-      <Link>Apps\Population\CityBound.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsStringUnit.cs">
+      <Link>Core\Domain\AllorsStringUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ClientAgreement.cs">
-      <Link>Apps\Population\ClientAgreement.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AllorsUniqueUnit.cs">
+      <Link>Core\Domain\AllorsUniqueUnit.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ClientRelationship.cs">
-      <Link>Apps\Population\ClientRelationship.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\CoreDomain.cs">
+      <Link>Core\Domain\CoreDomain.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Colour.cs">
-      <Link>Apps\Population\Colour.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Commentable.cs">
-      <Link>Apps\Population\Commentable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CommunicationAttachment.cs">
-      <Link>Apps\Population\CommunicationAttachment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CommunicationEvent.cs">
-      <Link>Apps\Population\CommunicationEvent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CommunicationEventObjectState.cs">
-      <Link>Apps\Population\CommunicationEventObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CommunicationEventPurpose.cs">
-      <Link>Apps\Population\CommunicationEventPurpose.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CommunicationEventStatus.cs">
-      <Link>Apps\Population\CommunicationEventStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ConstraintSpecification.cs">
-      <Link>Apps\Population\ConstraintSpecification.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ContactMechanism.cs">
-      <Link>Apps\Population\ContactMechanism.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ContactMechanismPurpose.cs">
-      <Link>Apps\Population\ContactMechanismPurpose.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Container.cs">
-      <Link>Apps\Population\Container.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CostCenter.cs">
-      <Link>Apps\Population\CostCenter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CostCenterCategory.cs">
-      <Link>Apps\Population\CostCenterCategory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CostCenterSplitMethod.cs">
-      <Link>Apps\Population\CostCenterSplitMethod.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CostOfGoodsSoldMethod.cs">
-      <Link>Apps\Population\CostOfGoodsSoldMethod.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Counter.cs">
-      <Link>Apps\Population\Counter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Country.cs">
-      <Link>Apps\Population\Country.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CountryBound.cs">
-      <Link>Apps\Population\CountryBound.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\County.cs">
-      <Link>Apps\Population\County.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CreditCard.cs">
-      <Link>Apps\Population\CreditCard.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CreditCardCompany.cs">
-      <Link>Apps\Population\CreditCardCompany.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CreditLine.cs">
-      <Link>Apps\Population\CreditLine.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Currency.cs">
-      <Link>Apps\Population\Currency.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomEngagementItem.cs">
-      <Link>Apps\Population\CustomEngagementItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerRelationship.cs">
-      <Link>Apps\Population\CustomerRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerRequirement.cs">
-      <Link>Apps\Population\CustomerRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerReturn.cs">
-      <Link>Apps\Population\CustomerReturn.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerReturnObjectState.cs">
-      <Link>Apps\Population\CustomerReturnObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerReturnStatus.cs">
-      <Link>Apps\Population\CustomerReturnStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerShipment.cs">
-      <Link>Apps\Population\CustomerShipment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerShipmentObjectState.cs">
-      <Link>Apps\Population\CustomerShipmentObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\CustomerShipmentStatus.cs">
-      <Link>Apps\Population\CustomerShipmentStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DebitCreditConstant.cs">
-      <Link>Apps\Population\DebitCreditConstant.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Deduction.cs">
-      <Link>Apps\Population\Deduction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DeductionType.cs">
-      <Link>Apps\Population\DeductionType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Deletable.cs">
-      <Link>Apps\Population\Deletable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Deliverable.cs">
-      <Link>Apps\Population\Deliverable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DeliverableBasedService.cs">
-      <Link>Apps\Population\DeliverableBasedService.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DeliverableOrderItem.cs">
-      <Link>Apps\Population\DeliverableOrderItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DeliverableTurnover.cs">
-      <Link>Apps\Population\DeliverableTurnover.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DeliverableType.cs">
-      <Link>Apps\Population\DeliverableType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Deployment.cs">
-      <Link>Apps\Population\Deployment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DeploymentUsage.cs">
-      <Link>Apps\Population\DeploymentUsage.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Deposit.cs">
-      <Link>Apps\Population\Deposit.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Depreciation.cs">
-      <Link>Apps\Population\Depreciation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DepreciationMethod.cs">
-      <Link>Apps\Population\DepreciationMethod.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DesiredProductFeature.cs">
-      <Link>Apps\Population\DesiredProductFeature.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Dimension.cs">
-      <Link>Apps\Population\Dimension.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Disbursement.cs">
-      <Link>Apps\Population\Disbursement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DisbursementAccountingTransaction.cs">
-      <Link>Apps\Population\DisbursementAccountingTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DiscountAdjustment.cs">
-      <Link>Apps\Population\DiscountAdjustment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DiscountComponent.cs">
-      <Link>Apps\Population\DiscountComponent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DistributionChannelRelationship.cs">
-      <Link>Apps\Population\DistributionChannelRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Document.cs">
-      <Link>Apps\Population\Document.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DropShipment.cs">
-      <Link>Apps\Population\DropShipment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DropShipmentObjectState.cs">
-      <Link>Apps\Population\DropShipmentObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DropShipmentStatus.cs">
-      <Link>Apps\Population\DropShipmentStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\DunningType.cs">
-      <Link>Apps\Population\DunningType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ElectronicAddress.cs">
-      <Link>Apps\Population\ElectronicAddress.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmailAddress.cs">
-      <Link>Apps\Population\EmailAddress.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmailCommunication.cs">
-      <Link>Apps\Population\EmailCommunication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmailTemplate.cs">
-      <Link>Apps\Population\EmailTemplate.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Employment.cs">
-      <Link>Apps\Population\Employment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmploymentAgreement.cs">
-      <Link>Apps\Population\EmploymentAgreement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmploymentApplication.cs">
-      <Link>Apps\Population\EmploymentApplication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmploymentApplicationSource.cs">
-      <Link>Apps\Population\EmploymentApplicationSource.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmploymentApplicationStatus.cs">
-      <Link>Apps\Population\EmploymentApplicationStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmploymentTermination.cs">
-      <Link>Apps\Population\EmploymentTermination.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EmploymentTerminationReason.cs">
-      <Link>Apps\Population\EmploymentTerminationReason.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Engagement.cs">
-      <Link>Apps\Population\Engagement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EngagementItem.cs">
-      <Link>Apps\Population\EngagementItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EngagementRate.cs">
-      <Link>Apps\Population\EngagementRate.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EngineeringBom.cs">
-      <Link>Apps\Population\EngineeringBom.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EngineeringChange.cs">
-      <Link>Apps\Population\EngineeringChange.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EngineeringChangeObjectState.cs">
-      <Link>Apps\Population\EngineeringChangeObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EngineeringChangeStatus.cs">
-      <Link>Apps\Population\EngineeringChangeStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EngineeringDocument.cs">
-      <Link>Apps\Population\EngineeringDocument.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Enumeration.cs">
-      <Link>Apps\Population\Enumeration.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Equipment.cs">
-      <Link>Apps\Population\Equipment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EstimatedLaborCost.cs">
-      <Link>Apps\Population\EstimatedLaborCost.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EstimatedMaterialCost.cs">
-      <Link>Apps\Population\EstimatedMaterialCost.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EstimatedOtherCost.cs">
-      <Link>Apps\Population\EstimatedOtherCost.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EstimatedProductCost.cs">
-      <Link>Apps\Population\EstimatedProductCost.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EuSalesListType.cs">
-      <Link>Apps\Population\EuSalesListType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Event.cs">
-      <Link>Apps\Population\Event.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\EventRegistration.cs">
-      <Link>Apps\Population\EventRegistration.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ExpenseEntry.cs">
-      <Link>Apps\Population\ExpenseEntry.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ExportDocument.cs">
-      <Link>Apps\Population\ExportDocument.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ExternalAccountingTransaction.cs">
-      <Link>Apps\Population\ExternalAccountingTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FaceToFaceCommunication.cs">
-      <Link>Apps\Population\FaceToFaceCommunication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Facility.cs">
-      <Link>Apps\Population\Facility.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FaxCommunication.cs">
-      <Link>Apps\Population\FaxCommunication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Fee.cs">
-      <Link>Apps\Population\Fee.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FinancialAccount.cs">
-      <Link>Apps\Population\FinancialAccount.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FinancialAccountAdjustment.cs">
-      <Link>Apps\Population\FinancialAccountAdjustment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FinancialAccountTransaction.cs">
-      <Link>Apps\Population\FinancialAccountTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FinancialTerm.cs">
-      <Link>Apps\Population\FinancialTerm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FinishedGood.cs">
-      <Link>Apps\Population\FinishedGood.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FiscalYearInvoiceNumber.cs">
-      <Link>Apps\Population\FiscalYearInvoiceNumber.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\FixedAsset.cs">
-      <Link>Apps\Population\FixedAsset.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Floor.cs">
-      <Link>Apps\Population\Floor.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GenderType.cs">
-      <Link>Apps\Population\GenderType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GeneralLedgerAccount.cs">
-      <Link>Apps\Population\GeneralLedgerAccount.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GeneralLedgerAccountGroup.cs">
-      <Link>Apps\Population\GeneralLedgerAccountGroup.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GeneralLedgerAccountType.cs">
-      <Link>Apps\Population\GeneralLedgerAccountType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GeographicBoundary.cs">
-      <Link>Apps\Population\GeographicBoundary.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GeographicBoundaryComposite.cs">
-      <Link>Apps\Population\GeographicBoundaryComposite.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GeoLocatable.cs">
-      <Link>Apps\Population\GeoLocatable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GlBudgetAllocation.cs">
-      <Link>Apps\Population\GlBudgetAllocation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Good.cs">
-      <Link>Apps\Population\Good.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\GoodOrderItem.cs">
-      <Link>Apps\Population\GoodOrderItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\HazardousMaterialsDocument.cs">
-      <Link>Apps\Population\HazardousMaterialsDocument.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Hobby.cs">
-      <Link>Apps\Population\Hobby.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Image.cs">
-      <Link>Apps\Population\Image.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Incentive.cs">
-      <Link>Apps\Population\Incentive.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InternalAccountingTransaction.cs">
-      <Link>Apps\Population\InternalAccountingTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InternalOrganisation.cs">
-      <Link>Apps\Population\InternalOrganisation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InternalOrganisationAccountingPreference.cs">
-      <Link>Apps\Population\InternalOrganisationAccountingPreference.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InternalOrganisationRevenue.cs">
-      <Link>Apps\Population\InternalOrganisationRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InternalOrganisationRevenueHistory.cs">
-      <Link>Apps\Population\InternalOrganisationRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InternalRequirement.cs">
-      <Link>Apps\Population\InternalRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InventoryItem.cs">
-      <Link>Apps\Population\InventoryItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InventoryItemConfiguration.cs">
-      <Link>Apps\Population\InventoryItemConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InventoryItemKind.cs">
-      <Link>Apps\Population\InventoryItemKind.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InventoryItemVariance.cs">
-      <Link>Apps\Population\InventoryItemVariance.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InvestmentAccount.cs">
-      <Link>Apps\Population\InvestmentAccount.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Invoice.cs">
-      <Link>Apps\Population\Invoice.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InvoiceItem.cs">
-      <Link>Apps\Population\InvoiceItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InvoiceSequence.cs">
-      <Link>Apps\Population\InvoiceSequence.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InvoiceTerm.cs">
-      <Link>Apps\Population\InvoiceTerm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\InvoiceVatRateItem.cs">
-      <Link>Apps\Population\InvoiceVatRateItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ItemIssuance.cs">
-      <Link>Apps\Population\ItemIssuance.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ItemVarianceAccountingTransaction.cs">
-      <Link>Apps\Population\ItemVarianceAccountingTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\IUnitOfMeasure.cs">
-      <Link>Apps\Population\IUnitOfMeasure.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Journal.cs">
-      <Link>Apps\Population\Journal.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\JournalEntry.cs">
-      <Link>Apps\Population\JournalEntry.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\JournalEntryDetail.cs">
-      <Link>Apps\Population\JournalEntryDetail.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\JournalEntryNumber.cs">
-      <Link>Apps\Population\JournalEntryNumber.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\JournalType.cs">
-      <Link>Apps\Population\JournalType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Language.cs">
-      <Link>Apps\Population\Language.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\LegalForm.cs">
-      <Link>Apps\Population\LegalForm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\LegalTerm.cs">
-      <Link>Apps\Population\LegalTerm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\LetterCorrespondence.cs">
-      <Link>Apps\Population\LetterCorrespondence.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Locale.cs">
-      <Link>Apps\Population\Locale.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Localised.cs">
-      <Link>Apps\Population\Localised.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\LocalisedText.cs">
-      <Link>Apps\Population\LocalisedText.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Login.cs">
-      <Link>Apps\Population\Login.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Lot.cs">
-      <Link>Apps\Population\Lot.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Maintenance.cs">
-      <Link>Apps\Population\Maintenance.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Manifest.cs">
-      <Link>Apps\Population\Manifest.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ManufacturerSuggestedRetailPrice.cs">
-      <Link>Apps\Population\ManufacturerSuggestedRetailPrice.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ManufacturingBom.cs">
-      <Link>Apps\Population\ManufacturingBom.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ManufacturingConfiguration.cs">
-      <Link>Apps\Population\ManufacturingConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\MaritalStatus.cs">
-      <Link>Apps\Population\MaritalStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\MarketingMaterial.cs">
-      <Link>Apps\Population\MarketingMaterial.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\MarketingPackage.cs">
-      <Link>Apps\Population\MarketingPackage.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\MaterialsUsage.cs">
-      <Link>Apps\Population\MaterialsUsage.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Media.cs">
-      <Link>Apps\Population\Media.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\MediaContent.cs">
-      <Link>Apps\Population\MediaContent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\MediaType.cs">
-      <Link>Apps\Population\MediaType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Model.cs">
-      <Link>Apps\Population\Model.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\NeededSkill.cs">
-      <Link>Apps\Population\NeededSkill.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\NewsItem.cs">
-      <Link>Apps\Population\NewsItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\NonSerializedInventoryItem.cs">
-      <Link>Apps\Population\NonSerializedInventoryItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\NonSerializedInventoryItemObjectState.cs">
-      <Link>Apps\Population\NonSerializedInventoryItemObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\NonSerializedInventoryItemStatus.cs">
-      <Link>Apps\Population\NonSerializedInventoryItemStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Note.cs">
-      <Link>Apps\Population\Note.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ObjectState.cs">
-      <Link>Apps\Population\ObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Obligation.cs">
-      <Link>Apps\Population\Obligation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Office.cs">
-      <Link>Apps\Population\Office.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OneTimeCharge.cs">
-      <Link>Apps\Population\OneTimeCharge.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OperatingBudget.cs">
-      <Link>Apps\Population\OperatingBudget.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OperatingCondition.cs">
-      <Link>Apps\Population\OperatingCondition.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Order.cs">
-      <Link>Apps\Population\Order.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderAdjustment.cs">
-      <Link>Apps\Population\OrderAdjustment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderItem.cs">
-      <Link>Apps\Population\OrderItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderItemBilling.cs">
-      <Link>Apps\Population\OrderItemBilling.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderKind.cs">
-      <Link>Apps\Population\OrderKind.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderQuantityBreak.cs">
-      <Link>Apps\Population\OrderQuantityBreak.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderRequirementCommitment.cs">
-      <Link>Apps\Population\OrderRequirementCommitment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderShipment.cs">
-      <Link>Apps\Population\OrderShipment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderTerm.cs">
-      <Link>Apps\Population\OrderTerm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrderValue.cs">
-      <Link>Apps\Population\OrderValue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Ordinal.cs">
-      <Link>Apps\Population\Ordinal.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Organisation.cs">
-      <Link>Apps\Population\Organisation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrganisationContactKind.cs">
-      <Link>Apps\Population\OrganisationContactKind.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrganisationContactRelationship.cs">
-      <Link>Apps\Population\OrganisationContactRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrganisationGlAccount.cs">
-      <Link>Apps\Population\OrganisationGlAccount.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrganisationGlAccountBalance.cs">
-      <Link>Apps\Population\OrganisationGlAccountBalance.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrganisationRollUp.cs">
-      <Link>Apps\Population\OrganisationRollUp.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OrganisationUnit.cs">
-      <Link>Apps\Population\OrganisationUnit.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OwnBankAccount.cs">
-      <Link>Apps\Population\OwnBankAccount.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\OwnCreditCard.cs">
-      <Link>Apps\Population\OwnCreditCard.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Package.cs">
-      <Link>Apps\Population\Package.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PackageQuantityBreak.cs">
-      <Link>Apps\Population\PackageQuantityBreak.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PackageRevenue.cs">
-      <Link>Apps\Population\PackageRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PackageRevenueHistory.cs">
-      <Link>Apps\Population\PackageRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PackagingContent.cs">
-      <Link>Apps\Population\PackagingContent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PackagingSlip.cs">
-      <Link>Apps\Population\PackagingSlip.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Part.cs">
-      <Link>Apps\Population\Part.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartBillOfMaterial.cs">
-      <Link>Apps\Population\PartBillOfMaterial.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartBillOfMaterialSubstitute.cs">
-      <Link>Apps\Population\PartBillOfMaterialSubstitute.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Partnership.cs">
-      <Link>Apps\Population\Partnership.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartRevision.cs">
-      <Link>Apps\Population\PartRevision.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartSpecification.cs">
-      <Link>Apps\Population\PartSpecification.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartSpecificationObjectState.cs">
-      <Link>Apps\Population\PartSpecificationObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartSpecificationStatus.cs">
-      <Link>Apps\Population\PartSpecificationStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartSubstitute.cs">
-      <Link>Apps\Population\PartSubstitute.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Party.cs">
-      <Link>Apps\Population\Party.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyBenefit.cs">
-      <Link>Apps\Population\PartyBenefit.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyClassification.cs">
-      <Link>Apps\Population\PartyClassification.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyContactMechanism.cs">
-      <Link>Apps\Population\PartyContactMechanism.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyFixedAssetAssignment.cs">
-      <Link>Apps\Population\PartyFixedAssetAssignment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyPackageRevenue.cs">
-      <Link>Apps\Population\PartyPackageRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyPackageRevenueHistory.cs">
-      <Link>Apps\Population\PartyPackageRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyProductCategoryRevenue.cs">
-      <Link>Apps\Population\PartyProductCategoryRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyProductCategoryRevenueHistory.cs">
-      <Link>Apps\Population\PartyProductCategoryRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyProductRevenue.cs">
-      <Link>Apps\Population\PartyProductRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyProductRevenueHistory.cs">
-      <Link>Apps\Population\PartyProductRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyRelationship.cs">
-      <Link>Apps\Population\PartyRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyRelationshipStatus.cs">
-      <Link>Apps\Population\PartyRelationshipStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyRevenue.cs">
-      <Link>Apps\Population\PartyRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartyRevenueHistory.cs">
-      <Link>Apps\Population\PartyRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PartySkill.cs">
-      <Link>Apps\Population\PartySkill.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Passport.cs">
-      <Link>Apps\Population\Passport.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PayCheck.cs">
-      <Link>Apps\Population\PayCheck.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PayGrade.cs">
-      <Link>Apps\Population\PayGrade.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PayHistory.cs">
-      <Link>Apps\Population\PayHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Payment.cs">
-      <Link>Apps\Population\Payment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PaymentApplication.cs">
-      <Link>Apps\Population\PaymentApplication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PaymentBudgetAllocation.cs">
-      <Link>Apps\Population\PaymentBudgetAllocation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PaymentMethod.cs">
-      <Link>Apps\Population\PaymentMethod.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PayrollPreference.cs">
-      <Link>Apps\Population\PayrollPreference.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PerformanceNote.cs">
-      <Link>Apps\Population\PerformanceNote.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PerformanceReview.cs">
-      <Link>Apps\Population\PerformanceReview.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PerformanceReviewItem.cs">
-      <Link>Apps\Population\PerformanceReviewItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PerformanceReviewItemType.cs">
-      <Link>Apps\Population\PerformanceReviewItemType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PerformanceSpecification.cs">
-      <Link>Apps\Population\PerformanceSpecification.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Period.cs">
-      <Link>Apps\Population\Period.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Permission.cs">
-      <Link>Apps\Population\Permission.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Person.cs">
-      <Link>Apps\Population\Person.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PersonalTitle.cs">
-      <Link>Apps\Population\PersonalTitle.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PersonTraining.cs">
-      <Link>Apps\Population\PersonTraining.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Phase.cs">
-      <Link>Apps\Population\Phase.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PhoneCommunication.cs">
-      <Link>Apps\Population\PhoneCommunication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PickList.cs">
-      <Link>Apps\Population\PickList.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PickListItem.cs">
-      <Link>Apps\Population\PickListItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PickListObjectState.cs">
-      <Link>Apps\Population\PickListObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PickListStatus.cs">
-      <Link>Apps\Population\PickListStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Plant.cs">
-      <Link>Apps\Population\Plant.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Position.cs">
-      <Link>Apps\Population\Position.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PositionFulfillment.cs">
-      <Link>Apps\Population\PositionFulfillment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PositionReportingStructure.cs">
-      <Link>Apps\Population\PositionReportingStructure.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PositionResponsibility.cs">
-      <Link>Apps\Population\PositionResponsibility.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PositionStatus.cs">
-      <Link>Apps\Population\PositionStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PositionType.cs">
-      <Link>Apps\Population\PositionType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PositionTypeRate.cs">
-      <Link>Apps\Population\PositionTypeRate.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PostalAddress.cs">
-      <Link>Apps\Population\PostalAddress.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PostalBoundary.cs">
-      <Link>Apps\Population\PostalBoundary.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PostalCode.cs">
-      <Link>Apps\Population\PostalCode.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PriceComponent.cs">
-      <Link>Apps\Population\PriceComponent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Printable.cs">
-      <Link>Apps\Population\Printable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PrintQueue.cs">
-      <Link>Apps\Population\PrintQueue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Priority.cs">
-      <Link>Apps\Population\Priority.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Product.cs">
-      <Link>Apps\Population\Product.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductAssociation.cs">
-      <Link>Apps\Population\ProductAssociation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductCategory.cs">
-      <Link>Apps\Population\ProductCategory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductCategoryRevenue.cs">
-      <Link>Apps\Population\ProductCategoryRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductCategoryRevenueHistory.cs">
-      <Link>Apps\Population\ProductCategoryRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductConfiguration.cs">
-      <Link>Apps\Population\ProductConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductDeliverySkillRequirement.cs">
-      <Link>Apps\Population\ProductDeliverySkillRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductDrawing.cs">
-      <Link>Apps\Population\ProductDrawing.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductFeature.cs">
-      <Link>Apps\Population\ProductFeature.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductFeatureApplicabilityRelationship.cs">
-      <Link>Apps\Population\ProductFeatureApplicabilityRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductionRun.cs">
-      <Link>Apps\Population\ProductionRun.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductModel.cs">
-      <Link>Apps\Population\ProductModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductPurchasePrice.cs">
-      <Link>Apps\Population\ProductPurchasePrice.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductQuality.cs">
-      <Link>Apps\Population\ProductQuality.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductQuote.cs">
-      <Link>Apps\Population\ProductQuote.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductRequirement.cs">
-      <Link>Apps\Population\ProductRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductRevenue.cs">
-      <Link>Apps\Population\ProductRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProductRevenueHistory.cs">
-      <Link>Apps\Population\ProductRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProfessionalAssignment.cs">
-      <Link>Apps\Population\ProfessionalAssignment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProfessionalPlacement.cs">
-      <Link>Apps\Population\ProfessionalPlacement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProfessionalServicesRelationship.cs">
-      <Link>Apps\Population\ProfessionalServicesRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Program.cs">
-      <Link>Apps\Population\Program.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Project.cs">
-      <Link>Apps\Population\Project.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ProjectRequirement.cs">
-      <Link>Apps\Population\ProjectRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Property.cs">
-      <Link>Apps\Population\Property.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Proposal.cs">
-      <Link>Apps\Population\Proposal.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Province.cs">
-      <Link>Apps\Population\Province.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseAgreement.cs">
-      <Link>Apps\Population\PurchaseAgreement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoice.cs">
-      <Link>Apps\Population\PurchaseInvoice.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoiceItem.cs">
-      <Link>Apps\Population\PurchaseInvoiceItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoiceItemObjectState.cs">
-      <Link>Apps\Population\PurchaseInvoiceItemObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoiceItemStatus.cs">
-      <Link>Apps\Population\PurchaseInvoiceItemStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoiceItemType.cs">
-      <Link>Apps\Population\PurchaseInvoiceItemType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoiceObjectState.cs">
-      <Link>Apps\Population\PurchaseInvoiceObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoiceStatus.cs">
-      <Link>Apps\Population\PurchaseInvoiceStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseInvoiceType.cs">
-      <Link>Apps\Population\PurchaseInvoiceType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseOrder.cs">
-      <Link>Apps\Population\PurchaseOrder.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseOrderItem.cs">
-      <Link>Apps\Population\PurchaseOrderItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseOrderItemObjectState.cs">
-      <Link>Apps\Population\PurchaseOrderItemObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseOrderItemStatus.cs">
-      <Link>Apps\Population\PurchaseOrderItemStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseOrderObjectState.cs">
-      <Link>Apps\Population\PurchaseOrderObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseOrderStatus.cs">
-      <Link>Apps\Population\PurchaseOrderStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseReturn.cs">
-      <Link>Apps\Population\PurchaseReturn.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseReturnObjectState.cs">
-      <Link>Apps\Population\PurchaseReturnObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseReturnStatus.cs">
-      <Link>Apps\Population\PurchaseReturnStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseShipment.cs">
-      <Link>Apps\Population\PurchaseShipment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseShipmentObjectState.cs">
-      <Link>Apps\Population\PurchaseShipmentObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\PurchaseShipmentStatus.cs">
-      <Link>Apps\Population\PurchaseShipmentStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Qualification.cs">
-      <Link>Apps\Population\Qualification.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Quote.cs">
-      <Link>Apps\Population\Quote.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\QuoteItem.cs">
-      <Link>Apps\Population\QuoteItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\QuoteTerm.cs">
-      <Link>Apps\Population\QuoteTerm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RateType.cs">
-      <Link>Apps\Population\RateType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RatingType.cs">
-      <Link>Apps\Population\RatingType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RawMaterial.cs">
-      <Link>Apps\Population\RawMaterial.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Receipt.cs">
-      <Link>Apps\Population\Receipt.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ReceiptAccountingTransaction.cs">
-      <Link>Apps\Population\ReceiptAccountingTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RecurringCharge.cs">
-      <Link>Apps\Population\RecurringCharge.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Region.cs">
-      <Link>Apps\Population\Region.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Request.cs">
-      <Link>Apps\Population\Request.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequestForInformation.cs">
-      <Link>Apps\Population\RequestForInformation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequestForProposal.cs">
-      <Link>Apps\Population\RequestForProposal.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequestForQuote.cs">
-      <Link>Apps\Population\RequestForQuote.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequestItem.cs">
-      <Link>Apps\Population\RequestItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Requirement.cs">
-      <Link>Apps\Population\Requirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequirementBudgetAllocation.cs">
-      <Link>Apps\Population\RequirementBudgetAllocation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequirementCommunication.cs">
-      <Link>Apps\Population\RequirementCommunication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequirementObjectState.cs">
-      <Link>Apps\Population\RequirementObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RequirementStatus.cs">
-      <Link>Apps\Population\RequirementStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Research.cs">
-      <Link>Apps\Population\Research.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ResourceRequirement.cs">
-      <Link>Apps\Population\ResourceRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RespondingParty.cs">
-      <Link>Apps\Population\RespondingParty.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Responsibility.cs">
-      <Link>Apps\Population\Responsibility.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Resume.cs">
-      <Link>Apps\Population\Resume.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RevenueQuantityBreak.cs">
-      <Link>Apps\Population\RevenueQuantityBreak.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\RevenueValueBreak.cs">
-      <Link>Apps\Population\RevenueValueBreak.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Role.cs">
-      <Link>Apps\Population\Role.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Room.cs">
-      <Link>Apps\Population\Room.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalaryStep.cs">
-      <Link>Apps\Population\SalaryStep.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesAccountingTransaction.cs">
-      <Link>Apps\Population\SalesAccountingTransaction.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesAgreement.cs">
-      <Link>Apps\Population\SalesAgreement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesChannel.cs">
-      <Link>Apps\Population\SalesChannel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesChannelRevenue.cs">
-      <Link>Apps\Population\SalesChannelRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesChannelRevenueHistory.cs">
-      <Link>Apps\Population\SalesChannelRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoice.cs">
-      <Link>Apps\Population\SalesInvoice.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoiceItem.cs">
-      <Link>Apps\Population\SalesInvoiceItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoiceItemObjectState.cs">
-      <Link>Apps\Population\SalesInvoiceItemObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoiceItemStatus.cs">
-      <Link>Apps\Population\SalesInvoiceItemStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoiceItemType.cs">
-      <Link>Apps\Population\SalesInvoiceItemType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoiceObjectState.cs">
-      <Link>Apps\Population\SalesInvoiceObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoiceStatus.cs">
-      <Link>Apps\Population\SalesInvoiceStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesInvoiceType.cs">
-      <Link>Apps\Population\SalesInvoiceType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesOrder.cs">
-      <Link>Apps\Population\SalesOrder.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesOrderItem.cs">
-      <Link>Apps\Population\SalesOrderItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesOrderItemObjectState.cs">
-      <Link>Apps\Population\SalesOrderItemObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesOrderItemStatus.cs">
-      <Link>Apps\Population\SalesOrderItemStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesOrderObjectState.cs">
-      <Link>Apps\Population\SalesOrderObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesOrderStatus.cs">
-      <Link>Apps\Population\SalesOrderStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesRepCommission.cs">
-      <Link>Apps\Population\SalesRepCommission.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesRepPartyProductCategoryRevenue.cs">
-      <Link>Apps\Population\SalesRepPartyProductCategoryRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesRepPartyRevenue.cs">
-      <Link>Apps\Population\SalesRepPartyRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesRepProductCategoryRevenue.cs">
-      <Link>Apps\Population\SalesRepProductCategoryRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesRepRelationship.cs">
-      <Link>Apps\Population\SalesRepRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesRepRevenue.cs">
-      <Link>Apps\Population\SalesRepRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesRepRevenueHistory.cs">
-      <Link>Apps\Population\SalesRepRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SalesTerritory.cs">
-      <Link>Apps\Population\SalesTerritory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Salutation.cs">
-      <Link>Apps\Population\Salutation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SecurityToken.cs">
-      <Link>Apps\Population\SecurityToken.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SecurityTokenOwner.cs">
-      <Link>Apps\Population\SecurityTokenOwner.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SerializedInventoryItem.cs">
-      <Link>Apps\Population\SerializedInventoryItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SerializedInventoryItemObjectState.cs">
-      <Link>Apps\Population\SerializedInventoryItemObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SerializedInventoryItemStatus.cs">
-      <Link>Apps\Population\SerializedInventoryItemStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Service.cs">
-      <Link>Apps\Population\Service.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ServiceConfiguration.cs">
-      <Link>Apps\Population\ServiceConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ServiceEntry.cs">
-      <Link>Apps\Population\ServiceEntry.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ServiceEntryBilling.cs">
-      <Link>Apps\Population\ServiceEntryBilling.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ServiceEntryHeader.cs">
-      <Link>Apps\Population\ServiceEntryHeader.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ServiceFeature.cs">
-      <Link>Apps\Population\ServiceFeature.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ServiceTerritory.cs">
-      <Link>Apps\Population\ServiceTerritory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Shelf.cs">
-      <Link>Apps\Population\Shelf.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Shipment.cs">
-      <Link>Apps\Population\Shipment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShipmentItem.cs">
-      <Link>Apps\Population\ShipmentItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShipmentMethod.cs">
-      <Link>Apps\Population\ShipmentMethod.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShipmentPackage.cs">
-      <Link>Apps\Population\ShipmentPackage.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShipmentReceipt.cs">
-      <Link>Apps\Population\ShipmentReceipt.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShipmentRouteSegment.cs">
-      <Link>Apps\Population\ShipmentRouteSegment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShipmentValue.cs">
-      <Link>Apps\Population\ShipmentValue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShippingAndHandlingCharge.cs">
-      <Link>Apps\Population\ShippingAndHandlingCharge.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\ShippingAndHandlingComponent.cs">
-      <Link>Apps\Population\ShippingAndHandlingComponent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Singleton.cs">
-      <Link>Apps\Population\Singleton.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Size.cs">
-      <Link>Apps\Population\Size.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Skill.cs">
-      <Link>Apps\Population\Skill.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SkillLevel.cs">
-      <Link>Apps\Population\SkillLevel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SkillRating.cs">
-      <Link>Apps\Population\SkillRating.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SoftwareFeature.cs">
-      <Link>Apps\Population\SoftwareFeature.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\StandardServiceOrderItem.cs">
-      <Link>Apps\Population\StandardServiceOrderItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\State.cs">
-      <Link>Apps\Population\State.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\StatementOfWork.cs">
-      <Link>Apps\Population\StatementOfWork.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Store.cs">
-      <Link>Apps\Population\Store.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\StoreRevenue.cs">
-      <Link>Apps\Population\StoreRevenue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\StoreRevenueHistory.cs">
-      <Link>Apps\Population\StoreRevenueHistory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\StringTemplate.cs">
-      <Link>Apps\Population\StringTemplate.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SubAgreement.cs">
-      <Link>Apps\Population\SubAgreement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SubAssembly.cs">
-      <Link>Apps\Population\SubAssembly.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SubContractorAgreement.cs">
-      <Link>Apps\Population\SubContractorAgreement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SubContractorRelationship.cs">
-      <Link>Apps\Population\SubContractorRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SupplierOffering.cs">
-      <Link>Apps\Population\SupplierOffering.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SupplierRelationship.cs">
-      <Link>Apps\Population\SupplierRelationship.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SurchargeAdjustment.cs">
-      <Link>Apps\Population\SurchargeAdjustment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\SurchargeComponent.cs">
-      <Link>Apps\Population\SurchargeComponent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Task.cs">
-      <Link>Apps\Population\Task.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TaxDocument.cs">
-      <Link>Apps\Population\TaxDocument.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TaxDue.cs">
-      <Link>Apps\Population\TaxDue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TelecommunicationsNumber.cs">
-      <Link>Apps\Population\TelecommunicationsNumber.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TemplatePurpose.cs">
-      <Link>Apps\Population\TemplatePurpose.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TermType.cs">
-      <Link>Apps\Population\TermType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Territory.cs">
-      <Link>Apps\Population\Territory.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TestingRequirement.cs">
-      <Link>Apps\Population\TestingRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Threshold.cs">
-      <Link>Apps\Population\Threshold.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TimeAndMaterialsService.cs">
-      <Link>Apps\Population\TimeAndMaterialsService.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TimeEntry.cs">
-      <Link>Apps\Population\TimeEntry.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TimeFrequency.cs">
-      <Link>Apps\Population\TimeFrequency.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TimePeriodUsage.cs">
-      <Link>Apps\Population\TimePeriodUsage.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Tolerance.cs">
-      <Link>Apps\Population\Tolerance.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Training.cs">
-      <Link>Apps\Population\Training.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Transfer.cs">
-      <Link>Apps\Population\Transfer.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TransferObjectState.cs">
-      <Link>Apps\Population\TransferObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\TransferStatus.cs">
-      <Link>Apps\Population\TransferStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Transition.cs">
-      <Link>Apps\Population\Transition.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Transitional.cs">
-      <Link>Apps\Population\Transitional.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\UniquelyIdentifiable.cs">
-      <Link>Apps\Population\UniquelyIdentifiable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\UnitOfMeasure.cs">
-      <Link>Apps\Population\UnitOfMeasure.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\UnitOfMeasureConversion.cs">
-      <Link>Apps\Population\UnitOfMeasureConversion.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\User.cs">
-      <Link>Apps\Population\User.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\UserGroup.cs">
-      <Link>Apps\Population\UserGroup.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\UtilizationCharge.cs">
-      <Link>Apps\Population\UtilizationCharge.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VarianceReason.cs">
-      <Link>Apps\Population\VarianceReason.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatCalculationMethod.cs">
-      <Link>Apps\Population\VatCalculationMethod.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatForm.cs">
-      <Link>Apps\Population\VatForm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatRate.cs">
-      <Link>Apps\Population\VatRate.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatRatePurchaseKind.cs">
-      <Link>Apps\Population\VatRatePurchaseKind.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatRateUsage.cs">
-      <Link>Apps\Population\VatRateUsage.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatRegime.cs">
-      <Link>Apps\Population\VatRegime.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatReturnBox.cs">
-      <Link>Apps\Population\VatReturnBox.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatReturnBoxType.cs">
-      <Link>Apps\Population\VatReturnBoxType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VatTariff.cs">
-      <Link>Apps\Population\VatTariff.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Vehicle.cs">
-      <Link>Apps\Population\Vehicle.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\VolumeUsage.cs">
-      <Link>Apps\Population\VolumeUsage.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Warehouse.cs">
-      <Link>Apps\Population\Warehouse.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WebAddress.cs">
-      <Link>Apps\Population\WebAddress.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WebSiteCommunication.cs">
-      <Link>Apps\Population\WebSiteCommunication.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\Withdrawal.cs">
-      <Link>Apps\Population\Withdrawal.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffort.cs">
-      <Link>Apps\Population\WorkEffort.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortAssignment.cs">
-      <Link>Apps\Population\WorkEffortAssignment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortAssignmentRate.cs">
-      <Link>Apps\Population\WorkEffortAssignmentRate.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortBilling.cs">
-      <Link>Apps\Population\WorkEffortBilling.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortFixedAssetAssignment.cs">
-      <Link>Apps\Population\WorkEffortFixedAssetAssignment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortFixedAssetStandard.cs">
-      <Link>Apps\Population\WorkEffortFixedAssetStandard.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortGoodStandard.cs">
-      <Link>Apps\Population\WorkEffortGoodStandard.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortInventoryAssignment.cs">
-      <Link>Apps\Population\WorkEffortInventoryAssignment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortObjectState.cs">
-      <Link>Apps\Population\WorkEffortObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortPartStandard.cs">
-      <Link>Apps\Population\WorkEffortPartStandard.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortPartyAssignment.cs">
-      <Link>Apps\Population\WorkEffortPartyAssignment.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortSkillStandard.cs">
-      <Link>Apps\Population\WorkEffortSkillStandard.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortStatus.cs">
-      <Link>Apps\Population\WorkEffortStatus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortType.cs">
-      <Link>Apps\Population\WorkEffortType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkEffortTypeKind.cs">
-      <Link>Apps\Population\WorkEffortTypeKind.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkFlow.cs">
-      <Link>Apps\Population\WorkFlow.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Apps\Meta\Apps\Population\WorkRequirement.cs">
-      <Link>Apps\Population\WorkRequirement.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Composite.cs">
-      <Link>Base\Domain\Composite.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\ConcreteRoleType.cs">
-      <Link>Base\Domain\ConcreteRoleType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\Path.cs">
-      <Link>Base\Domain\Path.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Domain\RoleType.cs">
-      <Link>Base\Domain\RoleType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\AccessControl.cs">
-      <Link>Base\Population\AccessControl.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\AccessControlledObject.cs">
-      <Link>Base\Population\AccessControlledObject.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Commentable.cs">
-      <Link>Base\Population\Commentable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Counter.cs">
-      <Link>Base\Population\Counter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Country.cs">
-      <Link>Base\Population\Country.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Currency.cs">
-      <Link>Base\Population\Currency.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Deletable.cs">
-      <Link>Base\Population\Deletable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Enumeration.cs">
-      <Link>Base\Population\Enumeration.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Image.cs">
-      <Link>Base\Population\Image.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Language.cs">
-      <Link>Base\Population\Language.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Locale.cs">
-      <Link>Base\Population\Locale.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Localised.cs">
-      <Link>Base\Population\Localised.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\LocalisedText.cs">
-      <Link>Base\Population\LocalisedText.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Login.cs">
-      <Link>Base\Population\Login.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Media.cs">
-      <Link>Base\Population\Media.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\MediaContent.cs">
-      <Link>Base\Population\MediaContent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\MediaType.cs">
-      <Link>Base\Population\MediaType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\ObjectInterface.cs">
-      <Link>Base\Population\ObjectInterface.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\ObjectState.cs">
-      <Link>Base\Population\ObjectState.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Period.cs">
-      <Link>Base\Population\Period.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Permission.cs">
-      <Link>Base\Population\Permission.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Person.cs">
-      <Link>Base\Population\Person.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Printable.cs">
-      <Link>Base\Population\Printable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\PrintQueue.cs">
-      <Link>Base\Population\PrintQueue.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Role.cs">
-      <Link>Base\Population\Role.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\SecurityToken.cs">
-      <Link>Base\Population\SecurityToken.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\SecurityTokenOwner.cs">
-      <Link>Base\Population\SecurityTokenOwner.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Singleton.cs">
-      <Link>Base\Population\Singleton.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\StringTemplate.cs">
-      <Link>Base\Population\StringTemplate.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Transition.cs">
-      <Link>Base\Population\Transition.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\Transitional.cs">
-      <Link>Base\Population\Transitional.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\UniquelyIdentifiable.cs">
-      <Link>Base\Population\UniquelyIdentifiable.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\User.cs">
-      <Link>Base\Population\User.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Meta\Base\Population\UserGroup.cs">
-      <Link>Base\Population\UserGroup.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\AssociationType.cs">
-      <Link>Core\Domain\AssociationType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\Class.cs">
-      <Link>Core\Domain\Class.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\Composite.cs">
-      <Link>Core\Domain\Composite.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\ConcreteMethodType.cs">
-      <Link>Core\Domain\ConcreteMethodType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\ConcreteRoleType.cs">
-      <Link>Core\Domain\ConcreteRoleType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\Domain.cs">
-      <Link>Core\Domain\Domain.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\DomainObject.cs">
-      <Link>Core\Domain\DomainObject.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\Inheritance.cs">
-      <Link>Core\Domain\Inheritance.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\Interface.cs">
-      <Link>Core\Domain\Interface.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\LazySet.cs">
-      <Link>Core\Domain\LazySet.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\MetaObject.cs">
-      <Link>Core\Domain\MetaObject.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\MetaPopulation.cs">
-      <Link>Core\Domain\MetaPopulation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\Method.cs">
-      <Link>Core\Domain\Method.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\MethodInvocation.cs">
-      <Link>Core\Domain\MethodInvocation.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\MethodType.cs">
-      <Link>Core\Domain\MethodType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\ObjectType.cs">
-      <Link>Core\Domain\ObjectType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\OperandType.cs">
-      <Link>Core\Domain\OperandType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\PropertyType.cs">
-      <Link>Core\Domain\PropertyType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\RelationType.cs">
-      <Link>Core\Domain\RelationType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\RoleType.cs">
-      <Link>Core\Domain\RoleType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\Unit.cs">
-      <Link>Core\Domain\Unit.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\ValidationError.cs">
-      <Link>Core\Domain\ValidationError.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\ValidationKind.cs">
-      <Link>Core\Domain\ValidationKind.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\ValidationLog.cs">
-      <Link>Core\Domain\ValidationLog.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Domain\ObjectInterface.cs">
+      <Link>Core\Domain\ObjectInterface.cs</Link>
     </Compile>
     <Compile Include="..\..\Allors\Core\Meta\Core\Generation\Generate.cs">
       <Link>Core\Generation\Generate.cs</Link>
@@ -1824,572 +223,87 @@
     <Compile Include="..\..\Allors\Core\Meta\Core\Generation\StringTemplate.cs">
       <Link>Core\Generation\StringTemplate.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsBinaryUnit.cs">
-      <Link>Core\Population\AllorsBinaryUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\AssociationType.cs">
+      <Link>Core\Meta\AssociationType.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsBooleanUnit.cs">
-      <Link>Core\Population\AllorsBooleanUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\Class.cs">
+      <Link>Core\Meta\Class.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsDateTimeUnit.cs">
-      <Link>Core\Population\AllorsDateTimeUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\Composite.cs">
+      <Link>Core\Meta\Composite.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsDecimalUnit.cs">
-      <Link>Core\Population\AllorsDecimalUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\ConcreteMethodType.cs">
+      <Link>Core\Meta\ConcreteMethodType.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsFloatUnit.cs">
-      <Link>Core\Population\AllorsFloatUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\ConcreteRoleType.cs">
+      <Link>Core\Meta\ConcreteRoleType.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsIntegerUnit.cs">
-      <Link>Core\Population\AllorsIntegerUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\Domain.cs">
+      <Link>Core\Meta\Domain.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsStringUnit.cs">
-      <Link>Core\Population\AllorsStringUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\DomainObject.cs">
+      <Link>Core\Meta\DomainObject.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\AllorsUniqueUnit.cs">
-      <Link>Core\Population\AllorsUniqueUnit.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\Inheritance.cs">
+      <Link>Core\Meta\Inheritance.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\CoreDomain.cs">
-      <Link>Core\Population\CoreDomain.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\Interface.cs">
+      <Link>Core\Meta\Interface.cs</Link>
     </Compile>
-    <Compile Include="..\..\Allors\Core\Meta\Core\Population\ObjectInterface.cs">
-      <Link>Core\Population\ObjectInterface.cs</Link>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\LazySet.cs">
+      <Link>Core\Meta\LazySet.cs</Link>
     </Compile>
-    <Compile Include="Dipu\MetaPopulation.v.cs" />
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\MetaObject.cs">
+      <Link>Core\Meta\MetaObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\MetaPopulation.cs">
+      <Link>Core\Meta\MetaPopulation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\Method.cs">
+      <Link>Core\Meta\Method.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\MethodInvocation.cs">
+      <Link>Core\Meta\MethodInvocation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\MethodType.cs">
+      <Link>Core\Meta\MethodType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\ObjectType.cs">
+      <Link>Core\Meta\ObjectType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\OperandType.cs">
+      <Link>Core\Meta\OperandType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\PropertyType.cs">
+      <Link>Core\Meta\PropertyType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\RelationType.cs">
+      <Link>Core\Meta\RelationType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\RoleType.cs">
+      <Link>Core\Meta\RoleType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\Unit.cs">
+      <Link>Core\Meta\Unit.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\ValidationError.cs">
+      <Link>Core\Meta\ValidationError.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\ValidationKind.cs">
+      <Link>Core\Meta\ValidationKind.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Allors\Core\Meta\Core\Meta\ValidationLog.cs">
+      <Link>Core\Meta\ValidationLog.cs</Link>
+    </Compile>
     <Compile Include="Dipu\Domain\Composite.cs" />
-    <Compile Include="Generated\AccessControl.g.cs" />
-    <Compile Include="Generated\AccessControlledObject.g.cs" />
-    <Compile Include="Generated\AccountAdjustment.g.cs" />
-    <Compile Include="Generated\AccountingPeriod.g.cs" />
-    <Compile Include="Generated\AccountingTransaction.g.cs" />
-    <Compile Include="Generated\AccountingTransactionDetail.g.cs" />
-    <Compile Include="Generated\AccountingTransactionNumber.g.cs" />
-    <Compile Include="Generated\AccountingTransactionType.g.cs" />
-    <Compile Include="Generated\Activity.g.cs" />
-    <Compile Include="Generated\ActivityUsage.g.cs" />
-    <Compile Include="Generated\Addendum.g.cs" />
-    <Compile Include="Generated\Agreement.g.cs" />
-    <Compile Include="Generated\AgreementExhibit.g.cs" />
-    <Compile Include="Generated\AgreementItem.g.cs" />
-    <Compile Include="Generated\AgreementPricingProgram.g.cs" />
-    <Compile Include="Generated\AgreementSection.g.cs" />
-    <Compile Include="Generated\AgreementTerm.g.cs" />
-    <Compile Include="Generated\Amortization.g.cs" />
-    <Compile Include="Generated\AmountDue.g.cs" />
-    <Compile Include="Generated\AssetAssignmentStatus.g.cs" />
-    <Compile Include="Generated\Auditable.g.cs" />
-    <Compile Include="Generated\AutomatedAgent.g.cs" />
-    <Compile Include="Generated\Bank.g.cs" />
-    <Compile Include="Generated\BankAccount.g.cs" />
-    <Compile Include="Generated\Barrel.g.cs" />
-    <Compile Include="Generated\BasePrice.g.cs" />
-    <Compile Include="Generated\Benefit.g.cs" />
-    <Compile Include="Generated\BillingAccount.g.cs" />
-    <Compile Include="Generated\BillOfLading.g.cs" />
-    <Compile Include="Generated\Bin.g.cs" />
-    <Compile Include="Generated\Brand.g.cs" />
-    <Compile Include="Generated\Budget.g.cs" />
-    <Compile Include="Generated\BudgetItem.g.cs" />
-    <Compile Include="Generated\BudgetObjectState.g.cs" />
-    <Compile Include="Generated\BudgetReview.g.cs" />
-    <Compile Include="Generated\BudgetRevision.g.cs" />
-    <Compile Include="Generated\BudgetRevisionImpact.g.cs" />
-    <Compile Include="Generated\BudgetStatus.g.cs" />
-    <Compile Include="Generated\Building.g.cs" />
-    <Compile Include="Generated\CapitalBudget.g.cs" />
-    <Compile Include="Generated\Capitalization.g.cs" />
-    <Compile Include="Generated\Carrier.g.cs" />
-    <Compile Include="Generated\Case.g.cs" />
-    <Compile Include="Generated\CaseObjectState.g.cs" />
-    <Compile Include="Generated\CaseStatus.g.cs" />
-    <Compile Include="Generated\Cash.g.cs" />
-    <Compile Include="Generated\ChartOfAccounts.g.cs" />
-    <Compile Include="Generated\Citizenship.g.cs" />
-    <Compile Include="Generated\City.g.cs" />
-    <Compile Include="Generated\CityBound.g.cs" />
-    <Compile Include="Generated\ClientAgreement.g.cs" />
-    <Compile Include="Generated\ClientRelationship.g.cs" />
-    <Compile Include="Generated\Colour.g.cs" />
-    <Compile Include="Generated\Commentable.g.cs" />
-    <Compile Include="Generated\CommunicationAttachment.g.cs" />
-    <Compile Include="Generated\CommunicationEvent.g.cs" />
-    <Compile Include="Generated\CommunicationEventObjectState.g.cs" />
-    <Compile Include="Generated\CommunicationEventPurpose.g.cs" />
-    <Compile Include="Generated\CommunicationEventStatus.g.cs" />
-    <Compile Include="Generated\ConstraintSpecification.g.cs" />
-    <Compile Include="Generated\ContactMechanism.g.cs" />
-    <Compile Include="Generated\ContactMechanismPurpose.g.cs" />
-    <Compile Include="Generated\Container.g.cs" />
-    <Compile Include="Generated\CostCenter.g.cs" />
-    <Compile Include="Generated\CostCenterCategory.g.cs" />
-    <Compile Include="Generated\CostCenterSplitMethod.g.cs" />
-    <Compile Include="Generated\CostOfGoodsSoldMethod.g.cs" />
-    <Compile Include="Generated\Counter.g.cs" />
-    <Compile Include="Generated\Country.g.cs" />
-    <Compile Include="Generated\CountryBound.g.cs" />
-    <Compile Include="Generated\County.g.cs" />
-    <Compile Include="Generated\CreditCard.g.cs" />
-    <Compile Include="Generated\CreditCardCompany.g.cs" />
-    <Compile Include="Generated\CreditLine.g.cs" />
-    <Compile Include="Generated\Currency.g.cs" />
-    <Compile Include="Generated\CustomEngagementItem.g.cs" />
-    <Compile Include="Generated\CustomerRelationship.g.cs" />
-    <Compile Include="Generated\CustomerRequirement.g.cs" />
-    <Compile Include="Generated\CustomerReturn.g.cs" />
-    <Compile Include="Generated\CustomerReturnObjectState.g.cs" />
-    <Compile Include="Generated\CustomerReturnStatus.g.cs" />
-    <Compile Include="Generated\CustomerShipment.g.cs" />
-    <Compile Include="Generated\CustomerShipmentObjectState.g.cs" />
-    <Compile Include="Generated\CustomerShipmentStatus.g.cs" />
-    <Compile Include="Generated\DebitCreditConstant.g.cs" />
-    <Compile Include="Generated\Deduction.g.cs" />
-    <Compile Include="Generated\DeductionType.g.cs" />
-    <Compile Include="Generated\Deletable.g.cs" />
-    <Compile Include="Generated\Deliverable.g.cs" />
-    <Compile Include="Generated\DeliverableBasedService.g.cs" />
-    <Compile Include="Generated\DeliverableOrderItem.g.cs" />
-    <Compile Include="Generated\DeliverableTurnover.g.cs" />
-    <Compile Include="Generated\DeliverableType.g.cs" />
-    <Compile Include="Generated\Deployment.g.cs" />
-    <Compile Include="Generated\DeploymentUsage.g.cs" />
-    <Compile Include="Generated\Deposit.g.cs" />
-    <Compile Include="Generated\Depreciation.g.cs" />
-    <Compile Include="Generated\DepreciationMethod.g.cs" />
-    <Compile Include="Generated\DesiredProductFeature.g.cs" />
-    <Compile Include="Generated\Dimension.g.cs" />
-    <Compile Include="Generated\Disbursement.g.cs" />
-    <Compile Include="Generated\DisbursementAccountingTransaction.g.cs" />
-    <Compile Include="Generated\DiscountAdjustment.g.cs" />
-    <Compile Include="Generated\DiscountComponent.g.cs" />
-    <Compile Include="Generated\DistributionChannelRelationship.g.cs" />
-    <Compile Include="Generated\Document.g.cs" />
-    <Compile Include="Generated\DropShipment.g.cs" />
-    <Compile Include="Generated\DropShipmentObjectState.g.cs" />
-    <Compile Include="Generated\DropShipmentStatus.g.cs" />
-    <Compile Include="Generated\DunningType.g.cs" />
-    <Compile Include="Generated\ElectronicAddress.g.cs" />
-    <Compile Include="Generated\EmailAddress.g.cs" />
-    <Compile Include="Generated\EmailCommunication.g.cs" />
-    <Compile Include="Generated\EmailTemplate.g.cs" />
-    <Compile Include="Generated\Employment.g.cs" />
-    <Compile Include="Generated\EmploymentAgreement.g.cs" />
-    <Compile Include="Generated\EmploymentApplication.g.cs" />
-    <Compile Include="Generated\EmploymentApplicationSource.g.cs" />
-    <Compile Include="Generated\EmploymentApplicationStatus.g.cs" />
-    <Compile Include="Generated\EmploymentTermination.g.cs" />
-    <Compile Include="Generated\EmploymentTerminationReason.g.cs" />
-    <Compile Include="Generated\Engagement.g.cs" />
-    <Compile Include="Generated\EngagementItem.g.cs" />
-    <Compile Include="Generated\EngagementRate.g.cs" />
-    <Compile Include="Generated\EngineeringBom.g.cs" />
-    <Compile Include="Generated\EngineeringChange.g.cs" />
-    <Compile Include="Generated\EngineeringChangeObjectState.g.cs" />
-    <Compile Include="Generated\EngineeringChangeStatus.g.cs" />
-    <Compile Include="Generated\EngineeringDocument.g.cs" />
-    <Compile Include="Generated\Enumeration.g.cs" />
-    <Compile Include="Generated\Equipment.g.cs" />
-    <Compile Include="Generated\EstimatedLaborCost.g.cs" />
-    <Compile Include="Generated\EstimatedMaterialCost.g.cs" />
-    <Compile Include="Generated\EstimatedOtherCost.g.cs" />
-    <Compile Include="Generated\EstimatedProductCost.g.cs" />
-    <Compile Include="Generated\EuSalesListType.g.cs" />
-    <Compile Include="Generated\Event.g.cs" />
-    <Compile Include="Generated\EventRegistration.g.cs" />
-    <Compile Include="Generated\ExpenseEntry.g.cs" />
-    <Compile Include="Generated\ExportDocument.g.cs" />
-    <Compile Include="Generated\ExternalAccountingTransaction.g.cs" />
-    <Compile Include="Generated\FaceToFaceCommunication.g.cs" />
-    <Compile Include="Generated\Facility.g.cs" />
-    <Compile Include="Generated\FaxCommunication.g.cs" />
-    <Compile Include="Generated\Fee.g.cs" />
-    <Compile Include="Generated\FinancialAccount.g.cs" />
-    <Compile Include="Generated\FinancialAccountAdjustment.g.cs" />
-    <Compile Include="Generated\FinancialAccountTransaction.g.cs" />
-    <Compile Include="Generated\FinancialTerm.g.cs" />
-    <Compile Include="Generated\FinishedGood.g.cs" />
-    <Compile Include="Generated\FiscalYearInvoiceNumber.g.cs" />
-    <Compile Include="Generated\FixedAsset.g.cs" />
-    <Compile Include="Generated\Floor.g.cs" />
-    <Compile Include="Generated\GenderType.g.cs" />
-    <Compile Include="Generated\GeneralLedgerAccount.g.cs" />
-    <Compile Include="Generated\GeneralLedgerAccountGroup.g.cs" />
-    <Compile Include="Generated\GeneralLedgerAccountType.g.cs" />
-    <Compile Include="Generated\GeographicBoundary.g.cs" />
-    <Compile Include="Generated\GeographicBoundaryComposite.g.cs" />
-    <Compile Include="Generated\GeoLocatable.g.cs" />
-    <Compile Include="Generated\GlBudgetAllocation.g.cs" />
-    <Compile Include="Generated\Good.g.cs" />
-    <Compile Include="Generated\GoodOrderItem.g.cs" />
-    <Compile Include="Generated\HazardousMaterialsDocument.g.cs" />
-    <Compile Include="Generated\Hobby.g.cs" />
-    <Compile Include="Generated\Image.g.cs" />
-    <Compile Include="Generated\Incentive.g.cs" />
-    <Compile Include="Generated\IndustryClassification.g.cs" />
-    <Compile Include="Generated\InternalAccountingTransaction.g.cs" />
-    <Compile Include="Generated\InternalOrganisation.g.cs" />
-    <Compile Include="Generated\InternalOrganisationAccountingPreference.g.cs" />
-    <Compile Include="Generated\InternalOrganisationRevenue.g.cs" />
-    <Compile Include="Generated\InternalOrganisationRevenueHistory.g.cs" />
-    <Compile Include="Generated\InternalRequirement.g.cs" />
-    <Compile Include="Generated\InventoryItem.g.cs" />
-    <Compile Include="Generated\InventoryItemConfiguration.g.cs" />
-    <Compile Include="Generated\InventoryItemKind.g.cs" />
-    <Compile Include="Generated\InventoryItemVariance.g.cs" />
-    <Compile Include="Generated\InvestmentAccount.g.cs" />
-    <Compile Include="Generated\Invoice.g.cs" />
-    <Compile Include="Generated\InvoiceItem.g.cs" />
-    <Compile Include="Generated\InvoiceSequence.g.cs" />
-    <Compile Include="Generated\InvoiceTerm.g.cs" />
-    <Compile Include="Generated\InvoiceVatRateItem.g.cs" />
-    <Compile Include="Generated\ItemIssuance.g.cs" />
-    <Compile Include="Generated\ItemVarianceAccountingTransaction.g.cs" />
-    <Compile Include="Generated\IUnitOfMeasure.g.cs" />
-    <Compile Include="Generated\Journal.g.cs" />
-    <Compile Include="Generated\JournalEntry.g.cs" />
-    <Compile Include="Generated\JournalEntryDetail.g.cs" />
-    <Compile Include="Generated\JournalEntryNumber.g.cs" />
-    <Compile Include="Generated\JournalType.g.cs" />
-    <Compile Include="Generated\Language.g.cs" />
-    <Compile Include="Generated\LegalForm.g.cs" />
-    <Compile Include="Generated\LegalTerm.g.cs" />
-    <Compile Include="Generated\LetterCorrespondence.g.cs" />
-    <Compile Include="Generated\Locale.g.cs" />
-    <Compile Include="Generated\Localised.g.cs" />
-    <Compile Include="Generated\LocalisedText.g.cs" />
-    <Compile Include="Generated\Login.g.cs" />
-    <Compile Include="Generated\Lot.g.cs" />
-    <Compile Include="Generated\Maintenance.g.cs" />
-    <Compile Include="Generated\Manifest.g.cs" />
-    <Compile Include="Generated\ManufacturerSuggestedRetailPrice.g.cs" />
-    <Compile Include="Generated\ManufacturingBom.g.cs" />
-    <Compile Include="Generated\ManufacturingConfiguration.g.cs" />
-    <Compile Include="Generated\MaritalStatus.g.cs" />
-    <Compile Include="Generated\MarketingMaterial.g.cs" />
-    <Compile Include="Generated\MarketingPackage.g.cs" />
-    <Compile Include="Generated\MaterialsUsage.g.cs" />
-    <Compile Include="Generated\Media.g.cs" />
-    <Compile Include="Generated\MediaContent.g.cs" />
-    <Compile Include="Generated\MediaType.g.cs" />
-    <Compile Include="Generated\Meta.g.cs" />
-    <Compile Include="Generated\Model.g.cs" />
-    <Compile Include="Generated\NeededSkill.g.cs" />
-    <Compile Include="Generated\NewsItem.g.cs" />
-    <Compile Include="Generated\NonSerializedInventoryItem.g.cs" />
-    <Compile Include="Generated\NonSerializedInventoryItemObjectState.g.cs" />
-    <Compile Include="Generated\NonSerializedInventoryItemStatus.g.cs" />
-    <Compile Include="Generated\Note.g.cs" />
-    <Compile Include="Generated\ObjectState.g.cs" />
-    <Compile Include="Generated\Obligation.g.cs" />
-    <Compile Include="Generated\Office.g.cs" />
-    <Compile Include="Generated\OneTimeCharge.g.cs" />
-    <Compile Include="Generated\OperatingBudget.g.cs" />
-    <Compile Include="Generated\OperatingCondition.g.cs" />
-    <Compile Include="Generated\Order.g.cs" />
-    <Compile Include="Generated\OrderAdjustment.g.cs" />
-    <Compile Include="Generated\OrderItem.g.cs" />
-    <Compile Include="Generated\OrderItemBilling.g.cs" />
-    <Compile Include="Generated\OrderKind.g.cs" />
-    <Compile Include="Generated\OrderQuantityBreak.g.cs" />
-    <Compile Include="Generated\OrderRequirementCommitment.g.cs" />
-    <Compile Include="Generated\OrderShipment.g.cs" />
-    <Compile Include="Generated\OrderTerm.g.cs" />
-    <Compile Include="Generated\OrderValue.g.cs" />
-    <Compile Include="Generated\Ordinal.g.cs" />
-    <Compile Include="Generated\Organisation.g.cs" />
-    <Compile Include="Generated\OrganisationClassification.g.cs" />
-    <Compile Include="Generated\OrganisationContactKind.g.cs" />
-    <Compile Include="Generated\OrganisationContactRelationship.g.cs" />
-    <Compile Include="Generated\OrganisationGlAccount.g.cs" />
-    <Compile Include="Generated\OrganisationGlAccountBalance.g.cs" />
-    <Compile Include="Generated\OrganisationRollUp.g.cs" />
-    <Compile Include="Generated\OrganisationUnit.g.cs" />
-    <Compile Include="Generated\OwnBankAccount.g.cs" />
-    <Compile Include="Generated\OwnCreditCard.g.cs" />
-    <Compile Include="Generated\Package.g.cs" />
-    <Compile Include="Generated\PackageQuantityBreak.g.cs" />
-    <Compile Include="Generated\PackageRevenue.g.cs" />
-    <Compile Include="Generated\PackageRevenueHistory.g.cs" />
-    <Compile Include="Generated\PackagingContent.g.cs" />
-    <Compile Include="Generated\PackagingSlip.g.cs" />
-    <Compile Include="Generated\Part.g.cs" />
-    <Compile Include="Generated\PartBillOfMaterial.g.cs" />
-    <Compile Include="Generated\PartBillOfMaterialSubstitute.g.cs" />
-    <Compile Include="Generated\Partnership.g.cs" />
-    <Compile Include="Generated\PartRevision.g.cs" />
-    <Compile Include="Generated\PartSpecification.g.cs" />
-    <Compile Include="Generated\PartSpecificationObjectState.g.cs" />
-    <Compile Include="Generated\PartSpecificationStatus.g.cs" />
-    <Compile Include="Generated\PartSubstitute.g.cs" />
-    <Compile Include="Generated\Party.g.cs" />
-    <Compile Include="Generated\PartyBenefit.g.cs" />
-    <Compile Include="Generated\PartyClassification.g.cs" />
-    <Compile Include="Generated\PartyContactMechanism.g.cs" />
-    <Compile Include="Generated\PartyFixedAssetAssignment.g.cs" />
-    <Compile Include="Generated\PartyPackageRevenue.g.cs" />
-    <Compile Include="Generated\PartyPackageRevenueHistory.g.cs" />
-    <Compile Include="Generated\PartyProductCategoryRevenue.g.cs" />
-    <Compile Include="Generated\PartyProductCategoryRevenueHistory.g.cs" />
-    <Compile Include="Generated\PartyProductRevenue.g.cs" />
-    <Compile Include="Generated\PartyProductRevenueHistory.g.cs" />
-    <Compile Include="Generated\PartyRelationship.g.cs" />
-    <Compile Include="Generated\PartyRelationshipStatus.g.cs" />
-    <Compile Include="Generated\PartyRevenue.g.cs" />
-    <Compile Include="Generated\PartyRevenueHistory.g.cs" />
-    <Compile Include="Generated\PartySkill.g.cs" />
-    <Compile Include="Generated\Passport.g.cs" />
-    <Compile Include="Generated\PayCheck.g.cs" />
-    <Compile Include="Generated\PayGrade.g.cs" />
-    <Compile Include="Generated\PayHistory.g.cs" />
-    <Compile Include="Generated\Payment.g.cs" />
-    <Compile Include="Generated\PaymentApplication.g.cs" />
-    <Compile Include="Generated\PaymentBudgetAllocation.g.cs" />
-    <Compile Include="Generated\PaymentMethod.g.cs" />
-    <Compile Include="Generated\PayrollPreference.g.cs" />
-    <Compile Include="Generated\PerformanceNote.g.cs" />
-    <Compile Include="Generated\PerformanceReview.g.cs" />
-    <Compile Include="Generated\PerformanceReviewItem.g.cs" />
-    <Compile Include="Generated\PerformanceReviewItemType.g.cs" />
-    <Compile Include="Generated\PerformanceSpecification.g.cs" />
-    <Compile Include="Generated\Period.g.cs" />
-    <Compile Include="Generated\Permission.g.cs" />
-    <Compile Include="Generated\Person.g.cs" />
-    <Compile Include="Generated\PersonalTitle.g.cs" />
-    <Compile Include="Generated\PersonClassification.g.cs" />
-    <Compile Include="Generated\PersonTraining.g.cs" />
-    <Compile Include="Generated\Phase.g.cs" />
-    <Compile Include="Generated\PhoneCommunication.g.cs" />
-    <Compile Include="Generated\PickList.g.cs" />
-    <Compile Include="Generated\PickListItem.g.cs" />
-    <Compile Include="Generated\PickListObjectState.g.cs" />
-    <Compile Include="Generated\PickListStatus.g.cs" />
-    <Compile Include="Generated\Plant.g.cs" />
-    <Compile Include="Generated\Position.g.cs" />
-    <Compile Include="Generated\PositionFulfillment.g.cs" />
-    <Compile Include="Generated\PositionReportingStructure.g.cs" />
-    <Compile Include="Generated\PositionResponsibility.g.cs" />
-    <Compile Include="Generated\PositionStatus.g.cs" />
-    <Compile Include="Generated\PositionType.g.cs" />
-    <Compile Include="Generated\PositionTypeRate.g.cs" />
-    <Compile Include="Generated\PostalAddress.g.cs" />
-    <Compile Include="Generated\PostalBoundary.g.cs" />
-    <Compile Include="Generated\PostalCode.g.cs" />
-    <Compile Include="Generated\PriceComponent.g.cs" />
-    <Compile Include="Generated\Printable.g.cs" />
-    <Compile Include="Generated\PrintQueue.g.cs" />
-    <Compile Include="Generated\Priority.g.cs" />
-    <Compile Include="Generated\Product.g.cs" />
-    <Compile Include="Generated\ProductAssociation.g.cs" />
-    <Compile Include="Generated\ProductCategory.g.cs" />
-    <Compile Include="Generated\ProductCategoryRevenue.g.cs" />
-    <Compile Include="Generated\ProductCategoryRevenueHistory.g.cs" />
-    <Compile Include="Generated\ProductConfiguration.g.cs" />
-    <Compile Include="Generated\ProductDeliverySkillRequirement.g.cs" />
-    <Compile Include="Generated\ProductDrawing.g.cs" />
-    <Compile Include="Generated\ProductFeature.g.cs" />
-    <Compile Include="Generated\ProductFeatureApplicabilityRelationship.g.cs" />
-    <Compile Include="Generated\ProductionRun.g.cs" />
-    <Compile Include="Generated\ProductModel.g.cs" />
-    <Compile Include="Generated\ProductPurchasePrice.g.cs" />
-    <Compile Include="Generated\ProductQuality.g.cs" />
-    <Compile Include="Generated\ProductQuote.g.cs" />
-    <Compile Include="Generated\ProductRequirement.g.cs" />
-    <Compile Include="Generated\ProductRevenue.g.cs" />
-    <Compile Include="Generated\ProductRevenueHistory.g.cs" />
-    <Compile Include="Generated\ProfessionalAssignment.g.cs" />
-    <Compile Include="Generated\ProfessionalPlacement.g.cs" />
-    <Compile Include="Generated\ProfessionalServicesRelationship.g.cs" />
-    <Compile Include="Generated\Program.g.cs" />
-    <Compile Include="Generated\Project.g.cs" />
-    <Compile Include="Generated\ProjectRequirement.g.cs" />
-    <Compile Include="Generated\Property.g.cs" />
-    <Compile Include="Generated\Proposal.g.cs" />
-    <Compile Include="Generated\ProspectRelationship.g.cs" />
-    <Compile Include="Generated\Province.g.cs" />
-    <Compile Include="Generated\PurchaseAgreement.g.cs" />
-    <Compile Include="Generated\PurchaseInvoice.g.cs" />
-    <Compile Include="Generated\PurchaseInvoiceItem.g.cs" />
-    <Compile Include="Generated\PurchaseInvoiceItemObjectState.g.cs" />
-    <Compile Include="Generated\PurchaseInvoiceItemStatus.g.cs" />
-    <Compile Include="Generated\PurchaseInvoiceItemType.g.cs" />
-    <Compile Include="Generated\PurchaseInvoiceObjectState.g.cs" />
-    <Compile Include="Generated\PurchaseInvoiceStatus.g.cs" />
-    <Compile Include="Generated\PurchaseInvoiceType.g.cs" />
-    <Compile Include="Generated\PurchaseOrder.g.cs" />
-    <Compile Include="Generated\PurchaseOrderItem.g.cs" />
-    <Compile Include="Generated\PurchaseOrderItemObjectState.g.cs" />
-    <Compile Include="Generated\PurchaseOrderItemStatus.g.cs" />
-    <Compile Include="Generated\PurchaseOrderObjectState.g.cs" />
-    <Compile Include="Generated\PurchaseOrderStatus.g.cs" />
-    <Compile Include="Generated\PurchaseReturn.g.cs" />
-    <Compile Include="Generated\PurchaseReturnObjectState.g.cs" />
-    <Compile Include="Generated\PurchaseReturnStatus.g.cs" />
-    <Compile Include="Generated\PurchaseShipment.g.cs" />
-    <Compile Include="Generated\PurchaseShipmentObjectState.g.cs" />
-    <Compile Include="Generated\PurchaseShipmentStatus.g.cs" />
-    <Compile Include="Generated\Qualification.g.cs" />
-    <Compile Include="Generated\Quote.g.cs" />
-    <Compile Include="Generated\QuoteItem.g.cs" />
-    <Compile Include="Generated\QuoteTerm.g.cs" />
-    <Compile Include="Generated\RateType.g.cs" />
-    <Compile Include="Generated\RatingType.g.cs" />
-    <Compile Include="Generated\RawMaterial.g.cs" />
-    <Compile Include="Generated\Receipt.g.cs" />
-    <Compile Include="Generated\ReceiptAccountingTransaction.g.cs" />
-    <Compile Include="Generated\RecurringCharge.g.cs" />
-    <Compile Include="Generated\Region.g.cs" />
-    <Compile Include="Generated\Request.g.cs" />
-    <Compile Include="Generated\RequestForInformation.g.cs" />
-    <Compile Include="Generated\RequestForProposal.g.cs" />
-    <Compile Include="Generated\RequestForQuote.g.cs" />
-    <Compile Include="Generated\RequestItem.g.cs" />
-    <Compile Include="Generated\Requirement.g.cs" />
-    <Compile Include="Generated\RequirementBudgetAllocation.g.cs" />
-    <Compile Include="Generated\RequirementCommunication.g.cs" />
-    <Compile Include="Generated\RequirementObjectState.g.cs" />
-    <Compile Include="Generated\RequirementStatus.g.cs" />
-    <Compile Include="Generated\Research.g.cs" />
-    <Compile Include="Generated\ResourceRequirement.g.cs" />
-    <Compile Include="Generated\RespondingParty.g.cs" />
-    <Compile Include="Generated\Responsibility.g.cs" />
-    <Compile Include="Generated\Resume.g.cs" />
-    <Compile Include="Generated\RevenueQuantityBreak.g.cs" />
-    <Compile Include="Generated\RevenueValueBreak.g.cs" />
-    <Compile Include="Generated\Role.g.cs" />
-    <Compile Include="Generated\Room.g.cs" />
-    <Compile Include="Generated\SalaryStep.g.cs" />
-    <Compile Include="Generated\SalesAccountingTransaction.g.cs" />
-    <Compile Include="Generated\SalesAgreement.g.cs" />
-    <Compile Include="Generated\SalesChannel.g.cs" />
-    <Compile Include="Generated\SalesChannelRevenue.g.cs" />
-    <Compile Include="Generated\SalesChannelRevenueHistory.g.cs" />
-    <Compile Include="Generated\SalesInvoice.g.cs" />
-    <Compile Include="Generated\SalesInvoiceItem.g.cs" />
-    <Compile Include="Generated\SalesInvoiceItemObjectState.g.cs" />
-    <Compile Include="Generated\SalesInvoiceItemStatus.g.cs" />
-    <Compile Include="Generated\SalesInvoiceItemType.g.cs" />
-    <Compile Include="Generated\SalesInvoiceObjectState.g.cs" />
-    <Compile Include="Generated\SalesInvoiceStatus.g.cs" />
-    <Compile Include="Generated\SalesInvoiceType.g.cs" />
-    <Compile Include="Generated\SalesOrder.g.cs" />
-    <Compile Include="Generated\SalesOrderItem.g.cs" />
-    <Compile Include="Generated\SalesOrderItemObjectState.g.cs" />
-    <Compile Include="Generated\SalesOrderItemStatus.g.cs" />
-    <Compile Include="Generated\SalesOrderObjectState.g.cs" />
-    <Compile Include="Generated\SalesOrderStatus.g.cs" />
-    <Compile Include="Generated\SalesRepCommission.g.cs" />
-    <Compile Include="Generated\SalesRepPartyProductCategoryRevenue.g.cs" />
-    <Compile Include="Generated\SalesRepPartyRevenue.g.cs" />
-    <Compile Include="Generated\SalesRepProductCategoryRevenue.g.cs" />
-    <Compile Include="Generated\SalesRepRelationship.g.cs" />
-    <Compile Include="Generated\SalesRepRevenue.g.cs" />
-    <Compile Include="Generated\SalesRepRevenueHistory.g.cs" />
-    <Compile Include="Generated\SalesTerritory.g.cs" />
-    <Compile Include="Generated\Salutation.g.cs" />
-    <Compile Include="Generated\SecurityToken.g.cs" />
-    <Compile Include="Generated\SecurityTokenOwner.g.cs" />
-    <Compile Include="Generated\SerializedInventoryItem.g.cs" />
-    <Compile Include="Generated\SerializedInventoryItemObjectState.g.cs" />
-    <Compile Include="Generated\SerializedInventoryItemStatus.g.cs" />
-    <Compile Include="Generated\Service.g.cs" />
-    <Compile Include="Generated\ServiceConfiguration.g.cs" />
-    <Compile Include="Generated\ServiceEntry.g.cs" />
-    <Compile Include="Generated\ServiceEntryBilling.g.cs" />
-    <Compile Include="Generated\ServiceEntryHeader.g.cs" />
-    <Compile Include="Generated\ServiceFeature.g.cs" />
-    <Compile Include="Generated\ServiceTerritory.g.cs" />
-    <Compile Include="Generated\Shelf.g.cs" />
-    <Compile Include="Generated\Shipment.g.cs" />
-    <Compile Include="Generated\ShipmentItem.g.cs" />
-    <Compile Include="Generated\ShipmentMethod.g.cs" />
-    <Compile Include="Generated\ShipmentPackage.g.cs" />
-    <Compile Include="Generated\ShipmentReceipt.g.cs" />
-    <Compile Include="Generated\ShipmentRouteSegment.g.cs" />
-    <Compile Include="Generated\ShipmentValue.g.cs" />
-    <Compile Include="Generated\ShippingAndHandlingCharge.g.cs" />
-    <Compile Include="Generated\ShippingAndHandlingComponent.g.cs" />
-    <Compile Include="Generated\Singleton.g.cs" />
-    <Compile Include="Generated\Size.g.cs" />
-    <Compile Include="Generated\Skill.g.cs" />
-    <Compile Include="Generated\SkillLevel.g.cs" />
-    <Compile Include="Generated\SkillRating.g.cs" />
-    <Compile Include="Generated\SoftwareFeature.g.cs" />
-    <Compile Include="Generated\StandardServiceOrderItem.g.cs" />
-    <Compile Include="Generated\State.g.cs" />
-    <Compile Include="Generated\StatementOfWork.g.cs" />
-    <Compile Include="Generated\Store.g.cs" />
-    <Compile Include="Generated\StoreRevenue.g.cs" />
-    <Compile Include="Generated\StoreRevenueHistory.g.cs" />
-    <Compile Include="Generated\StringTemplate.g.cs" />
-    <Compile Include="Generated\SubAgreement.g.cs" />
-    <Compile Include="Generated\SubAssembly.g.cs" />
-    <Compile Include="Generated\SubContractorAgreement.g.cs" />
-    <Compile Include="Generated\SubContractorRelationship.g.cs" />
-    <Compile Include="Generated\SupplierOffering.g.cs" />
-    <Compile Include="Generated\SupplierRelationship.g.cs" />
-    <Compile Include="Generated\SurchargeAdjustment.g.cs" />
-    <Compile Include="Generated\SurchargeComponent.g.cs" />
-    <Compile Include="Generated\Task.g.cs" />
-    <Compile Include="Generated\TaxDocument.g.cs" />
-    <Compile Include="Generated\TaxDue.g.cs" />
-    <Compile Include="Generated\TelecommunicationsNumber.g.cs" />
-    <Compile Include="Generated\TemplatePurpose.g.cs" />
-    <Compile Include="Generated\TermType.g.cs" />
-    <Compile Include="Generated\Territory.g.cs" />
-    <Compile Include="Generated\TestingRequirement.g.cs" />
-    <Compile Include="Generated\Threshold.g.cs" />
-    <Compile Include="Generated\TimeAndMaterialsService.g.cs" />
-    <Compile Include="Generated\TimeEntry.g.cs" />
-    <Compile Include="Generated\TimeFrequency.g.cs" />
-    <Compile Include="Generated\TimePeriodUsage.g.cs" />
-    <Compile Include="Generated\Tolerance.g.cs" />
-    <Compile Include="Generated\Training.g.cs" />
-    <Compile Include="Generated\Transfer.g.cs" />
-    <Compile Include="Generated\TransferObjectState.g.cs" />
-    <Compile Include="Generated\TransferStatus.g.cs" />
-    <Compile Include="Generated\Transition.g.cs" />
-    <Compile Include="Generated\Transitional.g.cs" />
-    <Compile Include="Generated\UniquelyIdentifiable.g.cs" />
-    <Compile Include="Generated\UnitOfMeasure.g.cs" />
-    <Compile Include="Generated\UnitOfMeasureConversion.g.cs" />
-    <Compile Include="Generated\User.g.cs" />
-    <Compile Include="Generated\UserGroup.g.cs" />
-    <Compile Include="Generated\UtilizationCharge.g.cs" />
-    <Compile Include="Generated\VarianceReason.g.cs" />
-    <Compile Include="Generated\VatCalculationMethod.g.cs" />
-    <Compile Include="Generated\VatForm.g.cs" />
-    <Compile Include="Generated\VatRate.g.cs" />
-    <Compile Include="Generated\VatRatePurchaseKind.g.cs" />
-    <Compile Include="Generated\VatRateUsage.g.cs" />
-    <Compile Include="Generated\VatRegime.g.cs" />
-    <Compile Include="Generated\VatReturnBox.g.cs" />
-    <Compile Include="Generated\VatReturnBoxType.g.cs" />
-    <Compile Include="Generated\VatTariff.g.cs" />
-    <Compile Include="Generated\Vehicle.g.cs" />
-    <Compile Include="Generated\VolumeUsage.g.cs" />
-    <Compile Include="Generated\Warehouse.g.cs" />
-    <Compile Include="Generated\WebAddress.g.cs" />
-    <Compile Include="Generated\WebSiteCommunication.g.cs" />
-    <Compile Include="Generated\Withdrawal.g.cs" />
-    <Compile Include="Generated\WorkEffort.g.cs" />
-    <Compile Include="Generated\WorkEffortAssignment.g.cs" />
-    <Compile Include="Generated\WorkEffortAssignmentRate.g.cs" />
-    <Compile Include="Generated\WorkEffortBilling.g.cs" />
-    <Compile Include="Generated\WorkEffortFixedAssetAssignment.g.cs" />
-    <Compile Include="Generated\WorkEffortFixedAssetStandard.g.cs" />
-    <Compile Include="Generated\WorkEffortGoodStandard.g.cs" />
-    <Compile Include="Generated\WorkEffortInventoryAssignment.g.cs" />
-    <Compile Include="Generated\WorkEffortObjectState.g.cs" />
-    <Compile Include="Generated\WorkEffortPartStandard.g.cs" />
-    <Compile Include="Generated\WorkEffortPartyAssignment.g.cs" />
-    <Compile Include="Generated\WorkEffortPurpose.g.cs" />
-    <Compile Include="Generated\WorkEffortSkillStandard.g.cs" />
-    <Compile Include="Generated\WorkEffortStatus.g.cs" />
-    <Compile Include="Generated\WorkEffortType.g.cs" />
-    <Compile Include="Generated\WorkEffortTypeKind.g.cs" />
-    <Compile Include="Generated\WorkFlow.g.cs" />
-    <Compile Include="Generated\WorkRequirement.g.cs" />
+    <Compile Include="Dipu\MetaPopulation.v.cs" />
+    <Compile Include="Dipu\Population\Auditable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\Allors\Base\Meta\Base\Meta\Tree.cd">
+      <Link>Base\Meta\Tree.cd</Link>
+    </None>
     <None Include="..\..\Allors\Base\Meta\Base\RelationType.cd">
       <Link>Base\RelationType.cd</Link>
     </None>
@@ -2402,9 +316,7 @@
     <None Include="packages.config" />
     <None Include="Settings.StyleCop" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dipu\Population\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\Allors\Framework\Allors\Allors.csproj">
       <Project>{5b4e2d7c-8ef8-45f5-bfb2-e595c401a95f}</Project>

@@ -2,5 +2,7 @@
 	path = Allors
 	url = https://github.com/Allors/allors
 [submodule "Apps"]
+	
 	path = Apps
-	url = https://github.com/Allors/apps
+	
+	url = https://github.com/Allors/apps/Apps

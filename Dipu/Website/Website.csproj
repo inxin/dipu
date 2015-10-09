@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Website</RootNamespace>
     <AssemblyName>Website</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,9 +68,9 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -164,132 +165,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Account\AccountViewModels.cs">
-      <Link>Allors\Base\Account\AccountViewModels.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Account\BaseAccountController.cs">
-      <Link>Allors\Base\Account\BaseAccountController.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Data\BaseDataController.cs">
-      <Link>Allors\Base\Data\BaseDataController.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\EmailService.cs">
-      <Link>Allors\Base\Identity\EmailService.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\IdentitySignInManager.cs">
-      <Link>Allors\Base\Identity\IdentitySignInManager.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\IdentityUser.cs">
-      <Link>Allors\Base\Identity\IdentityUser.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\IdentityUser.v.cs">
-      <Link>Allors\Base\Identity\IdentityUser.v.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\IdentityUserManager.cs">
-      <Link>Allors\Base\Identity\IdentityUserManager.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\SmsService.cs">
-      <Link>Allors\Base\Identity\SmsService.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\UserStore.cs">
-      <Link>Allors\Base\Identity\UserStore.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Identity\UserStore.v.cs">
-      <Link>Allors\Base\Identity\UserStore.v.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Manage\BaseManageController.cs">
-      <Link>Allors\Base\Manage\BaseManageController.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Manage\ManageViewModels.cs">
-      <Link>Allors\Base\Manage\ManageViewModels.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\AllorsContext.cs">
-      <Link>Allors\Base\Mvc\AllorsContext.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Components\Menu.cs">
-      <Link>Allors\Base\Mvc\Components\Menu.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Components\MenuForUser.cs">
-      <Link>Allors\Base\Mvc\Components\MenuForUser.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Components\MenuItem.cs">
-      <Link>Allors\Base\Mvc\Components\MenuItem.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Components\MenuItemForUser.cs">
-      <Link>Allors\Base\Mvc\Components\MenuItemForUser.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Components\Menus.cs">
-      <Link>Allors\Base\Mvc\Components\Menus.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Controllers\Controller.cs">
-      <Link>Allors\Base\Mvc\Controllers\Controller.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\DependencyResolver.cs">
-      <Link>Allors\Base\Mvc\DependencyResolver.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\AllorsModelMetadataProvider.cs">
-      <Link>Allors\Base\Mvc\Models\AllorsModelMetadataProvider.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Composite\CompositeModel%271.cs">
-      <Link>Allors\Base\Mvc\Models\Composite\CompositeModel%271.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Composite\CompositeModel.cs">
-      <Link>Allors\Base\Mvc\Models\Composite\CompositeModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Composite\ICompositeModel.cs">
-      <Link>Allors\Base\Mvc\Models\Composite\ICompositeModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\ButtonFilter.cs">
-      <Link>Allors\Base\Mvc\Models\Filters\ButtonFilter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\IdFilter.cs">
-      <Link>Allors\Base\Mvc\Models\Filters\IdFilter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\LabelFilter.cs">
-      <Link>Allors\Base\Mvc\Models\Filters\LabelFilter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Filters\WatermarkFilter.cs">
-      <Link>Allors\Base\Mvc\Models\Filters\WatermarkFilter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\IModelMetadataFilter.cs">
-      <Link>Allors\Base\Mvc\Models\IModelMetadataFilter.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Select.cs">
-      <Link>Allors\Base\Mvc\Models\Select.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\BooleanModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\BooleanModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\DateTimeModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\DateTimeModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\DecimalModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\DecimalModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\FloatModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\FloatModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\IntegerModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\IntegerModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\StringModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\StringModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\UniqueModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\UniqueModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Models\Units\UnitModel.cs">
-      <Link>Allors\Base\Mvc\Models\Units\UnitModel.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Mvc\Views\ViewContextExtensions.cs">
-      <Link>Allors\Base\Mvc\Views\ViewContextExtensions.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Security\AllorsMembershipProvider.cs">
-      <Link>Allors\Base\Security\AllorsMembershipProvider.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Allors\Base\Website\Allors\Base\Security\AllorsRoleProvider.cs">
-      <Link>Allors\Base\Security\AllorsRoleProvider.cs</Link>
-    </Compile>
     <Compile Include="App_Start\MetaConfig.cs" />
     <Compile Include="App_Start\ViewEngineConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -324,95 +199,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Allors\Web.config" />
+    <Content Include="Allors\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Allors\_ViewStart.cshtml" />
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\ConfirmEmail.cshtml">
-      <Link>Allors\Base\Account\ConfirmEmail.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\ExternalLoginConfirmation.cshtml">
-      <Link>Allors\Base\Account\ExternalLoginConfirmation.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\ExternalLoginFailure.cshtml">
-      <Link>Allors\Base\Account\ExternalLoginFailure.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\ForgotPassword.cshtml">
-      <Link>Allors\Base\Account\ForgotPassword.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\ForgotPasswordConfirmation.cshtml">
-      <Link>Allors\Base\Account\ForgotPasswordConfirmation.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\Login.cshtml">
-      <Link>Allors\Base\Account\Login.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\Register.cshtml">
-      <Link>Allors\Base\Account\Register.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\ResetPassword.cshtml">
-      <Link>Allors\Base\Account\ResetPassword.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\ResetPasswordConfirmation.cshtml">
-      <Link>Allors\Base\Account\ResetPasswordConfirmation.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\SendCode.cshtml">
-      <Link>Allors\Base\Account\SendCode.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\VerifyCode.cshtml">
-      <Link>Allors\Base\Account\VerifyCode.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Account\_ExternalLoginsListPartial.cshtml">
-      <Link>Allors\Base\Account\_ExternalLoginsListPartial.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Data\Index.cshtml">
-      <Link>Allors\Base\Data\Index.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Manage\AddPhoneNumber.cshtml">
-      <Link>Allors\Base\Manage\AddPhoneNumber.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Manage\ChangePassword.cshtml">
-      <Link>Allors\Base\Manage\ChangePassword.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Manage\Index.cshtml">
-      <Link>Allors\Base\Manage\Index.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Manage\ManageLogins.cshtml">
-      <Link>Allors\Base\Manage\ManageLogins.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Manage\SetPassword.cshtml">
-      <Link>Allors\Base\Manage\SetPassword.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Manage\VerifyPhoneNumber.cshtml">
-      <Link>Allors\Base\Manage\VerifyPhoneNumber.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\BooleanModel.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\BooleanModel.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\CompositeModel.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\CompositeModel.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\DecimalModel.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\DecimalModel.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\FloatModel.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\FloatModel.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\IntegerModel.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\IntegerModel.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\Select.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\Select.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\StringModel.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\StringModel.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\EditorTemplates\UniqueModel.cshtml">
-      <Link>Allors\Base\Shared\EditorTemplates\UniqueModel.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\_NavbarItemPartial.cshtml">
-      <Link>Allors\Base\Shared\_NavbarItemPartial.cshtml</Link>
-    </Content>
-    <Content Include="..\..\Allors\Base\Website\Allors\Base\Shared\_NavbarPartial.cshtml">
-      <Link>Allors\Base\Shared\_NavbarPartial.cshtml</Link>
-    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.3.js" />
@@ -459,17 +249,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Allors\Adapters\Allors.Databases.Memory\Allors.Databases.Memory.csproj">
+    <ProjectReference Include="..\..\Allors\Adapters\Allors.Adapters.Memory\Allors.Adapters.Memory.csproj">
       <Project>{cb9b7108-c8f3-459c-b2da-88187c84cfc1}</Project>
       <Name>Allors.Databases.Memory</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Allors\Adapters\Allors.Databases.Object.SqlClient\Allors.Databases.Object.SqlClient.csproj">
+    <ProjectReference Include="..\..\Allors\Adapters\Allors.Adapters.Object.SqlClient\Allors.Adapters.Object.SqlClient.csproj">
       <Project>{06bc1665-8fe8-4f04-9e80-ec2d54404ba7}</Project>
       <Name>Allors.Databases.Object.SqlClient</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Allors\Adapters\Allors.Workspaces.Memory\Allors.Workspaces.Memory.csproj">
-      <Project>{db96de40-9b4c-4112-bb6f-c6c4c6a9b5a9}</Project>
-      <Name>Allors.Workspaces.Memory</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Allors\Framework\Allors\Allors.csproj">
       <Project>{5b4e2d7c-8ef8-45f5-bfb2-e595c401a95f}</Project>

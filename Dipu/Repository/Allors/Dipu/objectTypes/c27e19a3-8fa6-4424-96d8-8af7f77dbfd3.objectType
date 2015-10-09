@@ -1,5 +1,0 @@
-<objectType allors="1.0" id="c27e19a3-8fa6-4424-96d8-8af7f77dbfd3">
-  <isInterface>true</isInterface>
-  <pluralName>Auditables</pluralName>
-  <singularName>Auditable</singularName>
-</objectType>

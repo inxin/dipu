@@ -1,21 +1,22 @@
 ﻿//------------------------------------------------------------------------------------------------- 
-// <copyright file="Composite.cs" company="inxin bvba">
-// Copyright 2014-2015 inxin bvba.
+// <copyright file="Composite.cs" company="Allors bvba">
+// Copyright 2002-2013 Allors bvba.
 // 
 // Dual Licensed under
-//   a) the Affero General Public Licence v3 (AGPL)
+//   a) the Lesser General Public Licence v3 (LGPL)
 //   b) the Allors License
 // 
-// The AGPL License is included in the file LICENSE.
+// The LGPL License is included in the file lgpl.txt.
 // The Allors License is an addendum to your contract.
 // 
-// Dipu is distributed in the hope that it will be useful,
+// Allors Platform is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Affero General Public License for more details.
+// GNU General Public License for more details.
 // 
-// For more information visit http://www.dipu.com/legal
+// For more information visit http://www.allors.com/legal
 // </copyright>
+// <summary>Defines the ObjectType type.</summary>
 //-------------------------------------------------------------------------------------------------
 
 namespace Allors.Meta

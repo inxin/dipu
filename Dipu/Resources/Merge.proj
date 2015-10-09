@@ -1,16 +1,17 @@
 <Project DefaultTargets="Merge" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-  <UsingTask TaskName="Merge" AssemblyFile="..\Repository\external\allors\development\Allors.R1.Development.dll"/>
+  <UsingTask TaskName="Merge" AssemblyFile="..\..\Allors\Base\Merge\bin\debug\Merge.dll"/>
 
   <Target Name="Merge">
     <ItemGroup>
-      <InputDirectories Include="..\..\Allors\Base\Resources"/>
-      <InputDirectories Include="..\..\Allors\Apps\Resources"/>
+      <InputDirectories Include="..\..\Allors\Base\Resources\Base"/>
       <InputDirectories Include="Dipu"/>
     </ItemGroup>
-
+    
     <Merge InputDirectories="@(InputDirectories)" OutputDirectory="."/>
 
   </Target>
 
 </Project>
+
+
