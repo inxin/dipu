@@ -1,0 +1,24 @@
+<Project DefaultTargets="Import" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <Base>../Allors/Base</Base>
+    <WebsiteClient>Website/Allors/Client</WebsiteClient>	
+    <WebsiteServer>Website/Allors/Server</WebsiteServer>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <BaseWebsiteClient Include="$(Base)/$(WebsiteClient)/Base/**/*.*" />
+    <BaseWebsiteServer Include="$(Base)/$(WebsiteServer)/Base/**/*.*" />
+  </ItemGroup>
+
+  <Target Name="Import">
+    <RemoveDir Directories="$(WebsiteClient)/Base" />
+    <RemoveDir Directories="$(WebsiteServer)/Base" />
+    <MakeDir Directories="$(WebsiteClient)/Base" />
+    <MakeDir Directories="$(WebsiteServer)/Base" />
+
+    <Copy SourceFiles="@(BaseWebsiteClient)" DestinationFiles="@(BaseWebsiteClient->'$(WebsiteClient)/Base/%(RecursiveDir)%(Filename)%(Extension)')"/>
+    <Copy SourceFiles="@(BaseWebsiteServer)" DestinationFiles="@(BaseWebsiteServer->'$(WebsiteServer)/Base/%(RecursiveDir)%(Filename)%(Extension)')"/>
+  </Target>
+
+</Project>
