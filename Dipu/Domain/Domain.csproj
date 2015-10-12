@@ -366,11 +366,2731 @@
     <Compile Include="..\..\Allors\Base\Domain\Base\Unit\DateTimeFactory.cs">
       <Link>Base\Unit\DateTimeFactory.cs</Link>
     </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\AccountingPeriod.cs">
+      <Link>Apps\Accounting\AccountingPeriod.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\AccountingPeriod.v.cs">
+      <Link>Apps\Accounting\AccountingPeriod.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\AccountingPeriods.cs">
+      <Link>Apps\Accounting\AccountingPeriods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\AccountingTransactionDetail.cs">
+      <Link>Apps\Accounting\AccountingTransactionDetail.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\AccountingTransactionDetail.v.cs">
+      <Link>Apps\Accounting\AccountingTransactionDetail.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\AccountingTransactionDetails.cs">
+      <Link>Apps\Accounting\AccountingTransactionDetails.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\AccountingTransactionTypes.cs">
+      <Link>Apps\Accounting\AccountingTransactionTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Amortizations.cs">
+      <Link>Apps\Accounting\Amortizations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Bank.cs">
+      <Link>Apps\Accounting\Bank.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BankAccount.cs">
+      <Link>Apps\Accounting\BankAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BankAccount.v.cs">
+      <Link>Apps\Accounting\BankAccount.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BankAccounts.cs">
+      <Link>Apps\Accounting\BankAccounts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Banks.cs">
+      <Link>Apps\Accounting\Banks.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Budget.cs">
+      <Link>Apps\Accounting\Budget.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Budget.v.cs">
+      <Link>Apps\Accounting\Budget.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BudgetItems.cs">
+      <Link>Apps\Accounting\BudgetItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BudgetObjectStates.cs">
+      <Link>Apps\Accounting\BudgetObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BudgetReviews.cs">
+      <Link>Apps\Accounting\BudgetReviews.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BudgetRevisionImpacts.cs">
+      <Link>Apps\Accounting\BudgetRevisionImpacts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BudgetRevisions.cs">
+      <Link>Apps\Accounting\BudgetRevisions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Budgets.cs">
+      <Link>Apps\Accounting\Budgets.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BudgetStatus.cs">
+      <Link>Apps\Accounting\BudgetStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\BudgetStatuses.cs">
+      <Link>Apps\Accounting\BudgetStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CapitalBudget.cs">
+      <Link>Apps\Accounting\CapitalBudget.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CapitalBudgets.cs">
+      <Link>Apps\Accounting\CapitalBudgets.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Capitalizations.cs">
+      <Link>Apps\Accounting\Capitalizations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Cash.cs">
+      <Link>Apps\Accounting\Cash.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ChartOfAccounts.cs">
+      <Link>Apps\Accounting\ChartOfAccounts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CostCenterCategory.cs">
+      <Link>Apps\Accounting\CostCenterCategory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CostCenterSplitMethods.cs">
+      <Link>Apps\Accounting\CostCenterSplitMethods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CostOfGoodsSoldMethods.cs">
+      <Link>Apps\Accounting\CostOfGoodsSoldMethods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CreditCard.cs">
+      <Link>Apps\Accounting\CreditCard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CreditCardCompanies.cs">
+      <Link>Apps\Accounting\CreditCardCompanies.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CreditCards.cs">
+      <Link>Apps\Accounting\CreditCards.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\CreditLines.cs">
+      <Link>Apps\Accounting\CreditLines.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\DebitCreditConstants.cs">
+      <Link>Apps\Accounting\DebitCreditConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\DepreciationMethods.cs">
+      <Link>Apps\Accounting\DepreciationMethods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Depreciations.cs">
+      <Link>Apps\Accounting\Depreciations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\DisbursementAccountingTransactions.cs">
+      <Link>Apps\Accounting\DisbursementAccountingTransactions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Equipments.cs">
+      <Link>Apps\Accounting\Equipments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\EUSalesListTypes.cs">
+      <Link>Apps\Accounting\EUSalesListTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\GeneralLedgerAccount.cs">
+      <Link>Apps\Accounting\GeneralLedgerAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\GeneralLedgerAccounts.cs">
+      <Link>Apps\Accounting\GeneralLedgerAccounts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\GeneralLedgerAccountTypes.cs">
+      <Link>Apps\Accounting\GeneralLedgerAccountTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\GlBudgetAllocations.cs">
+      <Link>Apps\Accounting\GlBudgetAllocations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\InternalOrganisationRevenue.cs">
+      <Link>Apps\Accounting\InternalOrganisationRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\InternalOrganisationRevenueHistories.cs">
+      <Link>Apps\Accounting\InternalOrganisationRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\InternalOrganisationRevenueHistory.cs">
+      <Link>Apps\Accounting\InternalOrganisationRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\InternalOrganisationRevenues.cs">
+      <Link>Apps\Accounting\InternalOrganisationRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ItemVarianceAccountingTransactions.cs">
+      <Link>Apps\Accounting\ItemVarianceAccountingTransactions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Journal.cs">
+      <Link>Apps\Accounting\Journal.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Journal.v.cs">
+      <Link>Apps\Accounting\Journal.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\JournalEntry.cs">
+      <Link>Apps\Accounting\JournalEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\JournalTypes.cs">
+      <Link>Apps\Accounting\JournalTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Notes.cs">
+      <Link>Apps\Accounting\Notes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Obligations.cs">
+      <Link>Apps\Accounting\Obligations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\OperatingBudget.cs">
+      <Link>Apps\Accounting\OperatingBudget.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\OperatingBudgets.cs">
+      <Link>Apps\Accounting\OperatingBudgets.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\OrganisationGlAccount.cs">
+      <Link>Apps\Accounting\OrganisationGlAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\OrganisationGlAccountBalance.cs">
+      <Link>Apps\Accounting\OrganisationGlAccountBalance.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\OrganisationGlAccounts.cs">
+      <Link>Apps\Accounting\OrganisationGlAccounts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\OwnBankAccount.cs">
+      <Link>Apps\Accounting\OwnBankAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\OwnCreditCard.cs">
+      <Link>Apps\Accounting\OwnCreditCard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PackageQuantityBreak.cs">
+      <Link>Apps\Accounting\PackageQuantityBreak.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PackageQuantityBreaks.cs">
+      <Link>Apps\Accounting\PackageQuantityBreaks.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PackageRevenue.cs">
+      <Link>Apps\Accounting\PackageRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PackageRevenueHistories.cs">
+      <Link>Apps\Accounting\PackageRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PackageRevenueHistory.cs">
+      <Link>Apps\Accounting\PackageRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PackageRevenues.cs">
+      <Link>Apps\Accounting\PackageRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyPackageRevenue.cs">
+      <Link>Apps\Accounting\PartyPackageRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyPackageRevenueHistories.cs">
+      <Link>Apps\Accounting\PartyPackageRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyPackageRevenueHistory.cs">
+      <Link>Apps\Accounting\PartyPackageRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyPackageRevenues.cs">
+      <Link>Apps\Accounting\PartyPackageRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenue.cs">
+      <Link>Apps\Accounting\PartyProductCategoryRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenueHistories.cs">
+      <Link>Apps\Accounting\PartyProductCategoryRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenueHistory.cs">
+      <Link>Apps\Accounting\PartyProductCategoryRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductCategoryRevenues.cs">
+      <Link>Apps\Accounting\PartyProductCategoryRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductRevenue.cs">
+      <Link>Apps\Accounting\PartyProductRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductRevenueHistories.cs">
+      <Link>Apps\Accounting\PartyProductRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductRevenueHistory.cs">
+      <Link>Apps\Accounting\PartyProductRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyProductRevenues.cs">
+      <Link>Apps\Accounting\PartyProductRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyRevenue.cs">
+      <Link>Apps\Accounting\PartyRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyRevenueHistories.cs">
+      <Link>Apps\Accounting\PartyRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyRevenueHistory.cs">
+      <Link>Apps\Accounting\PartyRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PartyRevenues.cs">
+      <Link>Apps\Accounting\PartyRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\PaymentBudgetAllocations.cs">
+      <Link>Apps\Accounting\PaymentBudgetAllocations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductCategoryRevenue.cs">
+      <Link>Apps\Accounting\ProductCategoryRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductCategoryRevenueHistories.cs">
+      <Link>Apps\Accounting\ProductCategoryRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductCategoryRevenueHistory.cs">
+      <Link>Apps\Accounting\ProductCategoryRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductCategoryRevenues.cs">
+      <Link>Apps\Accounting\ProductCategoryRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductRevenue.cs">
+      <Link>Apps\Accounting\ProductRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductRevenueHistories.cs">
+      <Link>Apps\Accounting\ProductRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductRevenueHistory.cs">
+      <Link>Apps\Accounting\ProductRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ProductRevenues.cs">
+      <Link>Apps\Accounting\ProductRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\Properties.cs">
+      <Link>Apps\Accounting\Properties.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\ReceiptAccountingTransactions.cs">
+      <Link>Apps\Accounting\ReceiptAccountingTransactions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\RequirementBudgetAllocations.cs">
+      <Link>Apps\Accounting\RequirementBudgetAllocations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\RevenueQuantityBreak.cs">
+      <Link>Apps\Accounting\RevenueQuantityBreak.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\RevenueQuantityBreaks.cs">
+      <Link>Apps\Accounting\RevenueQuantityBreaks.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\RevenueValueBreak.cs">
+      <Link>Apps\Accounting\RevenueValueBreak.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\RevenueValueBreaks.cs">
+      <Link>Apps\Accounting\RevenueValueBreaks.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesAccountingTransactions.cs">
+      <Link>Apps\Accounting\SalesAccountingTransactions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesChannelRevenue.cs">
+      <Link>Apps\Accounting\SalesChannelRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesChannelRevenueHistories.cs">
+      <Link>Apps\Accounting\SalesChannelRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesChannelRevenueHistory.cs">
+      <Link>Apps\Accounting\SalesChannelRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesChannelRevenues.cs">
+      <Link>Apps\Accounting\SalesChannelRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepCommission.cs">
+      <Link>Apps\Accounting\SalesRepCommission.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepCommissions.cs">
+      <Link>Apps\Accounting\SalesRepCommissions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepPartyProductCategoryRevenue.cs">
+      <Link>Apps\Accounting\SalesRepPartyProductCategoryRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepPartyProductCategoryRevenues.cs">
+      <Link>Apps\Accounting\SalesRepPartyProductCategoryRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepPartyRevenue.cs">
+      <Link>Apps\Accounting\SalesRepPartyRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepPartyRevenues.cs">
+      <Link>Apps\Accounting\SalesRepPartyRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepProductCategoryRevenue.cs">
+      <Link>Apps\Accounting\SalesRepProductCategoryRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepProductCategoryRevenues.cs">
+      <Link>Apps\Accounting\SalesRepProductCategoryRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepRevenue.cs">
+      <Link>Apps\Accounting\SalesRepRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepRevenueHistories.cs">
+      <Link>Apps\Accounting\SalesRepRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepRevenueHistory.cs">
+      <Link>Apps\Accounting\SalesRepRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\SalesRepRevenues.cs">
+      <Link>Apps\Accounting\SalesRepRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\StoreRevenue.cs">
+      <Link>Apps\Accounting\StoreRevenue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\StoreRevenueHistories.cs">
+      <Link>Apps\Accounting\StoreRevenueHistories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\StoreRevenueHistory.cs">
+      <Link>Apps\Accounting\StoreRevenueHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\StoreRevenues.cs">
+      <Link>Apps\Accounting\StoreRevenues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\StoreRevenues.v.cs">
+      <Link>Apps\Accounting\StoreRevenues.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\TaxDues.cs">
+      <Link>Apps\Accounting\TaxDues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\TimeFrequencies.cs">
+      <Link>Apps\Accounting\TimeFrequencies.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\TimeFrequency.cs">
+      <Link>Apps\Accounting\TimeFrequency.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\VatCalculationMethods.cs">
+      <Link>Apps\Accounting\VatCalculationMethods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\VatRatePurchaseKinds.cs">
+      <Link>Apps\Accounting\VatRatePurchaseKinds.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\VatRates.cs">
+      <Link>Apps\Accounting\VatRates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\VatRateUsages.cs">
+      <Link>Apps\Accounting\VatRateUsages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\VatRegimes.cs">
+      <Link>Apps\Accounting\VatRegimes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Accounting\VatTariffs.cs">
+      <Link>Apps\Accounting\VatTariffs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Common\Singleton.cs">
+      <Link>Apps\Common\Singleton.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Common\Singleton.v.cs">
+      <Link>Apps\Common\Singleton.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Constants.cs">
+      <Link>Apps\Constants.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Content\TemplatePurposes.cs">
+      <Link>Apps\Content\TemplatePurposes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\DateTimeExtensions.cs">
+      <Link>Apps\DateTimeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\DecimalExtensions.cs">
+      <Link>Apps\DecimalExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Benefits.cs">
+      <Link>Apps\HumanResource\Benefits.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Deductions.cs">
+      <Link>Apps\HumanResource\Deductions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\DeductionTypes.cs">
+      <Link>Apps\HumanResource\DeductionTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\EmploymentApplications.cs">
+      <Link>Apps\HumanResource\EmploymentApplications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\EmploymentApplicationSources.cs">
+      <Link>Apps\HumanResource\EmploymentApplicationSources.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\EmploymentApplicationStatuses.cs">
+      <Link>Apps\HumanResource\EmploymentApplicationStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\EmploymentTerminationReasons.cs">
+      <Link>Apps\HumanResource\EmploymentTerminationReasons.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\EmploymentTerminations.cs">
+      <Link>Apps\HumanResource\EmploymentTerminations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PartyBenefits.cs">
+      <Link>Apps\HumanResource\PartyBenefits.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PartySkills.cs">
+      <Link>Apps\HumanResource\PartySkills.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PayChecks.cs">
+      <Link>Apps\HumanResource\PayChecks.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PayGrades.cs">
+      <Link>Apps\HumanResource\PayGrades.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PayHistory.cs">
+      <Link>Apps\HumanResource\PayHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PayrollPreference.cs">
+      <Link>Apps\HumanResource\PayrollPreference.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PayrollPreferences.cs">
+      <Link>Apps\HumanResource\PayrollPreferences.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PerformanceNotes.cs">
+      <Link>Apps\HumanResource\PerformanceNotes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PerformanceReviewItemTypes.cs">
+      <Link>Apps\HumanResource\PerformanceReviewItemTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PerformanceReviews.cs">
+      <Link>Apps\HumanResource\PerformanceReviews.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PersonTrainings.cs">
+      <Link>Apps\HumanResource\PersonTrainings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PositionFulfillments.cs">
+      <Link>Apps\HumanResource\PositionFulfillments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PositionReportingStructures.cs">
+      <Link>Apps\HumanResource\PositionReportingStructures.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PositionResponsibilities.cs">
+      <Link>Apps\HumanResource\PositionResponsibilities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Positions.cs">
+      <Link>Apps\HumanResource\Positions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PositionStatuses.cs">
+      <Link>Apps\HumanResource\PositionStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PositionTypeRates.cs">
+      <Link>Apps\HumanResource\PositionTypeRates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\PositionTypes.cs">
+      <Link>Apps\HumanResource\PositionTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Qualifications.cs">
+      <Link>Apps\HumanResource\Qualifications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\RateTypes.cs">
+      <Link>Apps\HumanResource\RateTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Responsibilities.cs">
+      <Link>Apps\HumanResource\Responsibilities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Resumes.cs">
+      <Link>Apps\HumanResource\Resumes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\SalarySteps.cs">
+      <Link>Apps\HumanResource\SalarySteps.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\SkillLevels.cs">
+      <Link>Apps\HumanResource\SkillLevels.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\SkillRatings.cs">
+      <Link>Apps\HumanResource\SkillRatings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Skills.cs">
+      <Link>Apps\HumanResource\Skills.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\HumanResource\Trainings.cs">
+      <Link>Apps\HumanResource\Trainings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\AccountAdjustments.cs">
+      <Link>Apps\Invoice\AccountAdjustments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\BillingAccounts.cs">
+      <Link>Apps\Invoice\BillingAccounts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\Deposits.cs">
+      <Link>Apps\Invoice\Deposits.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\Disbursements.cs">
+      <Link>Apps\Invoice\Disbursements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\FinancialAccountAdjustments.cs">
+      <Link>Apps\Invoice\FinancialAccountAdjustments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\FiscalYearInvoiceNumber.cs">
+      <Link>Apps\Invoice\FiscalYearInvoiceNumber.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\FiscalYearInvoiceNumbers.cs">
+      <Link>Apps\Invoice\FiscalYearInvoiceNumbers.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\InvestmentAccounts.cs">
+      <Link>Apps\Invoice\InvestmentAccounts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\Invoice.cs">
+      <Link>Apps\Invoice\Invoice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\InvoiceSequences.cs">
+      <Link>Apps\Invoice\InvoiceSequences.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\InvoiceTerms.cs">
+      <Link>Apps\Invoice\InvoiceTerms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PaymentApplication.cs">
+      <Link>Apps\Invoice\PaymentApplication.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PaymentApplications.cs">
+      <Link>Apps\Invoice\PaymentApplications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoice.cs">
+      <Link>Apps\Invoice\PurchaseInvoice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoice.v.cs">
+      <Link>Apps\Invoice\PurchaseInvoice.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceItem.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceItem.v.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceItem.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemObjectStates.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceItemObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceItems.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemStatus.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceItemStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemStatuses.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceItemStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceItemTypes.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceItemTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceObjectStates.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoices.cs">
+      <Link>Apps\Invoice\PurchaseInvoices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceStatus.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceStatuses.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\PurchaseInvoiceTypes.cs">
+      <Link>Apps\Invoice\PurchaseInvoiceTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\Receipt.cs">
+      <Link>Apps\Invoice\Receipt.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\Receipts.cs">
+      <Link>Apps\Invoice\Receipts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoice.cs">
+      <Link>Apps\Invoice\SalesInvoice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoice.v.cs">
+      <Link>Apps\Invoice\SalesInvoice.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceItem.cs">
+      <Link>Apps\Invoice\SalesInvoiceItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceItem.v.cs">
+      <Link>Apps\Invoice\SalesInvoiceItem.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceItemObjectStates.cs">
+      <Link>Apps\Invoice\SalesInvoiceItemObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceItems.cs">
+      <Link>Apps\Invoice\SalesInvoiceItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceItemStatus.cs">
+      <Link>Apps\Invoice\SalesInvoiceItemStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceItemStatuses.cs">
+      <Link>Apps\Invoice\SalesInvoiceItemStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceItemTypes.cs">
+      <Link>Apps\Invoice\SalesInvoiceItemTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceObjectStates.cs">
+      <Link>Apps\Invoice\SalesInvoiceObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoices.cs">
+      <Link>Apps\Invoice\SalesInvoices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoices.v.cs">
+      <Link>Apps\Invoice\SalesInvoices.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceStatus.cs">
+      <Link>Apps\Invoice\SalesInvoiceStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceStatuses.cs">
+      <Link>Apps\Invoice\SalesInvoiceStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\SalesInvoiceTypes.cs">
+      <Link>Apps\Invoice\SalesInvoiceTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\ServiceEntryBillings.cs">
+      <Link>Apps\Invoice\ServiceEntryBillings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\Withdrawals.cs">
+      <Link>Apps\Invoice\Withdrawals.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Invoice\WorkEffortBillings.cs">
+      <Link>Apps\Invoice\WorkEffortBillings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Buildings.cs">
+      <Link>Apps\Localization\Buildings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Cities.cs">
+      <Link>Apps\Localization\Cities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Counties.cs">
+      <Link>Apps\Localization\Counties.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Countries.cs">
+      <Link>Apps\Localization\Countries.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Country.cs">
+      <Link>Apps\Localization\Country.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Currencies.cs">
+      <Link>Apps\Localization\Currencies.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Floors.cs">
+      <Link>Apps\Localization\Floors.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\GeographicBoundary.cs">
+      <Link>Apps\Localization\GeographicBoundary.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\GeoLocatable.cs">
+      <Link>Apps\Localization\GeoLocatable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Locale.cs">
+      <Link>Apps\Localization\Locale.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Offices.cs">
+      <Link>Apps\Localization\Offices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Plants.cs">
+      <Link>Apps\Localization\Plants.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\PostalAddress.cs">
+      <Link>Apps\Localization\PostalAddress.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\PostalAddresses.cs">
+      <Link>Apps\Localization\PostalAddresses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\PostalBoundary.cs">
+      <Link>Apps\Localization\PostalBoundary.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\PostalCodes.cs">
+      <Link>Apps\Localization\PostalCodes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Provinces.cs">
+      <Link>Apps\Localization\Provinces.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Regions.cs">
+      <Link>Apps\Localization\Regions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Rooms.cs">
+      <Link>Apps\Localization\Rooms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\SalesTerritories.cs">
+      <Link>Apps\Localization\SalesTerritories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\ServiceTerritories.cs">
+      <Link>Apps\Localization\ServiceTerritories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\States.cs">
+      <Link>Apps\Localization\States.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Store.cs">
+      <Link>Apps\Localization\Store.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Stores.cs">
+      <Link>Apps\Localization\Stores.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Territories.cs">
+      <Link>Apps\Localization\Territories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Localization\Warehouses.cs">
+      <Link>Apps\Localization\Warehouses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\ObjectsBase.cs">
+      <Link>Apps\ObjectsBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\CustomEngagementItems.cs">
+      <Link>Apps\Order\CustomEngagementItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\CustomerRequirement.cs">
+      <Link>Apps\Order\CustomerRequirement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\CustomerRequirement.v.cs">
+      <Link>Apps\Order\CustomerRequirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\CustomerRequirements.cs">
+      <Link>Apps\Order\CustomerRequirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\DesiredProductFeatures.cs">
+      <Link>Apps\Order\DesiredProductFeatures.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\DiscountAdjustment.cs">
+      <Link>Apps\Order\DiscountAdjustment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\DiscountAdjustments.cs">
+      <Link>Apps\Order\DiscountAdjustments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Engagement.cs">
+      <Link>Apps\Order\Engagement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\EngagementRates.cs">
+      <Link>Apps\Order\EngagementRates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Engagements.cs">
+      <Link>Apps\Order\Engagements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Fee.cs">
+      <Link>Apps\Order\Fee.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Fees.cs">
+      <Link>Apps\Order\Fees.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\InternalRequirement.cs">
+      <Link>Apps\Order\InternalRequirement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\InternalRequirement.v.cs">
+      <Link>Apps\Order\InternalRequirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\InternalRequirements.cs">
+      <Link>Apps\Order\InternalRequirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\NeededSkills.cs">
+      <Link>Apps\Order\NeededSkills.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Order.cs">
+      <Link>Apps\Order\Order.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\OrderKind.cs">
+      <Link>Apps\Order\OrderKind.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\OrderKinds.cs">
+      <Link>Apps\Order\OrderKinds.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\OrderRequirementCommitments.cs">
+      <Link>Apps\Order\OrderRequirementCommitments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\OrderTerms.cs">
+      <Link>Apps\Order\OrderTerms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProductQuotes.cs">
+      <Link>Apps\Order\ProductQuotes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProductRequirement.cs">
+      <Link>Apps\Order\ProductRequirement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProductRequirement.v.cs">
+      <Link>Apps\Order\ProductRequirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProductRequirements.cs">
+      <Link>Apps\Order\ProductRequirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProfessionalAssignments.cs">
+      <Link>Apps\Order\ProfessionalAssignments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProfessionalPlacements.cs">
+      <Link>Apps\Order\ProfessionalPlacements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProjectRequirement.cs">
+      <Link>Apps\Order\ProjectRequirement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProjectRequirement.v.cs">
+      <Link>Apps\Order\ProjectRequirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ProjectRequirements.cs">
+      <Link>Apps\Order\ProjectRequirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Proposals.cs">
+      <Link>Apps\Order\Proposals.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrder.cs">
+      <Link>Apps\Order\PurchaseOrder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrder.v.cs">
+      <Link>Apps\Order\PurchaseOrder.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderItem.cs">
+      <Link>Apps\Order\PurchaseOrderItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderItem.v.cs">
+      <Link>Apps\Order\PurchaseOrderItem.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderItemObjectStates.cs">
+      <Link>Apps\Order\PurchaseOrderItemObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderItems.cs">
+      <Link>Apps\Order\PurchaseOrderItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderItemStatus.cs">
+      <Link>Apps\Order\PurchaseOrderItemStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderItemStatuses.cs">
+      <Link>Apps\Order\PurchaseOrderItemStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderObjectStates.cs">
+      <Link>Apps\Order\PurchaseOrderObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrders.cs">
+      <Link>Apps\Order\PurchaseOrders.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrders.v.cs">
+      <Link>Apps\Order\PurchaseOrders.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderStatus.cs">
+      <Link>Apps\Order\PurchaseOrderStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\PurchaseOrderStatuses.cs">
+      <Link>Apps\Order\PurchaseOrderStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\QuoteItem.cs">
+      <Link>Apps\Order\QuoteItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\QuoteTerms.cs">
+      <Link>Apps\Order\QuoteTerms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequestItem.cs">
+      <Link>Apps\Order\RequestItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequestsForInformation.cs">
+      <Link>Apps\Order\RequestsForInformation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequestsForProposal.cs">
+      <Link>Apps\Order\RequestsForProposal.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequestsForQuote.cs">
+      <Link>Apps\Order\RequestsForQuote.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Requirement.v.cs">
+      <Link>Apps\Order\Requirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequirementCommunications.cs">
+      <Link>Apps\Order\RequirementCommunications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequirementExtensions.cs">
+      <Link>Apps\Order\RequirementExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequirementObjectStates.cs">
+      <Link>Apps\Order\RequirementObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\Requirements.cs">
+      <Link>Apps\Order\Requirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequirementStatus.cs">
+      <Link>Apps\Order\RequirementStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RequirementStatuses.cs">
+      <Link>Apps\Order\RequirementStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ResourceRequirement.cs">
+      <Link>Apps\Order\ResourceRequirement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ResourceRequirement.v.cs">
+      <Link>Apps\Order\ResourceRequirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ResourceRequirements.cs">
+      <Link>Apps\Order\ResourceRequirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\RespondingParties.cs">
+      <Link>Apps\Order\RespondingParties.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrder.cs">
+      <Link>Apps\Order\SalesOrder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrder.v.cs">
+      <Link>Apps\Order\SalesOrder.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderItem.cs">
+      <Link>Apps\Order\SalesOrderItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderItem.v.cs">
+      <Link>Apps\Order\SalesOrderItem.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderItemObjectStates.cs">
+      <Link>Apps\Order\SalesOrderItemObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderItems.cs">
+      <Link>Apps\Order\SalesOrderItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderItemStatus.cs">
+      <Link>Apps\Order\SalesOrderItemStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderItemStatuses.cs">
+      <Link>Apps\Order\SalesOrderItemStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderObjectStates.cs">
+      <Link>Apps\Order\SalesOrderObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrders.cs">
+      <Link>Apps\Order\SalesOrders.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrders.v.cs">
+      <Link>Apps\Order\SalesOrders.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderStatus.cs">
+      <Link>Apps\Order\SalesOrderStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SalesOrderStatuses.cs">
+      <Link>Apps\Order\SalesOrderStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ShippingAndHandlingCharge.cs">
+      <Link>Apps\Order\ShippingAndHandlingCharge.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\ShippingAndHandlingCharges.cs">
+      <Link>Apps\Order\ShippingAndHandlingCharges.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\StatementsOfWork.cs">
+      <Link>Apps\Order\StatementsOfWork.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SurchargeAdjustment.cs">
+      <Link>Apps\Order\SurchargeAdjustment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Order\SurchargeAdjustments.cs">
+      <Link>Apps\Order\SurchargeAdjustments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ActivityUsages.cs">
+      <Link>Apps\Product\ActivityUsages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Barrels.cs">
+      <Link>Apps\Product\Barrels.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\BasePrice.cs">
+      <Link>Apps\Product\BasePrice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\BasePrice.v.cs">
+      <Link>Apps\Product\BasePrice.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\BasePrices.cs">
+      <Link>Apps\Product\BasePrices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Bins.cs">
+      <Link>Apps\Product\Bins.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Brands.cs">
+      <Link>Apps\Product\Brands.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Colour.cs">
+      <Link>Apps\Product\Colour.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Colours.cs">
+      <Link>Apps\Product\Colours.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ConstraintSpecification.cs">
+      <Link>Apps\Product\ConstraintSpecification.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ConstraintSpecification.v.cs">
+      <Link>Apps\Product\ConstraintSpecification.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ConstraintSpecifications.cs">
+      <Link>Apps\Product\ConstraintSpecifications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\DeliverableBasedService.cs">
+      <Link>Apps\Product\DeliverableBasedService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\DeliverableBasedService.v.cs">
+      <Link>Apps\Product\DeliverableBasedService.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\DeliverableBasedServices.cs">
+      <Link>Apps\Product\DeliverableBasedServices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Deployments.cs">
+      <Link>Apps\Product\Deployments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Dimension.cs">
+      <Link>Apps\Product\Dimension.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Dimensions.cs">
+      <Link>Apps\Product\Dimensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\DiscountComponent.cs">
+      <Link>Apps\Product\DiscountComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\DiscountComponent.v.cs">
+      <Link>Apps\Product\DiscountComponent.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\DiscountComponents.cs">
+      <Link>Apps\Product\DiscountComponents.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EngineeringBoms.cs">
+      <Link>Apps\Product\EngineeringBoms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EngineeringChange.cs">
+      <Link>Apps\Product\EngineeringChange.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EngineeringChangeObjectStates.cs">
+      <Link>Apps\Product\EngineeringChangeObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EngineeringChanges.cs">
+      <Link>Apps\Product\EngineeringChanges.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EngineeringChangeStatus.cs">
+      <Link>Apps\Product\EngineeringChangeStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EngineeringChangeStatuses.cs">
+      <Link>Apps\Product\EngineeringChangeStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EngineeringDocuments.cs">
+      <Link>Apps\Product\EngineeringDocuments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EstimatedLaborCosts.cs">
+      <Link>Apps\Product\EstimatedLaborCosts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EstimatedMaterialCosts.cs">
+      <Link>Apps\Product\EstimatedMaterialCosts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\EstimatedOtherCosts.cs">
+      <Link>Apps\Product\EstimatedOtherCosts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\FinishedGood.cs">
+      <Link>Apps\Product\FinishedGood.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\FinishedGood.v.cs">
+      <Link>Apps\Product\FinishedGood.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\FinishedGoods.cs">
+      <Link>Apps\Product\FinishedGoods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Good.cs">
+      <Link>Apps\Product\Good.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Good.v.cs">
+      <Link>Apps\Product\Good.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Goods.cs">
+      <Link>Apps\Product\Goods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\InventoryItemKinds.cs">
+      <Link>Apps\Product\InventoryItemKinds.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\InventoryItemVariances.cs">
+      <Link>Apps\Product\InventoryItemVariances.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\IUnitOfMeasure.v.cs">
+      <Link>Apps\Product\IUnitOfMeasure.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Lots.cs">
+      <Link>Apps\Product\Lots.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ManufacturerSuggestedRetailPrice.cs">
+      <Link>Apps\Product\ManufacturerSuggestedRetailPrice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ManufacturerSuggestedRetailPrices.cs">
+      <Link>Apps\Product\ManufacturerSuggestedRetailPrices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ManufacturingBoms.cs">
+      <Link>Apps\Product\ManufacturingBoms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ManufacturingConfigurations.cs">
+      <Link>Apps\Product\ManufacturingConfigurations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\MarketingMaterials.cs">
+      <Link>Apps\Product\MarketingMaterials.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\MarketingPackages.cs">
+      <Link>Apps\Product\MarketingPackages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Model.cs">
+      <Link>Apps\Product\Model.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Models.cs">
+      <Link>Apps\Product\Models.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\NonSerializedInventoryItem.cs">
+      <Link>Apps\Product\NonSerializedInventoryItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\NonSerializedInventoryItem.v.cs">
+      <Link>Apps\Product\NonSerializedInventoryItem.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\NonSerializedInventoryItemObjectStates.cs">
+      <Link>Apps\Product\NonSerializedInventoryItemObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\NonSerializedInventoryItems.cs">
+      <Link>Apps\Product\NonSerializedInventoryItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\NonSerializedInventoryItemStatus.cs">
+      <Link>Apps\Product\NonSerializedInventoryItemStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\NonSerializedInventoryItemStatuses.cs">
+      <Link>Apps\Product\NonSerializedInventoryItemStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OneTimeCharge.cs">
+      <Link>Apps\Product\OneTimeCharge.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OneTimeCharges.cs">
+      <Link>Apps\Product\OneTimeCharges.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OperatingCondition.cs">
+      <Link>Apps\Product\OperatingCondition.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OperatingCondition.v.cs">
+      <Link>Apps\Product\OperatingCondition.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OperatingConditions.cs">
+      <Link>Apps\Product\OperatingConditions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OrderQuantityBreak.cs">
+      <Link>Apps\Product\OrderQuantityBreak.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OrderQuantityBreaks.cs">
+      <Link>Apps\Product\OrderQuantityBreaks.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OrderValue.cs">
+      <Link>Apps\Product\OrderValue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\OrderValues.cs">
+      <Link>Apps\Product\OrderValues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Ordinals.cs">
+      <Link>Apps\Product\Ordinals.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Packages.cs">
+      <Link>Apps\Product\Packages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartBillOfMaterialSubstitutes.cs">
+      <Link>Apps\Product\PartBillOfMaterialSubstitutes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartRevisions.cs">
+      <Link>Apps\Product\PartRevisions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartSpecification.cs">
+      <Link>Apps\Product\PartSpecification.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartSpecification.v.cs">
+      <Link>Apps\Product\PartSpecification.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartSpecificationObjectStates.cs">
+      <Link>Apps\Product\PartSpecificationObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartSpecifications.cs">
+      <Link>Apps\Product\PartSpecifications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartSpecificationStatus.cs">
+      <Link>Apps\Product\PartSpecificationStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartSpecificationStatuses.cs">
+      <Link>Apps\Product\PartSpecificationStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PartSubstitutes.cs">
+      <Link>Apps\Product\PartSubstitutes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PerformanceSpecification.cs">
+      <Link>Apps\Product\PerformanceSpecification.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PerformanceSpecification.v.cs">
+      <Link>Apps\Product\PerformanceSpecification.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PerformanceSpecifications.cs">
+      <Link>Apps\Product\PerformanceSpecifications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PriceComponents.cs">
+      <Link>Apps\Product\PriceComponents.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\PriceComponents.v.cs">
+      <Link>Apps\Product\PriceComponents.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Product.v.cs">
+      <Link>Apps\Product\Product.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductCategories.cs">
+      <Link>Apps\Product\ProductCategories.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductCategory.cs">
+      <Link>Apps\Product\ProductCategory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductConfigurations.cs">
+      <Link>Apps\Product\ProductConfigurations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductDeliverySkillRequirements.cs">
+      <Link>Apps\Product\ProductDeliverySkillRequirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductDrawings.cs">
+      <Link>Apps\Product\ProductDrawings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductFeature.v.cs">
+      <Link>Apps\Product\ProductFeature.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductModels.cs">
+      <Link>Apps\Product\ProductModels.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductPurchasePrice.cs">
+      <Link>Apps\Product\ProductPurchasePrice.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductPurchasePrices.cs">
+      <Link>Apps\Product\ProductPurchasePrices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductQualities.cs">
+      <Link>Apps\Product\ProductQualities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ProductQuality.cs">
+      <Link>Apps\Product\ProductQuality.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Products.cs">
+      <Link>Apps\Product\Products.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Products.v.cs">
+      <Link>Apps\Product\Products.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\RatingTypes.cs">
+      <Link>Apps\Product\RatingTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\RawMaterial.cs">
+      <Link>Apps\Product\RawMaterial.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\RawMaterial.v.cs">
+      <Link>Apps\Product\RawMaterial.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\RawMaterials.cs">
+      <Link>Apps\Product\RawMaterials.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\RecurringCharge.cs">
+      <Link>Apps\Product\RecurringCharge.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\RecurringCharges.cs">
+      <Link>Apps\Product\RecurringCharges.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SalesChannels.cs">
+      <Link>Apps\Product\SalesChannels.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SerializedInventoryItem.cs">
+      <Link>Apps\Product\SerializedInventoryItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SerializedInventoryItem.v.cs">
+      <Link>Apps\Product\SerializedInventoryItem.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SerializedInventoryItemObjectStates.cs">
+      <Link>Apps\Product\SerializedInventoryItemObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SerializedInventoryItems.cs">
+      <Link>Apps\Product\SerializedInventoryItems.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SerializedInventoryItemStatus.cs">
+      <Link>Apps\Product\SerializedInventoryItemStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SerializedInventoryItemStatuses.cs">
+      <Link>Apps\Product\SerializedInventoryItemStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ServiceConfigurations.cs">
+      <Link>Apps\Product\ServiceConfigurations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ServiceFeature.cs">
+      <Link>Apps\Product\ServiceFeature.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\ServiceFeatures.cs">
+      <Link>Apps\Product\ServiceFeatures.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Shelfs.cs">
+      <Link>Apps\Product\Shelfs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Size.cs">
+      <Link>Apps\Product\Size.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Sizes.cs">
+      <Link>Apps\Product\Sizes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SoftwareFeature.cs">
+      <Link>Apps\Product\SoftwareFeature.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SoftwareFeatures.cs">
+      <Link>Apps\Product\SoftwareFeatures.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SubAssemblies.cs">
+      <Link>Apps\Product\SubAssemblies.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SubAssembly.cs">
+      <Link>Apps\Product\SubAssembly.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SubAssembly.v.cs">
+      <Link>Apps\Product\SubAssembly.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SupplierOffering.cs">
+      <Link>Apps\Product\SupplierOffering.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SupplierOffering.v.cs">
+      <Link>Apps\Product\SupplierOffering.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SupplierOfferings.cs">
+      <Link>Apps\Product\SupplierOfferings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SurchargeComponent.cs">
+      <Link>Apps\Product\SurchargeComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SurchargeComponent.v.cs">
+      <Link>Apps\Product\SurchargeComponent.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\SurchargeComponents.cs">
+      <Link>Apps\Product\SurchargeComponents.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\TestingRequirement.cs">
+      <Link>Apps\Product\TestingRequirement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\TestingRequirement.v.cs">
+      <Link>Apps\Product\TestingRequirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\TestingRequirements.cs">
+      <Link>Apps\Product\TestingRequirements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\TimeAndMaterialsService.cs">
+      <Link>Apps\Product\TimeAndMaterialsService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\TimeAndMaterialsService.v.cs">
+      <Link>Apps\Product\TimeAndMaterialsService.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\TimeAndMaterialsServices.cs">
+      <Link>Apps\Product\TimeAndMaterialsServices.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\TimePeriodUsages.cs">
+      <Link>Apps\Product\TimePeriodUsages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Tolerance.cs">
+      <Link>Apps\Product\Tolerance.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Tolerance.v.cs">
+      <Link>Apps\Product\Tolerance.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\Tolerances.cs">
+      <Link>Apps\Product\Tolerances.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\UnitOfMeasure.cs">
+      <Link>Apps\Product\UnitOfMeasure.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\UnitsOfMeasure.cs">
+      <Link>Apps\Product\UnitsOfMeasure.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\UtilizationCharge.cs">
+      <Link>Apps\Product\UtilizationCharge.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\UtilizationCharges.cs">
+      <Link>Apps\Product\UtilizationCharges.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\VarianceReasons.cs">
+      <Link>Apps\Product\VarianceReasons.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Product\VolumeUsages.cs">
+      <Link>Apps\Product\VolumeUsages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Addenda.cs">
+      <Link>Apps\Relation\Addenda.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Addendum.cs">
+      <Link>Apps\Relation\Addendum.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\AgreementExhibits.cs">
+      <Link>Apps\Relation\AgreementExhibits.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\AgreementPricingPrograms.cs">
+      <Link>Apps\Relation\AgreementPricingPrograms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\AgreementSections.cs">
+      <Link>Apps\Relation\AgreementSections.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\AutomatedAgent.cs">
+      <Link>Apps\Relation\AutomatedAgent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\AutomatedAgent.v.cs">
+      <Link>Apps\Relation\AutomatedAgent.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\AutomatedAgents.cs">
+      <Link>Apps\Relation\AutomatedAgents.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Carriers.cs">
+      <Link>Apps\Relation\Carriers.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Case.cs">
+      <Link>Apps\Relation\Case.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Case.v.cs">
+      <Link>Apps\Relation\Case.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CaseObjectStates.cs">
+      <Link>Apps\Relation\CaseObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Cases.cs">
+      <Link>Apps\Relation\Cases.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CaseStatus.cs">
+      <Link>Apps\Relation\CaseStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CaseStatuses.cs">
+      <Link>Apps\Relation\CaseStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Citizenships.cs">
+      <Link>Apps\Relation\Citizenships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ClientAgreements.cs">
+      <Link>Apps\Relation\ClientAgreements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ClientRelationships.cs">
+      <Link>Apps\Relation\ClientRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CommunicationEvent.v.cs">
+      <Link>Apps\Relation\CommunicationEvent.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CommunicationEventExtensions.cs">
+      <Link>Apps\Relation\CommunicationEventExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CommunicationEventObjectStates.cs">
+      <Link>Apps\Relation\CommunicationEventObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CommunicationEventPurposes.cs">
+      <Link>Apps\Relation\CommunicationEventPurposes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CommunicationEvents.cs">
+      <Link>Apps\Relation\CommunicationEvents.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CommunicationEventStatus.cs">
+      <Link>Apps\Relation\CommunicationEventStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CommunicationEventStatuses.cs">
+      <Link>Apps\Relation\CommunicationEventStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ContactMechanism.cs">
+      <Link>Apps\Relation\ContactMechanism.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ContactMechanismPurpose.cs">
+      <Link>Apps\Relation\ContactMechanismPurpose.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ContactMechanismPurposes.cs">
+      <Link>Apps\Relation\ContactMechanismPurposes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CustomerRelationship.cs">
+      <Link>Apps\Relation\CustomerRelationship.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CustomerRelationship.v.cs">
+      <Link>Apps\Relation\CustomerRelationship.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\CustomerRelationships.cs">
+      <Link>Apps\Relation\CustomerRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\DistributionChannelRelationships.cs">
+      <Link>Apps\Relation\DistributionChannelRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\EmailAddress.cs">
+      <Link>Apps\Relation\EmailAddress.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\EmailAddresses.cs">
+      <Link>Apps\Relation\EmailAddresses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\EmailCommunication.cs">
+      <Link>Apps\Relation\EmailCommunication.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\EmailCommunication.v.cs">
+      <Link>Apps\Relation\EmailCommunication.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\EmailCommunications.cs">
+      <Link>Apps\Relation\EmailCommunications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\EmailTemplates.cs">
+      <Link>Apps\Relation\EmailTemplates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Employment.cs">
+      <Link>Apps\Relation\Employment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\EmploymentAgreements.cs">
+      <Link>Apps\Relation\EmploymentAgreements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Employments.cs">
+      <Link>Apps\Relation\Employments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FaceToFaceCommunication.cs">
+      <Link>Apps\Relation\FaceToFaceCommunication.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FaceToFaceCommunication.v.cs">
+      <Link>Apps\Relation\FaceToFaceCommunication.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FaceToFaceCommunications.cs">
+      <Link>Apps\Relation\FaceToFaceCommunications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FaxCommunication.cs">
+      <Link>Apps\Relation\FaxCommunication.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FaxCommunication.v.cs">
+      <Link>Apps\Relation\FaxCommunication.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FaxCommunications.cs">
+      <Link>Apps\Relation\FaxCommunications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FinancialTerm.cs">
+      <Link>Apps\Relation\FinancialTerm.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\FinancialTerms.cs">
+      <Link>Apps\Relation\FinancialTerms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\GenderTypes.cs">
+      <Link>Apps\Relation\GenderTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Hobbies.cs">
+      <Link>Apps\Relation\Hobbies.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Incentive.cs">
+      <Link>Apps\Relation\Incentive.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Incentives.cs">
+      <Link>Apps\Relation\Incentives.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\InternalOrganisation.cs">
+      <Link>Apps\Relation\InternalOrganisation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\InternalOrganisation.v.cs">
+      <Link>Apps\Relation\InternalOrganisation.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\InternalOrganisations.cs">
+      <Link>Apps\Relation\InternalOrganisations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\LegalForms.cs">
+      <Link>Apps\Relation\LegalForms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\LegalTerm.cs">
+      <Link>Apps\Relation\LegalTerm.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\LegalTerms.cs">
+      <Link>Apps\Relation\LegalTerms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\LetterCorrespondence.cs">
+      <Link>Apps\Relation\LetterCorrespondence.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\LetterCorrespondence.v.cs">
+      <Link>Apps\Relation\LetterCorrespondence.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\LetterCorrespondences.cs">
+      <Link>Apps\Relation\LetterCorrespondences.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\MaritalStatuses.cs">
+      <Link>Apps\Relation\MaritalStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Organisation.cs">
+      <Link>Apps\Relation\Organisation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Organisation.v.cs">
+      <Link>Apps\Relation\Organisation.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\OrganisationContactKinds.cs">
+      <Link>Apps\Relation\OrganisationContactKinds.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\OrganisationContactRelationship.cs">
+      <Link>Apps\Relation\OrganisationContactRelationship.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\OrganisationContactRelationship.v.cs">
+      <Link>Apps\Relation\OrganisationContactRelationship.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\OrganisationContactRelationships.cs">
+      <Link>Apps\Relation\OrganisationContactRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\OrganisationRollUps.cs">
+      <Link>Apps\Relation\OrganisationRollUps.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Organisations.cs">
+      <Link>Apps\Relation\Organisations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\OrganisationUnits.cs">
+      <Link>Apps\Relation\OrganisationUnits.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Parties.cs">
+      <Link>Apps\Relation\Parties.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Parties.v.cs">
+      <Link>Apps\Relation\Parties.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Partnership.cs">
+      <Link>Apps\Relation\Partnership.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Partnerships.cs">
+      <Link>Apps\Relation\Partnerships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Party.cs">
+      <Link>Apps\Relation\Party.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Party.v.cs">
+      <Link>Apps\Relation\Party.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PartyClassifications.cs">
+      <Link>Apps\Relation\PartyClassifications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PartyContactMechanism.cs">
+      <Link>Apps\Relation\PartyContactMechanism.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PartyContactMechanisms.cs">
+      <Link>Apps\Relation\PartyContactMechanisms.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PartyRelationshipStatuses.cs">
+      <Link>Apps\Relation\PartyRelationshipStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Passport.cs">
+      <Link>Apps\Relation\Passport.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Passports.cs">
+      <Link>Apps\Relation\Passports.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Person.cs">
+      <Link>Apps\Relation\Person.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Person.v.cs">
+      <Link>Apps\Relation\Person.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PersonalTitles.cs">
+      <Link>Apps\Relation\PersonalTitles.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Persons.cs">
+      <Link>Apps\Relation\Persons.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PhoneCommunication.cs">
+      <Link>Apps\Relation\PhoneCommunication.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PhoneCommunication.v.cs">
+      <Link>Apps\Relation\PhoneCommunication.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PhoneCommunications.cs">
+      <Link>Apps\Relation\PhoneCommunications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Priorities.cs">
+      <Link>Apps\Relation\Priorities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ProductFeatureApplicabilityRelationships.cs">
+      <Link>Apps\Relation\ProductFeatureApplicabilityRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ProfessionalServicesRelationships.cs">
+      <Link>Apps\Relation\ProfessionalServicesRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\ProspectRelationships.cs">
+      <Link>Apps\Relation\ProspectRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\PurchaseAgreements.cs">
+      <Link>Apps\Relation\PurchaseAgreements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SalesAgreements.cs">
+      <Link>Apps\Relation\SalesAgreements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SalesRepRelationship.cs">
+      <Link>Apps\Relation\SalesRepRelationship.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SalesRepRelationship.v.cs">
+      <Link>Apps\Relation\SalesRepRelationship.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SalesRepRelationships.cs">
+      <Link>Apps\Relation\SalesRepRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Salutations.cs">
+      <Link>Apps\Relation\Salutations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SubAgreements.cs">
+      <Link>Apps\Relation\SubAgreements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SubContractorAgreements.cs">
+      <Link>Apps\Relation\SubContractorAgreements.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SubContractorRelationships.cs">
+      <Link>Apps\Relation\SubContractorRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SupplierRelationship.cs">
+      <Link>Apps\Relation\SupplierRelationship.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SupplierRelationship.v.cs">
+      <Link>Apps\Relation\SupplierRelationship.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\SupplierRelationships.cs">
+      <Link>Apps\Relation\SupplierRelationships.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\TelecommunicationsNumber.cs">
+      <Link>Apps\Relation\TelecommunicationsNumber.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\TelecommunicationsNumbers.cs">
+      <Link>Apps\Relation\TelecommunicationsNumbers.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\TermTypes.cs">
+      <Link>Apps\Relation\TermTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Threshold.cs">
+      <Link>Apps\Relation\Threshold.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\Thresholds.cs">
+      <Link>Apps\Relation\Thresholds.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\WebAddress.cs">
+      <Link>Apps\Relation\WebAddress.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\WebAddresses.cs">
+      <Link>Apps\Relation\WebAddresses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\WebSiteCommunication.cs">
+      <Link>Apps\Relation\WebSiteCommunication.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\WebSiteCommunication.v.cs">
+      <Link>Apps\Relation\WebSiteCommunication.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Relation\WebSiteCommunications.cs">
+      <Link>Apps\Relation\WebSiteCommunications.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Security\AccessControls.cs">
+      <Link>Apps\Security\AccessControls.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Security\Roles.cs">
+      <Link>Apps\Security\Roles.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Security\SecurityConfiguration.cs">
+      <Link>Apps\Security\SecurityConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Security\UserGroups.cs">
+      <Link>Apps\Security\UserGroups.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Setup.cs">
+      <Link>Apps\Setup.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\BillOfLadings.cs">
+      <Link>Apps\Shipment\BillOfLadings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerReturn.cs">
+      <Link>Apps\Shipment\CustomerReturn.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerReturn.v.cs">
+      <Link>Apps\Shipment\CustomerReturn.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerReturnObjectStates.cs">
+      <Link>Apps\Shipment\CustomerReturnObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerReturns.cs">
+      <Link>Apps\Shipment\CustomerReturns.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerReturnStatus.cs">
+      <Link>Apps\Shipment\CustomerReturnStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerReturnStatuses.cs">
+      <Link>Apps\Shipment\CustomerReturnStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerShipment.cs">
+      <Link>Apps\Shipment\CustomerShipment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerShipment.v.cs">
+      <Link>Apps\Shipment\CustomerShipment.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerShipmentObjectStates.cs">
+      <Link>Apps\Shipment\CustomerShipmentObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerShipments.cs">
+      <Link>Apps\Shipment\CustomerShipments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerShipments.v.cs">
+      <Link>Apps\Shipment\CustomerShipments.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerShipmentStatus.cs">
+      <Link>Apps\Shipment\CustomerShipmentStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\CustomerShipmentStatuses.cs">
+      <Link>Apps\Shipment\CustomerShipmentStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\DropShipment.cs">
+      <Link>Apps\Shipment\DropShipment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\DropShipment.v.cs">
+      <Link>Apps\Shipment\DropShipment.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\DropShipmentObjectStates.cs">
+      <Link>Apps\Shipment\DropShipmentObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\DropShipments.cs">
+      <Link>Apps\Shipment\DropShipments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\DropShipmentStatus.cs">
+      <Link>Apps\Shipment\DropShipmentStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\DropShipmentStatuses.cs">
+      <Link>Apps\Shipment\DropShipmentStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ExportDocuments.cs">
+      <Link>Apps\Shipment\ExportDocuments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\HazardousMaterialsDocuments.cs">
+      <Link>Apps\Shipment\HazardousMaterialsDocuments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ItemIssuances.cs">
+      <Link>Apps\Shipment\ItemIssuances.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\Manifests.cs">
+      <Link>Apps\Shipment\Manifests.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\OrderShipment.cs">
+      <Link>Apps\Shipment\OrderShipment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\OrderShipments.cs">
+      <Link>Apps\Shipment\OrderShipments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PackagingContent.cs">
+      <Link>Apps\Shipment\PackagingContent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PackagingContent.v.cs">
+      <Link>Apps\Shipment\PackagingContent.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PackagingContents.cs">
+      <Link>Apps\Shipment\PackagingContents.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PackagingSlip.cs">
+      <Link>Apps\Shipment\PackagingSlip.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PackagingSlips.cs">
+      <Link>Apps\Shipment\PackagingSlips.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PackagingSlips.v.cs">
+      <Link>Apps\Shipment\PackagingSlips.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PickList.cs">
+      <Link>Apps\Shipment\PickList.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PickListItem.cs">
+      <Link>Apps\Shipment\PickListItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PickListObjectStates.cs">
+      <Link>Apps\Shipment\PickListObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PickLists.cs">
+      <Link>Apps\Shipment\PickLists.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PickLists.v.cs">
+      <Link>Apps\Shipment\PickLists.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PickListStatus.cs">
+      <Link>Apps\Shipment\PickListStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PickListStatuses.cs">
+      <Link>Apps\Shipment\PickListStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseReturn.cs">
+      <Link>Apps\Shipment\PurchaseReturn.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseReturn.v.cs">
+      <Link>Apps\Shipment\PurchaseReturn.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseReturnObjectStates.cs">
+      <Link>Apps\Shipment\PurchaseReturnObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseReturns.cs">
+      <Link>Apps\Shipment\PurchaseReturns.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseReturnStatus.cs">
+      <Link>Apps\Shipment\PurchaseReturnStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseReturnStatuses.cs">
+      <Link>Apps\Shipment\PurchaseReturnStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseShipment.cs">
+      <Link>Apps\Shipment\PurchaseShipment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseShipment.v.cs">
+      <Link>Apps\Shipment\PurchaseShipment.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseShipmentObjectStates.cs">
+      <Link>Apps\Shipment\PurchaseShipmentObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseShipments.cs">
+      <Link>Apps\Shipment\PurchaseShipments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseShipments.v.cs">
+      <Link>Apps\Shipment\PurchaseShipments.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseShipmentStatus.cs">
+      <Link>Apps\Shipment\PurchaseShipmentStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\PurchaseShipmentStatuses.cs">
+      <Link>Apps\Shipment\PurchaseShipmentStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\Shipment.cs">
+      <Link>Apps\Shipment\Shipment.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentItem.cs">
+      <Link>Apps\Shipment\ShipmentItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentItem.v.cs">
+      <Link>Apps\Shipment\ShipmentItem.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentMethods.cs">
+      <Link>Apps\Shipment\ShipmentMethods.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentPackage.cs">
+      <Link>Apps\Shipment\ShipmentPackage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentPackages.cs">
+      <Link>Apps\Shipment\ShipmentPackages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentReceipt.cs">
+      <Link>Apps\Shipment\ShipmentReceipt.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentReceipts.cs">
+      <Link>Apps\Shipment\ShipmentReceipts.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentRouteSegments.cs">
+      <Link>Apps\Shipment\ShipmentRouteSegments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentValue.cs">
+      <Link>Apps\Shipment\ShipmentValue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShipmentValues.cs">
+      <Link>Apps\Shipment\ShipmentValues.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponent.cs">
+      <Link>Apps\Shipment\ShippingAndHandlingComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponents.cs">
+      <Link>Apps\Shipment\ShippingAndHandlingComponents.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\ShippingAndHandlingComponents.v.cs">
+      <Link>Apps\Shipment\ShippingAndHandlingComponents.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\TaxDocuments.cs">
+      <Link>Apps\Shipment\TaxDocuments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\Transfer.cs">
+      <Link>Apps\Shipment\Transfer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\Transfer.v.cs">
+      <Link>Apps\Shipment\Transfer.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\TransferObjectStates.cs">
+      <Link>Apps\Shipment\TransferObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\Transfers.cs">
+      <Link>Apps\Shipment\Transfers.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\TransferStatus.cs">
+      <Link>Apps\Shipment\TransferStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\TransferStatuses.cs">
+      <Link>Apps\Shipment\TransferStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\Shipment\Vehicles.cs">
+      <Link>Apps\Shipment\Vehicles.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Activities.cs">
+      <Link>Apps\WorkEffort\Activities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Activity.cs">
+      <Link>Apps\WorkEffort\Activity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\AssetAssignmentStatuses.cs">
+      <Link>Apps\WorkEffort\AssetAssignmentStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Deliverables.cs">
+      <Link>Apps\WorkEffort\Deliverables.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\DeliverableTurnover.cs">
+      <Link>Apps\WorkEffort\DeliverableTurnover.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\DeliverableTurnovers.cs">
+      <Link>Apps\WorkEffort\DeliverableTurnovers.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\DeliverableTypes.cs">
+      <Link>Apps\WorkEffort\DeliverableTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\ExpenseEntries.cs">
+      <Link>Apps\WorkEffort\ExpenseEntries.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\ExpenseEntry.cs">
+      <Link>Apps\WorkEffort\ExpenseEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Maintenance.cs">
+      <Link>Apps\WorkEffort\Maintenance.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Maintenances.cs">
+      <Link>Apps\WorkEffort\Maintenances.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\MaterialsUsage.cs">
+      <Link>Apps\WorkEffort\MaterialsUsage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\MaterialsUsages.cs">
+      <Link>Apps\WorkEffort\MaterialsUsages.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\PartyFixedAssetAssignments.cs">
+      <Link>Apps\WorkEffort\PartyFixedAssetAssignments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Phase.cs">
+      <Link>Apps\WorkEffort\Phase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Phases.cs">
+      <Link>Apps\WorkEffort\Phases.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\ProductionRun.cs">
+      <Link>Apps\WorkEffort\ProductionRun.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\ProductionRuns.cs">
+      <Link>Apps\WorkEffort\ProductionRuns.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Program.cs">
+      <Link>Apps\WorkEffort\Program.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Programs.cs">
+      <Link>Apps\WorkEffort\Programs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Project.cs">
+      <Link>Apps\WorkEffort\Project.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Projects.cs">
+      <Link>Apps\WorkEffort\Projects.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Research.cs">
+      <Link>Apps\WorkEffort\Research.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Researches.cs">
+      <Link>Apps\WorkEffort\Researches.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Task.cs">
+      <Link>Apps\WorkEffort\Task.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\Tasks.cs">
+      <Link>Apps\WorkEffort\Tasks.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\TimeEntries.cs">
+      <Link>Apps\WorkEffort\TimeEntries.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\TimeEntry.cs">
+      <Link>Apps\WorkEffort\TimeEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortAssignmentRates.cs">
+      <Link>Apps\WorkEffort\WorkEffortAssignmentRates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortAssignments.cs">
+      <Link>Apps\WorkEffort\WorkEffortAssignments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortExtensions.cs">
+      <Link>Apps\WorkEffort\WorkEffortExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortFixedAssetAssignments.cs">
+      <Link>Apps\WorkEffort\WorkEffortFixedAssetAssignments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortFixedAssetStandards.cs">
+      <Link>Apps\WorkEffort\WorkEffortFixedAssetStandards.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortGoodStandards.cs">
+      <Link>Apps\WorkEffort\WorkEffortGoodStandards.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortInventoryAssignments.cs">
+      <Link>Apps\WorkEffort\WorkEffortInventoryAssignments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortObjectStates.cs">
+      <Link>Apps\WorkEffort\WorkEffortObjectStates.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortPartStandards.cs">
+      <Link>Apps\WorkEffort\WorkEffortPartStandards.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortPartyAssignments.cs">
+      <Link>Apps\WorkEffort\WorkEffortPartyAssignments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortPurposes.cs">
+      <Link>Apps\WorkEffort\WorkEffortPurposes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortSkillStandards.cs">
+      <Link>Apps\WorkEffort\WorkEffortSkillStandards.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortStatus.cs">
+      <Link>Apps\WorkEffort\WorkEffortStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortStatuses.cs">
+      <Link>Apps\WorkEffort\WorkEffortStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortType.cs">
+      <Link>Apps\WorkEffort\WorkEffortType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortTypeKinds.cs">
+      <Link>Apps\WorkEffort\WorkEffortTypeKinds.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkEffortTypes.cs">
+      <Link>Apps\WorkEffort\WorkEffortTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkFlow.cs">
+      <Link>Apps\WorkEffort\WorkFlow.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkFlows.cs">
+      <Link>Apps\WorkEffort\WorkFlows.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkRequirement.cs">
+      <Link>Apps\WorkEffort\WorkRequirement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkRequirement.v.cs">
+      <Link>Apps\WorkEffort\WorkRequirement.v.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Apps\Apps\Domain\Apps\WorkEffort\WorkRequirements.cs">
+      <Link>Apps\WorkEffort\WorkRequirements.cs</Link>
+    </Compile>
     <Compile Include="Dipu\Allors\ObjectsBase.cs" />
     <Compile Include="Dipu\Common\Auditable.cs" />
     <Compile Include="Dipu\Setup.cs" />
     <Compile Include="Dipu\Allors\ObjectsBase.v.cs" />
     <Compile Include="Dipu\Setup.v.cs" />
+    <Compile Include="Generated\AccessControl.g.cs" />
+    <Compile Include="Generated\AccessControlledObject.g.cs" />
+    <Compile Include="Generated\AccountAdjustment.g.cs" />
+    <Compile Include="Generated\AccountingPeriod.g.cs" />
+    <Compile Include="Generated\AccountingTransaction.g.cs" />
+    <Compile Include="Generated\AccountingTransactionDetail.g.cs" />
+    <Compile Include="Generated\AccountingTransactionNumber.g.cs" />
+    <Compile Include="Generated\AccountingTransactionType.g.cs" />
+    <Compile Include="Generated\Activity.g.cs" />
+    <Compile Include="Generated\ActivityUsage.g.cs" />
+    <Compile Include="Generated\Addendum.g.cs" />
+    <Compile Include="Generated\Agreement.g.cs" />
+    <Compile Include="Generated\AgreementExhibit.g.cs" />
+    <Compile Include="Generated\AgreementItem.g.cs" />
+    <Compile Include="Generated\AgreementPricingProgram.g.cs" />
+    <Compile Include="Generated\AgreementSection.g.cs" />
+    <Compile Include="Generated\AgreementTerm.g.cs" />
+    <Compile Include="Generated\Amortization.g.cs" />
+    <Compile Include="Generated\AmountDue.g.cs" />
+    <Compile Include="Generated\AssetAssignmentStatus.g.cs" />
+    <Compile Include="Generated\Auditable.g.cs" />
+    <Compile Include="Generated\AutomatedAgent.g.cs" />
+    <Compile Include="Generated\Bank.g.cs" />
+    <Compile Include="Generated\BankAccount.g.cs" />
+    <Compile Include="Generated\Barrel.g.cs" />
+    <Compile Include="Generated\BasePrice.g.cs" />
+    <Compile Include="Generated\Benefit.g.cs" />
+    <Compile Include="Generated\BillingAccount.g.cs" />
+    <Compile Include="Generated\BillOfLading.g.cs" />
+    <Compile Include="Generated\Bin.g.cs" />
+    <Compile Include="Generated\Brand.g.cs" />
+    <Compile Include="Generated\Budget.g.cs" />
+    <Compile Include="Generated\BudgetClose.g.cs" />
+    <Compile Include="Generated\BudgetItem.g.cs" />
+    <Compile Include="Generated\BudgetObjectState.g.cs" />
+    <Compile Include="Generated\BudgetReopen.g.cs" />
+    <Compile Include="Generated\BudgetReview.g.cs" />
+    <Compile Include="Generated\BudgetRevision.g.cs" />
+    <Compile Include="Generated\BudgetRevisionImpact.g.cs" />
+    <Compile Include="Generated\BudgetStatus.g.cs" />
+    <Compile Include="Generated\Building.g.cs" />
+    <Compile Include="Generated\CapitalBudget.g.cs" />
+    <Compile Include="Generated\Capitalization.g.cs" />
+    <Compile Include="Generated\Carrier.g.cs" />
+    <Compile Include="Generated\Case.g.cs" />
+    <Compile Include="Generated\CaseObjectState.g.cs" />
+    <Compile Include="Generated\CaseStatus.g.cs" />
+    <Compile Include="Generated\Cash.g.cs" />
+    <Compile Include="Generated\ChartOfAccounts.g.cs" />
+    <Compile Include="Generated\Citizenship.g.cs" />
+    <Compile Include="Generated\City.g.cs" />
+    <Compile Include="Generated\CityBound.g.cs" />
+    <Compile Include="Generated\ClientAgreement.g.cs" />
+    <Compile Include="Generated\ClientRelationship.g.cs" />
+    <Compile Include="Generated\Colour.g.cs" />
+    <Compile Include="Generated\Commentable.g.cs" />
+    <Compile Include="Generated\CommunicationAttachment.g.cs" />
+    <Compile Include="Generated\CommunicationEvent.g.cs" />
+    <Compile Include="Generated\CommunicationEventCancel.g.cs" />
+    <Compile Include="Generated\CommunicationEventClose.g.cs" />
+    <Compile Include="Generated\CommunicationEventObjectState.g.cs" />
+    <Compile Include="Generated\CommunicationEventPurpose.g.cs" />
+    <Compile Include="Generated\CommunicationEventReopen.g.cs" />
+    <Compile Include="Generated\CommunicationEventStatus.g.cs" />
+    <Compile Include="Generated\ConstraintSpecification.g.cs" />
+    <Compile Include="Generated\ContactMechanism.g.cs" />
+    <Compile Include="Generated\ContactMechanismPurpose.g.cs" />
+    <Compile Include="Generated\Container.g.cs" />
+    <Compile Include="Generated\CostCenter.g.cs" />
+    <Compile Include="Generated\CostCenterCategory.g.cs" />
+    <Compile Include="Generated\CostCenterSplitMethod.g.cs" />
+    <Compile Include="Generated\CostOfGoodsSoldMethod.g.cs" />
+    <Compile Include="Generated\Counter.g.cs" />
+    <Compile Include="Generated\Country.g.cs" />
+    <Compile Include="Generated\CountryBound.g.cs" />
+    <Compile Include="Generated\County.g.cs" />
+    <Compile Include="Generated\CreditCard.g.cs" />
+    <Compile Include="Generated\CreditCardCompany.g.cs" />
+    <Compile Include="Generated\CreditLine.g.cs" />
+    <Compile Include="Generated\Currency.g.cs" />
+    <Compile Include="Generated\CustomEngagementItem.g.cs" />
+    <Compile Include="Generated\CustomerRelationship.g.cs" />
+    <Compile Include="Generated\CustomerRequirement.g.cs" />
+    <Compile Include="Generated\CustomerReturn.g.cs" />
+    <Compile Include="Generated\CustomerReturnObjectState.g.cs" />
+    <Compile Include="Generated\CustomerReturnStatus.g.cs" />
+    <Compile Include="Generated\CustomerShipment.g.cs" />
+    <Compile Include="Generated\CustomerShipmentCancel.g.cs" />
+    <Compile Include="Generated\CustomerShipmentContinue.g.cs" />
+    <Compile Include="Generated\CustomerShipmentHold.g.cs" />
+    <Compile Include="Generated\CustomerShipmentObjectState.g.cs" />
+    <Compile Include="Generated\CustomerShipmentProcessOnContinue.g.cs" />
+    <Compile Include="Generated\CustomerShipmentPutOnHold.g.cs" />
+    <Compile Include="Generated\CustomerShipmentSetPacked.g.cs" />
+    <Compile Include="Generated\CustomerShipmentSetPicked.g.cs" />
+    <Compile Include="Generated\CustomerShipmentShip.g.cs" />
+    <Compile Include="Generated\CustomerShipmentStatus.g.cs" />
+    <Compile Include="Generated\DebitCreditConstant.g.cs" />
+    <Compile Include="Generated\Deduction.g.cs" />
+    <Compile Include="Generated\DeductionType.g.cs" />
+    <Compile Include="Generated\Deletable.g.cs" />
+    <Compile Include="Generated\DeletableDelete.g.cs" />
+    <Compile Include="Generated\Deliverable.g.cs" />
+    <Compile Include="Generated\DeliverableBasedService.g.cs" />
+    <Compile Include="Generated\DeliverableOrderItem.g.cs" />
+    <Compile Include="Generated\DeliverableTurnover.g.cs" />
+    <Compile Include="Generated\DeliverableType.g.cs" />
+    <Compile Include="Generated\Deployment.g.cs" />
+    <Compile Include="Generated\DeploymentUsage.g.cs" />
+    <Compile Include="Generated\Deposit.g.cs" />
+    <Compile Include="Generated\Depreciation.g.cs" />
+    <Compile Include="Generated\DepreciationMethod.g.cs" />
+    <Compile Include="Generated\DesiredProductFeature.g.cs" />
+    <Compile Include="Generated\Dimension.g.cs" />
+    <Compile Include="Generated\Disbursement.g.cs" />
+    <Compile Include="Generated\DisbursementAccountingTransaction.g.cs" />
+    <Compile Include="Generated\DiscountAdjustment.g.cs" />
+    <Compile Include="Generated\DiscountComponent.g.cs" />
+    <Compile Include="Generated\DistributionChannelRelationship.g.cs" />
+    <Compile Include="Generated\Document.g.cs" />
+    <Compile Include="Generated\DropShipment.g.cs" />
+    <Compile Include="Generated\DropShipmentObjectState.g.cs" />
+    <Compile Include="Generated\DropShipmentStatus.g.cs" />
+    <Compile Include="Generated\DunningType.g.cs" />
+    <Compile Include="Generated\ElectronicAddress.g.cs" />
+    <Compile Include="Generated\EmailAddress.g.cs" />
+    <Compile Include="Generated\EmailCommunication.g.cs" />
+    <Compile Include="Generated\EmailTemplate.g.cs" />
+    <Compile Include="Generated\Employment.g.cs" />
+    <Compile Include="Generated\EmploymentAgreement.g.cs" />
+    <Compile Include="Generated\EmploymentApplication.g.cs" />
+    <Compile Include="Generated\EmploymentApplicationSource.g.cs" />
+    <Compile Include="Generated\EmploymentApplicationStatus.g.cs" />
+    <Compile Include="Generated\EmploymentTermination.g.cs" />
+    <Compile Include="Generated\EmploymentTerminationReason.g.cs" />
+    <Compile Include="Generated\Engagement.g.cs" />
+    <Compile Include="Generated\EngagementItem.g.cs" />
+    <Compile Include="Generated\EngagementRate.g.cs" />
+    <Compile Include="Generated\EngineeringBom.g.cs" />
+    <Compile Include="Generated\EngineeringChange.g.cs" />
+    <Compile Include="Generated\EngineeringChangeObjectState.g.cs" />
+    <Compile Include="Generated\EngineeringChangeStatus.g.cs" />
+    <Compile Include="Generated\EngineeringDocument.g.cs" />
+    <Compile Include="Generated\Enumeration.g.cs" />
+    <Compile Include="Generated\Equipment.g.cs" />
+    <Compile Include="Generated\EstimatedLaborCost.g.cs" />
+    <Compile Include="Generated\EstimatedMaterialCost.g.cs" />
+    <Compile Include="Generated\EstimatedOtherCost.g.cs" />
+    <Compile Include="Generated\EstimatedProductCost.g.cs" />
+    <Compile Include="Generated\EuSalesListType.g.cs" />
+    <Compile Include="Generated\Event.g.cs" />
+    <Compile Include="Generated\EventRegistration.g.cs" />
+    <Compile Include="Generated\ExpenseEntry.g.cs" />
+    <Compile Include="Generated\ExportDocument.g.cs" />
+    <Compile Include="Generated\ExternalAccountingTransaction.g.cs" />
+    <Compile Include="Generated\FaceToFaceCommunication.g.cs" />
+    <Compile Include="Generated\Facility.g.cs" />
+    <Compile Include="Generated\FaxCommunication.g.cs" />
+    <Compile Include="Generated\Fee.g.cs" />
+    <Compile Include="Generated\FinancialAccount.g.cs" />
+    <Compile Include="Generated\FinancialAccountAdjustment.g.cs" />
+    <Compile Include="Generated\FinancialAccountTransaction.g.cs" />
+    <Compile Include="Generated\FinancialTerm.g.cs" />
+    <Compile Include="Generated\FinishedGood.g.cs" />
+    <Compile Include="Generated\FiscalYearInvoiceNumber.g.cs" />
+    <Compile Include="Generated\FixedAsset.g.cs" />
+    <Compile Include="Generated\Floor.g.cs" />
+    <Compile Include="Generated\GenderType.g.cs" />
+    <Compile Include="Generated\GeneralLedgerAccount.g.cs" />
+    <Compile Include="Generated\GeneralLedgerAccountGroup.g.cs" />
+    <Compile Include="Generated\GeneralLedgerAccountType.g.cs" />
+    <Compile Include="Generated\GeographicBoundary.g.cs" />
+    <Compile Include="Generated\GeographicBoundaryComposite.g.cs" />
+    <Compile Include="Generated\GeoLocatable.g.cs" />
+    <Compile Include="Generated\GlBudgetAllocation.g.cs" />
+    <Compile Include="Generated\Good.g.cs" />
+    <Compile Include="Generated\GoodOrderItem.g.cs" />
+    <Compile Include="Generated\HazardousMaterialsDocument.g.cs" />
+    <Compile Include="Generated\Hobby.g.cs" />
+    <Compile Include="Generated\Image.g.cs" />
+    <Compile Include="Generated\ImageCreateResponsive.g.cs" />
+    <Compile Include="Generated\ImageCreateThumbnail.g.cs" />
+    <Compile Include="Generated\Incentive.g.cs" />
+    <Compile Include="Generated\IndustryClassification.g.cs" />
+    <Compile Include="Generated\InternalAccountingTransaction.g.cs" />
+    <Compile Include="Generated\InternalOrganisation.g.cs" />
+    <Compile Include="Generated\InternalOrganisationAccountingPreference.g.cs" />
+    <Compile Include="Generated\InternalOrganisationRevenue.g.cs" />
+    <Compile Include="Generated\InternalOrganisationRevenueHistory.g.cs" />
+    <Compile Include="Generated\InternalRequirement.g.cs" />
+    <Compile Include="Generated\InventoryItem.g.cs" />
+    <Compile Include="Generated\InventoryItemConfiguration.g.cs" />
+    <Compile Include="Generated\InventoryItemKind.g.cs" />
+    <Compile Include="Generated\InventoryItemVariance.g.cs" />
+    <Compile Include="Generated\InvestmentAccount.g.cs" />
+    <Compile Include="Generated\Invoice.g.cs" />
+    <Compile Include="Generated\InvoiceItem.g.cs" />
+    <Compile Include="Generated\InvoiceSequence.g.cs" />
+    <Compile Include="Generated\InvoiceTerm.g.cs" />
+    <Compile Include="Generated\InvoiceVatRateItem.g.cs" />
+    <Compile Include="Generated\ItemIssuance.g.cs" />
+    <Compile Include="Generated\ItemVarianceAccountingTransaction.g.cs" />
+    <Compile Include="Generated\IUnitOfMeasure.g.cs" />
+    <Compile Include="Generated\Journal.g.cs" />
+    <Compile Include="Generated\JournalEntry.g.cs" />
+    <Compile Include="Generated\JournalEntryDetail.g.cs" />
+    <Compile Include="Generated\JournalEntryNumber.g.cs" />
+    <Compile Include="Generated\JournalType.g.cs" />
+    <Compile Include="Generated\Language.g.cs" />
+    <Compile Include="Generated\LegalForm.g.cs" />
+    <Compile Include="Generated\LegalTerm.g.cs" />
+    <Compile Include="Generated\LetterCorrespondence.g.cs" />
+    <Compile Include="Generated\Locale.g.cs" />
+    <Compile Include="Generated\Localised.g.cs" />
+    <Compile Include="Generated\LocalisedText.g.cs" />
+    <Compile Include="Generated\Login.g.cs" />
+    <Compile Include="Generated\Lot.g.cs" />
+    <Compile Include="Generated\Maintenance.g.cs" />
+    <Compile Include="Generated\Manifest.g.cs" />
+    <Compile Include="Generated\ManufacturerSuggestedRetailPrice.g.cs" />
+    <Compile Include="Generated\ManufacturingBom.g.cs" />
+    <Compile Include="Generated\ManufacturingConfiguration.g.cs" />
+    <Compile Include="Generated\MaritalStatus.g.cs" />
+    <Compile Include="Generated\MarketingMaterial.g.cs" />
+    <Compile Include="Generated\MarketingPackage.g.cs" />
+    <Compile Include="Generated\MaterialsUsage.g.cs" />
+    <Compile Include="Generated\Media.g.cs" />
+    <Compile Include="Generated\MediaContent.g.cs" />
+    <Compile Include="Generated\MediaType.g.cs" />
+    <Compile Include="Generated\Meta.g.cs" />
+    <Compile Include="Generated\Model.g.cs" />
+    <Compile Include="Generated\NeededSkill.g.cs" />
+    <Compile Include="Generated\NewsItem.g.cs" />
+    <Compile Include="Generated\NonSerializedInventoryItem.g.cs" />
+    <Compile Include="Generated\NonSerializedInventoryItemObjectState.g.cs" />
+    <Compile Include="Generated\NonSerializedInventoryItemStatus.g.cs" />
+    <Compile Include="Generated\Note.g.cs" />
+    <Compile Include="Generated\Object.g.cs" />
+    <Compile Include="Generated\ObjectOnBuild.g.cs" />
+    <Compile Include="Generated\ObjectOnDerive.g.cs" />
+    <Compile Include="Generated\ObjectOnPostBuild.g.cs" />
+    <Compile Include="Generated\ObjectOnPostDerive.g.cs" />
+    <Compile Include="Generated\ObjectOnPreDerive.g.cs" />
+    <Compile Include="Generated\ObjectState.g.cs" />
+    <Compile Include="Generated\Obligation.g.cs" />
+    <Compile Include="Generated\Office.g.cs" />
+    <Compile Include="Generated\OneTimeCharge.g.cs" />
+    <Compile Include="Generated\OperatingBudget.g.cs" />
+    <Compile Include="Generated\OperatingCondition.g.cs" />
+    <Compile Include="Generated\Order.g.cs" />
+    <Compile Include="Generated\OrderAdjustment.g.cs" />
+    <Compile Include="Generated\OrderApprove.g.cs" />
+    <Compile Include="Generated\OrderCancel.g.cs" />
+    <Compile Include="Generated\OrderComplete.g.cs" />
+    <Compile Include="Generated\OrderConfirm.g.cs" />
+    <Compile Include="Generated\OrderContinue.g.cs" />
+    <Compile Include="Generated\OrderFinish.g.cs" />
+    <Compile Include="Generated\OrderHold.g.cs" />
+    <Compile Include="Generated\OrderItem.g.cs" />
+    <Compile Include="Generated\OrderItemApprove.g.cs" />
+    <Compile Include="Generated\OrderItemBilling.g.cs" />
+    <Compile Include="Generated\OrderItemCancel.g.cs" />
+    <Compile Include="Generated\OrderItemConfirm.g.cs" />
+    <Compile Include="Generated\OrderItemDelete.g.cs" />
+    <Compile Include="Generated\OrderItemFinish.g.cs" />
+    <Compile Include="Generated\OrderItemReject.g.cs" />
+    <Compile Include="Generated\OrderKind.g.cs" />
+    <Compile Include="Generated\OrderQuantityBreak.g.cs" />
+    <Compile Include="Generated\OrderReject.g.cs" />
+    <Compile Include="Generated\OrderRequirementCommitment.g.cs" />
+    <Compile Include="Generated\OrderShipment.g.cs" />
+    <Compile Include="Generated\OrderTerm.g.cs" />
+    <Compile Include="Generated\OrderValue.g.cs" />
+    <Compile Include="Generated\Ordinal.g.cs" />
+    <Compile Include="Generated\Organisation.g.cs" />
+    <Compile Include="Generated\OrganisationClassification.g.cs" />
+    <Compile Include="Generated\OrganisationContactKind.g.cs" />
+    <Compile Include="Generated\OrganisationContactRelationship.g.cs" />
+    <Compile Include="Generated\OrganisationGlAccount.g.cs" />
+    <Compile Include="Generated\OrganisationGlAccountBalance.g.cs" />
+    <Compile Include="Generated\OrganisationRollUp.g.cs" />
+    <Compile Include="Generated\OrganisationUnit.g.cs" />
+    <Compile Include="Generated\OwnBankAccount.g.cs" />
+    <Compile Include="Generated\OwnCreditCard.g.cs" />
+    <Compile Include="Generated\Package.g.cs" />
+    <Compile Include="Generated\PackageQuantityBreak.g.cs" />
+    <Compile Include="Generated\PackageRevenue.g.cs" />
+    <Compile Include="Generated\PackageRevenueHistory.g.cs" />
+    <Compile Include="Generated\PackagingContent.g.cs" />
+    <Compile Include="Generated\PackagingSlip.g.cs" />
+    <Compile Include="Generated\Part.g.cs" />
+    <Compile Include="Generated\PartBillOfMaterial.g.cs" />
+    <Compile Include="Generated\PartBillOfMaterialSubstitute.g.cs" />
+    <Compile Include="Generated\Partnership.g.cs" />
+    <Compile Include="Generated\PartRevision.g.cs" />
+    <Compile Include="Generated\PartSpecification.g.cs" />
+    <Compile Include="Generated\PartSpecificationObjectState.g.cs" />
+    <Compile Include="Generated\PartSpecificationStatus.g.cs" />
+    <Compile Include="Generated\PartSubstitute.g.cs" />
+    <Compile Include="Generated\Party.g.cs" />
+    <Compile Include="Generated\PartyBenefit.g.cs" />
+    <Compile Include="Generated\PartyClassification.g.cs" />
+    <Compile Include="Generated\PartyContactMechanism.g.cs" />
+    <Compile Include="Generated\PartyFixedAssetAssignment.g.cs" />
+    <Compile Include="Generated\PartyPackageRevenue.g.cs" />
+    <Compile Include="Generated\PartyPackageRevenueHistory.g.cs" />
+    <Compile Include="Generated\PartyProductCategoryRevenue.g.cs" />
+    <Compile Include="Generated\PartyProductCategoryRevenueHistory.g.cs" />
+    <Compile Include="Generated\PartyProductRevenue.g.cs" />
+    <Compile Include="Generated\PartyProductRevenueHistory.g.cs" />
+    <Compile Include="Generated\PartyRelationship.g.cs" />
+    <Compile Include="Generated\PartyRelationshipStatus.g.cs" />
+    <Compile Include="Generated\PartyRevenue.g.cs" />
+    <Compile Include="Generated\PartyRevenueHistory.g.cs" />
+    <Compile Include="Generated\PartySkill.g.cs" />
+    <Compile Include="Generated\Passport.g.cs" />
+    <Compile Include="Generated\PayCheck.g.cs" />
+    <Compile Include="Generated\PayGrade.g.cs" />
+    <Compile Include="Generated\PayHistory.g.cs" />
+    <Compile Include="Generated\Payment.g.cs" />
+    <Compile Include="Generated\PaymentApplication.g.cs" />
+    <Compile Include="Generated\PaymentBudgetAllocation.g.cs" />
+    <Compile Include="Generated\PaymentMethod.g.cs" />
+    <Compile Include="Generated\PayrollPreference.g.cs" />
+    <Compile Include="Generated\PerformanceNote.g.cs" />
+    <Compile Include="Generated\PerformanceReview.g.cs" />
+    <Compile Include="Generated\PerformanceReviewItem.g.cs" />
+    <Compile Include="Generated\PerformanceReviewItemType.g.cs" />
+    <Compile Include="Generated\PerformanceSpecification.g.cs" />
+    <Compile Include="Generated\Period.g.cs" />
+    <Compile Include="Generated\Permission.g.cs" />
+    <Compile Include="Generated\Person.g.cs" />
+    <Compile Include="Generated\PersonalTitle.g.cs" />
+    <Compile Include="Generated\PersonClassification.g.cs" />
+    <Compile Include="Generated\PersonTraining.g.cs" />
+    <Compile Include="Generated\Phase.g.cs" />
+    <Compile Include="Generated\PhoneCommunication.g.cs" />
+    <Compile Include="Generated\PickList.g.cs" />
+    <Compile Include="Generated\PickListCancel.g.cs" />
+    <Compile Include="Generated\PickListContinue.g.cs" />
+    <Compile Include="Generated\PickListHold.g.cs" />
+    <Compile Include="Generated\PickListItem.g.cs" />
+    <Compile Include="Generated\PickListObjectState.g.cs" />
+    <Compile Include="Generated\PickListSetPicked.g.cs" />
+    <Compile Include="Generated\PickListStatus.g.cs" />
+    <Compile Include="Generated\Plant.g.cs" />
+    <Compile Include="Generated\Position.g.cs" />
+    <Compile Include="Generated\PositionFulfillment.g.cs" />
+    <Compile Include="Generated\PositionReportingStructure.g.cs" />
+    <Compile Include="Generated\PositionResponsibility.g.cs" />
+    <Compile Include="Generated\PositionStatus.g.cs" />
+    <Compile Include="Generated\PositionType.g.cs" />
+    <Compile Include="Generated\PositionTypeRate.g.cs" />
+    <Compile Include="Generated\PostalAddress.g.cs" />
+    <Compile Include="Generated\PostalBoundary.g.cs" />
+    <Compile Include="Generated\PostalCode.g.cs" />
+    <Compile Include="Generated\PriceComponent.g.cs" />
+    <Compile Include="Generated\Printable.g.cs" />
+    <Compile Include="Generated\PrintQueue.g.cs" />
+    <Compile Include="Generated\Priority.g.cs" />
+    <Compile Include="Generated\Product.g.cs" />
+    <Compile Include="Generated\ProductAssociation.g.cs" />
+    <Compile Include="Generated\ProductCategory.g.cs" />
+    <Compile Include="Generated\ProductCategoryRevenue.g.cs" />
+    <Compile Include="Generated\ProductCategoryRevenueHistory.g.cs" />
+    <Compile Include="Generated\ProductConfiguration.g.cs" />
+    <Compile Include="Generated\ProductDeliverySkillRequirement.g.cs" />
+    <Compile Include="Generated\ProductDrawing.g.cs" />
+    <Compile Include="Generated\ProductFeature.g.cs" />
+    <Compile Include="Generated\ProductFeatureApplicabilityRelationship.g.cs" />
+    <Compile Include="Generated\ProductionRun.g.cs" />
+    <Compile Include="Generated\ProductModel.g.cs" />
+    <Compile Include="Generated\ProductPurchasePrice.g.cs" />
+    <Compile Include="Generated\ProductQuality.g.cs" />
+    <Compile Include="Generated\ProductQuote.g.cs" />
+    <Compile Include="Generated\ProductRequirement.g.cs" />
+    <Compile Include="Generated\ProductRevenue.g.cs" />
+    <Compile Include="Generated\ProductRevenueHistory.g.cs" />
+    <Compile Include="Generated\ProfessionalAssignment.g.cs" />
+    <Compile Include="Generated\ProfessionalPlacement.g.cs" />
+    <Compile Include="Generated\ProfessionalServicesRelationship.g.cs" />
+    <Compile Include="Generated\Program.g.cs" />
+    <Compile Include="Generated\Project.g.cs" />
+    <Compile Include="Generated\ProjectRequirement.g.cs" />
+    <Compile Include="Generated\Property.g.cs" />
+    <Compile Include="Generated\Proposal.g.cs" />
+    <Compile Include="Generated\ProspectRelationship.g.cs" />
+    <Compile Include="Generated\Province.g.cs" />
+    <Compile Include="Generated\PurchaseAgreement.g.cs" />
+    <Compile Include="Generated\PurchaseInvoice.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceApprove.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceCancel.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceItem.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceItemObjectState.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceItemStatus.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceItemType.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceObjectState.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceReady.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceStatus.g.cs" />
+    <Compile Include="Generated\PurchaseInvoiceType.g.cs" />
+    <Compile Include="Generated\PurchaseOrder.g.cs" />
+    <Compile Include="Generated\PurchaseOrderItem.g.cs" />
+    <Compile Include="Generated\PurchaseOrderItemComplete.g.cs" />
+    <Compile Include="Generated\PurchaseOrderItemObjectState.g.cs" />
+    <Compile Include="Generated\PurchaseOrderItemStatus.g.cs" />
+    <Compile Include="Generated\PurchaseOrderObjectState.g.cs" />
+    <Compile Include="Generated\PurchaseOrderStatus.g.cs" />
+    <Compile Include="Generated\PurchaseReturn.g.cs" />
+    <Compile Include="Generated\PurchaseReturnObjectState.g.cs" />
+    <Compile Include="Generated\PurchaseReturnStatus.g.cs" />
+    <Compile Include="Generated\PurchaseShipment.g.cs" />
+    <Compile Include="Generated\PurchaseShipmentObjectState.g.cs" />
+    <Compile Include="Generated\PurchaseShipmentStatus.g.cs" />
+    <Compile Include="Generated\Qualification.g.cs" />
+    <Compile Include="Generated\Quote.g.cs" />
+    <Compile Include="Generated\QuoteItem.g.cs" />
+    <Compile Include="Generated\QuoteTerm.g.cs" />
+    <Compile Include="Generated\RateType.g.cs" />
+    <Compile Include="Generated\RatingType.g.cs" />
+    <Compile Include="Generated\RawMaterial.g.cs" />
+    <Compile Include="Generated\Receipt.g.cs" />
+    <Compile Include="Generated\ReceiptAccountingTransaction.g.cs" />
+    <Compile Include="Generated\RecurringCharge.g.cs" />
+    <Compile Include="Generated\Region.g.cs" />
+    <Compile Include="Generated\Request.g.cs" />
+    <Compile Include="Generated\RequestForInformation.g.cs" />
+    <Compile Include="Generated\RequestForProposal.g.cs" />
+    <Compile Include="Generated\RequestForQuote.g.cs" />
+    <Compile Include="Generated\RequestItem.g.cs" />
+    <Compile Include="Generated\Requirement.g.cs" />
+    <Compile Include="Generated\RequirementBudgetAllocation.g.cs" />
+    <Compile Include="Generated\RequirementCommunication.g.cs" />
+    <Compile Include="Generated\RequirementObjectState.g.cs" />
+    <Compile Include="Generated\RequirementReopen.g.cs" />
+    <Compile Include="Generated\RequirementStatus.g.cs" />
+    <Compile Include="Generated\Research.g.cs" />
+    <Compile Include="Generated\ResourceRequirement.g.cs" />
+    <Compile Include="Generated\RespondingParty.g.cs" />
+    <Compile Include="Generated\Responsibility.g.cs" />
+    <Compile Include="Generated\Resume.g.cs" />
+    <Compile Include="Generated\RevenueQuantityBreak.g.cs" />
+    <Compile Include="Generated\RevenueValueBreak.g.cs" />
+    <Compile Include="Generated\Role.g.cs" />
+    <Compile Include="Generated\Room.g.cs" />
+    <Compile Include="Generated\SalaryStep.g.cs" />
+    <Compile Include="Generated\SalesAccountingTransaction.g.cs" />
+    <Compile Include="Generated\SalesAgreement.g.cs" />
+    <Compile Include="Generated\SalesChannel.g.cs" />
+    <Compile Include="Generated\SalesChannelRevenue.g.cs" />
+    <Compile Include="Generated\SalesChannelRevenueHistory.g.cs" />
+    <Compile Include="Generated\SalesInvoice.g.cs" />
+    <Compile Include="Generated\SalesInvoiceCancelInvoice.g.cs" />
+    <Compile Include="Generated\SalesInvoiceItem.g.cs" />
+    <Compile Include="Generated\SalesInvoiceItemObjectState.g.cs" />
+    <Compile Include="Generated\SalesInvoiceItemStatus.g.cs" />
+    <Compile Include="Generated\SalesInvoiceItemType.g.cs" />
+    <Compile Include="Generated\SalesInvoiceObjectState.g.cs" />
+    <Compile Include="Generated\SalesInvoiceSend.g.cs" />
+    <Compile Include="Generated\SalesInvoiceStatus.g.cs" />
+    <Compile Include="Generated\SalesInvoiceType.g.cs" />
+    <Compile Include="Generated\SalesInvoiceWriteOff.g.cs" />
+    <Compile Include="Generated\SalesOrder.g.cs" />
+    <Compile Include="Generated\SalesOrderItem.g.cs" />
+    <Compile Include="Generated\SalesOrderItemContinue.g.cs" />
+    <Compile Include="Generated\SalesOrderItemObjectState.g.cs" />
+    <Compile Include="Generated\SalesOrderItemStatus.g.cs" />
+    <Compile Include="Generated\SalesOrderObjectState.g.cs" />
+    <Compile Include="Generated\SalesOrderStatus.g.cs" />
+    <Compile Include="Generated\SalesRepCommission.g.cs" />
+    <Compile Include="Generated\SalesRepPartyProductCategoryRevenue.g.cs" />
+    <Compile Include="Generated\SalesRepPartyRevenue.g.cs" />
+    <Compile Include="Generated\SalesRepProductCategoryRevenue.g.cs" />
+    <Compile Include="Generated\SalesRepRelationship.g.cs" />
+    <Compile Include="Generated\SalesRepRevenue.g.cs" />
+    <Compile Include="Generated\SalesRepRevenueHistory.g.cs" />
+    <Compile Include="Generated\SalesTerritory.g.cs" />
+    <Compile Include="Generated\Salutation.g.cs" />
+    <Compile Include="Generated\SecurityToken.g.cs" />
+    <Compile Include="Generated\SecurityTokenOwner.g.cs" />
+    <Compile Include="Generated\SerializedInventoryItem.g.cs" />
+    <Compile Include="Generated\SerializedInventoryItemObjectState.g.cs" />
+    <Compile Include="Generated\SerializedInventoryItemStatus.g.cs" />
+    <Compile Include="Generated\Service.g.cs" />
+    <Compile Include="Generated\ServiceConfiguration.g.cs" />
+    <Compile Include="Generated\ServiceEntry.g.cs" />
+    <Compile Include="Generated\ServiceEntryBilling.g.cs" />
+    <Compile Include="Generated\ServiceEntryHeader.g.cs" />
+    <Compile Include="Generated\ServiceFeature.g.cs" />
+    <Compile Include="Generated\ServiceTerritory.g.cs" />
+    <Compile Include="Generated\Shelf.g.cs" />
+    <Compile Include="Generated\Shipment.g.cs" />
+    <Compile Include="Generated\ShipmentItem.g.cs" />
+    <Compile Include="Generated\ShipmentMethod.g.cs" />
+    <Compile Include="Generated\ShipmentPackage.g.cs" />
+    <Compile Include="Generated\ShipmentReceipt.g.cs" />
+    <Compile Include="Generated\ShipmentRouteSegment.g.cs" />
+    <Compile Include="Generated\ShipmentValue.g.cs" />
+    <Compile Include="Generated\ShippingAndHandlingCharge.g.cs" />
+    <Compile Include="Generated\ShippingAndHandlingComponent.g.cs" />
+    <Compile Include="Generated\Singleton.g.cs" />
+    <Compile Include="Generated\Size.g.cs" />
+    <Compile Include="Generated\Skill.g.cs" />
+    <Compile Include="Generated\SkillLevel.g.cs" />
+    <Compile Include="Generated\SkillRating.g.cs" />
+    <Compile Include="Generated\SoftwareFeature.g.cs" />
+    <Compile Include="Generated\StandardServiceOrderItem.g.cs" />
+    <Compile Include="Generated\State.g.cs" />
+    <Compile Include="Generated\StatementOfWork.g.cs" />
+    <Compile Include="Generated\Store.g.cs" />
+    <Compile Include="Generated\StoreRevenue.g.cs" />
+    <Compile Include="Generated\StoreRevenueHistory.g.cs" />
+    <Compile Include="Generated\StringTemplate.g.cs" />
+    <Compile Include="Generated\SubAgreement.g.cs" />
+    <Compile Include="Generated\SubAssembly.g.cs" />
+    <Compile Include="Generated\SubContractorAgreement.g.cs" />
+    <Compile Include="Generated\SubContractorRelationship.g.cs" />
+    <Compile Include="Generated\SupplierOffering.g.cs" />
+    <Compile Include="Generated\SupplierRelationship.g.cs" />
+    <Compile Include="Generated\SurchargeAdjustment.g.cs" />
+    <Compile Include="Generated\SurchargeComponent.g.cs" />
+    <Compile Include="Generated\Task.g.cs" />
+    <Compile Include="Generated\TaxDocument.g.cs" />
+    <Compile Include="Generated\TaxDue.g.cs" />
+    <Compile Include="Generated\TelecommunicationsNumber.g.cs" />
+    <Compile Include="Generated\TemplatePurpose.g.cs" />
+    <Compile Include="Generated\TermType.g.cs" />
+    <Compile Include="Generated\Territory.g.cs" />
+    <Compile Include="Generated\TestingRequirement.g.cs" />
+    <Compile Include="Generated\Threshold.g.cs" />
+    <Compile Include="Generated\TimeAndMaterialsService.g.cs" />
+    <Compile Include="Generated\TimeEntry.g.cs" />
+    <Compile Include="Generated\TimeFrequency.g.cs" />
+    <Compile Include="Generated\TimePeriodUsage.g.cs" />
+    <Compile Include="Generated\Tolerance.g.cs" />
+    <Compile Include="Generated\Training.g.cs" />
+    <Compile Include="Generated\Transfer.g.cs" />
+    <Compile Include="Generated\TransferObjectState.g.cs" />
+    <Compile Include="Generated\TransferStatus.g.cs" />
+    <Compile Include="Generated\Transition.g.cs" />
+    <Compile Include="Generated\Transitional.g.cs" />
+    <Compile Include="Generated\UniquelyIdentifiable.g.cs" />
+    <Compile Include="Generated\UnitOfMeasure.g.cs" />
+    <Compile Include="Generated\UnitOfMeasureConversion.g.cs" />
+    <Compile Include="Generated\User.g.cs" />
+    <Compile Include="Generated\UserGroup.g.cs" />
+    <Compile Include="Generated\UtilizationCharge.g.cs" />
+    <Compile Include="Generated\VarianceReason.g.cs" />
+    <Compile Include="Generated\VatCalculationMethod.g.cs" />
+    <Compile Include="Generated\VatForm.g.cs" />
+    <Compile Include="Generated\VatRate.g.cs" />
+    <Compile Include="Generated\VatRatePurchaseKind.g.cs" />
+    <Compile Include="Generated\VatRateUsage.g.cs" />
+    <Compile Include="Generated\VatRegime.g.cs" />
+    <Compile Include="Generated\VatReturnBox.g.cs" />
+    <Compile Include="Generated\VatReturnBoxType.g.cs" />
+    <Compile Include="Generated\VatTariff.g.cs" />
+    <Compile Include="Generated\Vehicle.g.cs" />
+    <Compile Include="Generated\VolumeUsage.g.cs" />
+    <Compile Include="Generated\Warehouse.g.cs" />
+    <Compile Include="Generated\WebAddress.g.cs" />
+    <Compile Include="Generated\WebSiteCommunication.g.cs" />
+    <Compile Include="Generated\Withdrawal.g.cs" />
+    <Compile Include="Generated\WorkEffort.g.cs" />
+    <Compile Include="Generated\WorkEffortAssignment.g.cs" />
+    <Compile Include="Generated\WorkEffortAssignmentRate.g.cs" />
+    <Compile Include="Generated\WorkEffortBilling.g.cs" />
+    <Compile Include="Generated\WorkEffortCancel.g.cs" />
+    <Compile Include="Generated\WorkEffortConfirm.g.cs" />
+    <Compile Include="Generated\WorkEffortFinish.g.cs" />
+    <Compile Include="Generated\WorkEffortFixedAssetAssignment.g.cs" />
+    <Compile Include="Generated\WorkEffortFixedAssetStandard.g.cs" />
+    <Compile Include="Generated\WorkEffortGoodStandard.g.cs" />
+    <Compile Include="Generated\WorkEffortInventoryAssignment.g.cs" />
+    <Compile Include="Generated\WorkEffortObjectState.g.cs" />
+    <Compile Include="Generated\WorkEffortPartStandard.g.cs" />
+    <Compile Include="Generated\WorkEffortPartyAssignment.g.cs" />
+    <Compile Include="Generated\WorkEffortPurpose.g.cs" />
+    <Compile Include="Generated\WorkEffortReopen.g.cs" />
+    <Compile Include="Generated\WorkEffortSkillStandard.g.cs" />
+    <Compile Include="Generated\WorkEffortStatus.g.cs" />
+    <Compile Include="Generated\WorkEffortType.g.cs" />
+    <Compile Include="Generated\WorkEffortTypeKind.g.cs" />
+    <Compile Include="Generated\WorkFlow.g.cs" />
+    <Compile Include="Generated\WorkRequirement.g.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -388,6 +3108,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\Apps\Apps\Domain\Apps\Order\Overview.cd">
+      <Link>Apps\Order\Overview.cd</Link>
+    </None>
     <None Include="packages.config" />
     <None Include="Settings.StyleCop" />
   </ItemGroup>
