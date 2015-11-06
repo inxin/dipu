@@ -1,4 +1,6 @@
-﻿namespace Website.Controllers
+﻿using Allors.Web.Identity;
+
+namespace Website.Controllers
 {
     using System.Web.Mvc;
 

@@ -58,7 +58,7 @@
 
             using (var session = database.CreateSession())
             {
-                new Setup(session).Apply();
+                new Setup(session, null).Apply();
 
                 var passwordHasher = new PasswordHasher();
 

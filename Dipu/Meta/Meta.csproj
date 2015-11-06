@@ -2296,9 +2296,10 @@
     <Compile Include="..\..\Apps\Apps\Meta\Apps\Meta\Composite.cs">
       <Link>Apps\Meta\Composite.cs</Link>
     </Compile>
-    <Compile Include="Dipu\Domain\Composite.cs" />
+    <Compile Include="Dipu\domain\Person.cs" />
+    <Compile Include="Dipu\meta\Composite.cs" />
     <Compile Include="Dipu\MetaPopulation.v.cs" />
-    <Compile Include="Dipu\Population\Auditable.cs" />
+    <Compile Include="Dipu\domain\Auditable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

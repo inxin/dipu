@@ -61,7 +61,7 @@ namespace Allors.Integrations
             {
                 if (this.objectType == null)
                 {
-                    this.objectType = this.Session.Population.ObjectFactory.GetObjectTypeForType(typeof(TObject));
+                    this.objectType = this.Session.Database.ObjectFactory.GetObjectTypeForType(typeof(TObject));
                 }
 
                 return this.objectType;

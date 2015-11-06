@@ -30,9 +30,9 @@ namespace Allors
 
     public class DomainTest
     {
-        private IDatabaseSession databaseSession;
+        private ISession databaseSession;
 
-        public IDatabaseSession DatabaseSession
+        public ISession DatabaseSession
         {
             get { return this.databaseSession; }
         }
@@ -50,12 +50,6 @@ namespace Allors
             this.databaseSession = null;
         }
 
-        public IWorkspaceSession CreateWorkspaceSession()
-        {
-            var workspace = Config.Default.CreateWorkspace();
-            return workspace.CreateSession();
-        }
-
         protected void Init(bool setup)
         {
             if (setup)
@@ -71,18 +65,12 @@ namespace Allors
 
             this.databaseSession = Config.Default.CreateSession();
 
-            SecurityCache.Invalidate();
+            new SecurityCache(this.databaseSession).Invalidate();
         }
 
         protected IObject[] GetObjects(ISession session, Composite objectType)
         {
-            if (session is IDatabaseSession)
-            {
-                return session.Extent(objectType);
-            }
-
-            var workspaceSess = (IWorkspaceSession)session;
-            return workspaceSess.LocalExtent(objectType);
+            return session.Extent(objectType);
         }
     }
 }

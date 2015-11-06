@@ -27,13 +27,12 @@ namespace Allors
     using System.Threading;
     using System.Xml;
 
-    using Allors.Databases.Memory.IntegerId;
+    using Allors.Adapters.Memory.IntegerId;
     using Allors.Domain;
-    using Allors.Workspaces.Memory.LongId;
 
     using NUnit.Framework;
 
-    using Configuration = Allors.Databases.Memory.IntegerId.Configuration;
+    using Configuration = Allors.Adapters.Memory.IntegerId.Configuration;
 
     [SetUpFixture]
     public class Fixture
@@ -45,7 +44,7 @@ namespace Allors
         [SetUp]
         public void SetUp()
         {
-            var configuration = new Configuration { ObjectFactory = Config.ObjectFactory, WorkspaceFactory = new WorkspaceFactory() };
+            var configuration = new Configuration { ObjectFactory = Config.ObjectFactory };
             Config.Default = new Database(configuration);
 
             Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
@@ -57,7 +56,7 @@ namespace Allors
             {
                 try
                 {
-                    new Setup(session).Apply();
+                    new Setup(session, null).Apply();
 
                     session.Commit();
 

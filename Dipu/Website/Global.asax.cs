@@ -51,7 +51,6 @@ namespace Website
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             MetaConfig.Register();
-            ModelMetadataConfig.Register();
             ViewEngineConfig.Register();
             MenuConfig.Register();
         }

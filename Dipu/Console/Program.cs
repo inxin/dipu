@@ -31,7 +31,6 @@ namespace Allors
 
         using Allors;
         using Allors.Integrations;
-        using Allors.Workspaces.Memory.IntegerId;
 
         public class Program
         {
@@ -77,15 +76,14 @@ namespace Allors
 
             public static void Main(string[] args)
             {
-                var configuration = new Databases.Object.SqlClient.Configuration
+                var configuration = new Adapters.Object.SqlClient.Configuration
                 {
                     ConnectionString = ConfigurationManager.ConnectionStrings["allors"].ConnectionString,
                     ObjectFactory = Config.ObjectFactory,
-                    WorkspaceFactory = new WorkspaceFactory(),
                     //IsolationLevel = System.Data.IsolationLevel.RepeatableRead,
                     CommandTimeout = 300
                 };
-                Config.Default = new Databases.Object.SqlClient.Database(configuration);
+                Config.Default = new Adapters.Object.SqlClient.Database(configuration);
 
                 Console.WriteLine("Please select an option:\n");
                 foreach (var option in Enum.GetValues(typeof(Options)))
@@ -238,7 +236,7 @@ namespace Allors
 
                     using (var session = database.CreateSession())
                     {
-                        new Setup(session).Apply();
+                        new Setup(session, null).Apply();
 
                         var derivationLog = session.Derive();
                         if (derivationLog.HasErrors)

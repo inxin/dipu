@@ -27,7 +27,6 @@ namespace Website
 
     using Allors;
     using Allors.Web.Identity;
-    using Allors.Workspaces.Memory.IntegerId;
 
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
@@ -37,13 +36,12 @@ namespace Website
     {
         public void Configuration(IAppBuilder app)
         {
-            var configuration = new Allors.Databases.Object.SqlClient.Configuration
+            var configuration = new Allors.Adapters.Object.SqlClient.Configuration
                                     {
                                         ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["allors"].ConnectionString,
                                         ObjectFactory = Config.ObjectFactory, 
-                                        WorkspaceFactory = new WorkspaceFactory()
                                     };
-            Config.Default = new Allors.Databases.Object.SqlClient.Database(configuration);
+            Config.Default = new Allors.Adapters.Object.SqlClient.Database(configuration);
 
 
             // Identity

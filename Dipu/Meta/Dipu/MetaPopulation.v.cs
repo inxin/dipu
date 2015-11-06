@@ -31,6 +31,11 @@ namespace Allors.Meta
 
             foreach (var composite in this.Composites)
             {
+                composite.AppsExtend();
+            }
+
+            foreach (var composite in this.Composites)
+            {
                 composite.DipuExtend();
             }
         }
